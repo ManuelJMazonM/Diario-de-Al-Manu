@@ -4,28 +4,23 @@
 #   GH_PAT             → token fine-grained SOLO de este repo con "Secrets: Read and write"
 #                        (LaLiga cambia el refresh_token en cada uso y hay que guardarlo)
 #   ANTHROPIC_API_KEY  → opcional, textos escritos por IA
-name: Periódico diario
+name: Periodico diario
 
 on:
   schedule:
     - cron: "17 6 * * *"   # 07:17 en España (invierno), después de la actualización del mercado
   workflow_dispatch:        # botón "Run workflow" para lanzarlo a mano
 
-permissions:
-  contents: write   # guardar data/ en el repo
-  pages: write      # publicar la web
-  id-token: write
-
 concurrency:
   group: periodico
   cancel-in-progress: false
 
 jobs:
-  edicion:
+  # 1) Descarga los datos, genera la web y guarda el historial
+  build:
     runs-on: ubuntu-latest
-    environment:
-      name: github-pages
-      url: ${{ steps.deploy.outputs.page_url }}
+    permissions:
+      contents: write   # guardar data/ en el repo
     steps:
       - uses: actions/checkout@v4
 
@@ -40,7 +35,7 @@ jobs:
           umask 077
           printf '%s' "$T" > tokens.json
 
-      - name: Generar edición
+      - name: Generar edicion
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
         run: python periodico.py daily
@@ -59,12 +54,23 @@ jobs:
           git config user.name "periodico-bot"
           git config user.email "periodico-bot@users.noreply.github.com"
           git add data
-          git commit -m "Edición $(date +%F)" || echo "sin cambios"
+          git commit -m "Edicion $(date +%F)" || echo "sin cambios"
           git push
 
-      - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v3
         with:
           path: site
-      - id: deploy
+
+  # 2) Solo publica la web generada (forma estándar de GitHub Pages)
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
         uses: actions/deploy-pages@v4
