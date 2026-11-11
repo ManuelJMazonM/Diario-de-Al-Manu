@@ -1,0 +1,10 @@
+{
+  "TITLE": "El Diario del Míster",
+  "LEAGUE_ID": null,
+  "DAYS": 7,
+  "TOKENS": "tokens.json",
+  "OUT_DIR": "site",
+  "EXCLUDE": ["Al-Malumitas FC", "EnriqueVeteYa69"],
+  "IMPORTANT_MIN": 10000000,
+  "ALIAS": {"Al-Ilitihad del segu": "Al-Ittihad del Segura"}
+}

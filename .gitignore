@@ -1,0 +1,10 @@
+# Secretos: NUNCA al repo
+tokens.json
+tokens*.json
+bearer.txt
+*.token
+
+# Generados
+site/
+demo_data/
+__pycache__/

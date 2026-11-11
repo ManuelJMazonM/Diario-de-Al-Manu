@@ -1,0 +1,2968 @@
+[
+ {
+  "id": "117611178",
+  "type": "venta",
+  "date": "2026-11-11T16:48:36+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Yoel Lago",
+  "player_id": "2206",
+  "amount": 29240372
+ },
+ {
+  "id": "116992167",
+  "type": "fichaje",
+  "date": "2026-11-10T16:00:33+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Marc Roca",
+  "player_id": "2418",
+  "amount": 31884421
+ },
+ {
+  "id": "116210300",
+  "type": "venta",
+  "date": "2026-11-09T13:36:47+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Lucas Boyé",
+  "player_id": "2768",
+  "amount": 32060379
+ },
+ {
+  "id": "114540894",
+  "type": "premio_jornada",
+  "date": "2026-11-09T04:27:34+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "player_id": null,
+  "amount": 8200000
+ },
+ {
+  "id": "114540821",
+  "type": "premio_jornada",
+  "date": "2026-11-09T04:27:34+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "player_id": null,
+  "amount": 6100000
+ },
+ {
+  "id": "114540965",
+  "type": "premio_jornada",
+  "date": "2026-11-09T04:27:34+01:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "player_id": null,
+  "amount": 4500000
+ },
+ {
+  "id": "114541034",
+  "type": "alineacion_incorrecta",
+  "date": "2026-11-09T04:27:34+01:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "player_id": null,
+  "amount": null
+ },
+ {
+  "id": "114541106",
+  "type": "alineacion_incorrecta",
+  "date": "2026-11-09T04:27:34+01:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "player_id": null,
+  "amount": null
+ },
+ {
+  "id": "113077390",
+  "type": "fichaje",
+  "date": "2026-11-08T16:00:59+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Bil Nsongo",
+  "player_id": "2973",
+  "amount": 11820150
+ },
+ {
+  "id": "112608684",
+  "type": "blindaje",
+  "date": "2026-11-07T16:17:28+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Pablo Ramón",
+  "player_id": "3026",
+  "amount": null
+ },
+ {
+  "id": "112599701",
+  "type": "venta",
+  "date": "2026-11-07T16:01:52+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Paredes",
+  "player_id": "2315",
+  "amount": 32589595
+ },
+ {
+  "id": "112598755",
+  "type": "fichaje",
+  "date": "2026-11-07T16:00:47+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Lejeune",
+  "player_id": "3082",
+  "amount": 13999458
+ },
+ {
+  "id": "112598734",
+  "type": "fichaje",
+  "date": "2026-11-07T16:00:46+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Adama Traoré",
+  "player_id": "3249",
+  "amount": 5832427
+ },
+ {
+  "id": "111506850",
+  "type": "venta",
+  "date": "2026-11-05T16:03:52+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Natan",
+  "player_id": "2543",
+  "amount": 50064475
+ },
+ {
+  "id": "110073198",
+  "type": "fichaje",
+  "date": "2026-11-03T16:00:23+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Cabrera",
+  "amount": 11992996
+ },
+ {
+  "id": "108296498",
+  "type": "alineacion_incorrecta",
+  "date": "2026-11-03T04:28:20+01:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "108296458",
+  "type": "alineacion_incorrecta",
+  "date": "2026-11-03T04:28:20+01:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "108296434",
+  "type": "premio_jornada",
+  "date": "2026-11-03T04:28:20+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": 6100000
+ },
+ {
+  "id": "108296372",
+  "type": "premio_jornada",
+  "date": "2026-11-03T04:28:20+01:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": 3100000
+ },
+ {
+  "id": "108296282",
+  "type": "premio_jornada",
+  "date": "2026-11-03T04:28:20+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": 5700000
+ },
+ {
+  "id": "106834816",
+  "type": "fichaje",
+  "date": "2026-11-02T16:00:25+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Natan",
+  "amount": 51002239
+ },
+ {
+  "id": "106020053",
+  "type": "venta",
+  "date": "2026-11-01T11:35:06+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Ayoze",
+  "amount": 31365062
+ },
+ {
+  "id": "105624573",
+  "type": "fichaje",
+  "date": "2026-10-31T16:01:45+01:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Vivian",
+  "amount": 3109336
+ },
+ {
+  "id": "105624560",
+  "type": "fichaje",
+  "date": "2026-10-31T16:01:44+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Félix Correia",
+  "amount": 5997757
+ },
+ {
+  "id": "105331030",
+  "type": "compra",
+  "date": "2026-10-30T21:18:48+01:00",
+  "who": "Al-Ilitihad del segu",
+  "other": "EnriqueVeteYa69",
+  "player": "V. Chust",
+  "amount": 9127350
+ },
+ {
+  "id": "105100652",
+  "type": "fichaje",
+  "date": "2026-10-30T16:00:26+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Arda Güler",
+  "amount": 121223132
+ },
+ {
+  "id": "104478652",
+  "type": "venta",
+  "date": "2026-10-29T16:50:13+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "C. Soler",
+  "amount": 56686584
+ },
+ {
+  "id": "104429406",
+  "type": "fichaje",
+  "date": "2026-10-29T16:01:10+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Berenguer",
+  "amount": 18000000
+ },
+ {
+  "id": "101052423",
+  "type": "alineacion_incorrecta",
+  "date": "2026-10-27T04:29:09+01:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "101052287",
+  "type": "alineacion_incorrecta",
+  "date": "2026-10-27T04:29:09+01:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "101052152",
+  "type": "premio_jornada",
+  "date": "2026-10-27T04:29:09+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": 5900000
+ },
+ {
+  "id": "101052001",
+  "type": "premio_jornada",
+  "date": "2026-10-27T04:29:09+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": 5600000
+ },
+ {
+  "id": "101051910",
+  "type": "premio_jornada",
+  "date": "2026-10-27T04:29:09+01:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": 3800000
+ },
+ {
+  "id": "99591040",
+  "type": "venta",
+  "date": "2026-10-26T16:28:18+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "J. David",
+  "amount": 86139169
+ },
+ {
+  "id": "99036919",
+  "type": "blindaje",
+  "date": "2026-10-25T20:02:31+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Yoel Lago",
+  "amount": null
+ },
+ {
+  "id": "98842701",
+  "type": "compra",
+  "date": "2026-10-25T16:20:54+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": "Al-Moradí CF",
+  "player": "Paredes",
+  "amount": 22561429
+ },
+ {
+  "id": "98242879",
+  "type": "fichaje",
+  "date": "2026-10-24T16:00:44+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Hancko",
+  "amount": 47770147
+ },
+ {
+  "id": "97708846",
+  "type": "fichaje",
+  "date": "2026-10-23T16:00:53+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "E. Militão",
+  "amount": 7500000
+ },
+ {
+  "id": "97240239",
+  "type": "venta",
+  "date": "2026-10-22T19:47:49+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Ez Abde",
+  "amount": 67926889
+ },
+ {
+  "id": "96999726",
+  "type": "fichaje",
+  "date": "2026-10-22T16:00:08+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Javi Rueda",
+  "amount": 5368294
+ },
+ {
+  "id": "96999728",
+  "type": "fichaje",
+  "date": "2026-10-22T16:00:08+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Pablo Ramón",
+  "amount": 1308375
+ },
+ {
+  "id": "96999640",
+  "type": "fichaje",
+  "date": "2026-10-22T16:00:06+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Moncayola",
+  "amount": 4383877
+ },
+ {
+  "id": "95339306",
+  "type": "fichaje",
+  "date": "2026-10-20T16:01:15+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Raphinha",
+  "amount": 164722249
+ },
+ {
+  "id": "93542513",
+  "type": "alineacion_incorrecta",
+  "date": "2026-10-20T04:38:05+02:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "93542504",
+  "type": "alineacion_incorrecta",
+  "date": "2026-10-20T04:38:05+02:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "93542493",
+  "type": "premio_jornada",
+  "date": "2026-10-20T04:38:05+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": 4500000
+ },
+ {
+  "id": "93542485",
+  "type": "premio_jornada",
+  "date": "2026-10-20T04:38:05+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": 4500000
+ },
+ {
+  "id": "93542466",
+  "type": "premio_jornada",
+  "date": "2026-10-20T04:38:05+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": 2000000
+ },
+ {
+  "id": "92361760",
+  "type": "venta",
+  "date": "2026-10-19T22:03:51+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Djene",
+  "amount": 22034320
+ },
+ {
+  "id": "92309058",
+  "type": "venta",
+  "date": "2026-10-19T21:15:19+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Jonny Otto",
+  "amount": 20574975
+ },
+ {
+  "id": "92308736",
+  "type": "venta",
+  "date": "2026-10-19T21:15:05+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Yuri",
+  "amount": 20373098
+ },
+ {
+  "id": "92127170",
+  "type": "venta",
+  "date": "2026-10-19T18:14:10+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Agoumé",
+  "amount": 17186714
+ },
+ {
+  "id": "92123624",
+  "type": "venta",
+  "date": "2026-10-19T18:11:03+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Y. Zabiri",
+  "amount": 35243083
+ },
+ {
+  "id": "92010234",
+  "type": "fichaje",
+  "date": "2026-10-19T16:00:26+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Rubén García",
+  "amount": 10571287
+ },
+ {
+  "id": "91217866",
+  "type": "fichaje",
+  "date": "2026-10-18T16:00:30+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Ez Abde",
+  "amount": 61094966
+ },
+ {
+  "id": "91058081",
+  "type": "venta",
+  "date": "2026-10-18T11:22:07+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Marc Roca",
+  "amount": 23554388
+ },
+ {
+  "id": "90612513",
+  "type": "fichaje",
+  "date": "2026-10-17T16:01:01+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Carvajal",
+  "amount": 6557140
+ },
+ {
+  "id": "89341874",
+  "type": "compra",
+  "date": "2026-10-15T16:04:40+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": "EnriqueVeteYa69",
+  "player": "Lucas Boyé",
+  "amount": 37074663
+ },
+ {
+  "id": "89336629",
+  "type": "fichaje",
+  "date": "2026-10-15T16:00:48+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Pepelu",
+  "amount": 18199771
+ },
+ {
+  "id": "88563952",
+  "type": "venta",
+  "date": "2026-10-14T18:13:22+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Miguel Sierra",
+  "amount": 16125369
+ },
+ {
+  "id": "87635028",
+  "type": "fichaje",
+  "date": "2026-10-13T16:00:11+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Grimaldo",
+  "amount": 80000000
+ },
+ {
+  "id": "85869317",
+  "type": "alineacion_incorrecta",
+  "date": "2026-10-13T04:26:15+02:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "85869293",
+  "type": "alineacion_incorrecta",
+  "date": "2026-10-13T04:26:15+02:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "85869253",
+  "type": "premio_jornada",
+  "date": "2026-10-13T04:26:15+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": 4500000
+ },
+ {
+  "id": "85869222",
+  "type": "premio_jornada",
+  "date": "2026-10-13T04:26:15+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": 3600000
+ },
+ {
+  "id": "85869190",
+  "type": "premio_jornada",
+  "date": "2026-10-13T04:26:15+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": 4400000
+ },
+ {
+  "id": "84008721",
+  "type": "venta",
+  "date": "2026-10-11T23:04:39+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Kang-In Lee",
+  "amount": 90136461
+ },
+ {
+  "id": "84008067",
+  "type": "venta",
+  "date": "2026-10-11T23:04:02+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Iñigo Vicente",
+  "amount": 23635234
+ },
+ {
+  "id": "83635511",
+  "type": "fichaje",
+  "date": "2026-10-11T16:00:38+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Ayoze",
+  "amount": 26253345
+ },
+ {
+  "id": "82522562",
+  "type": "fichaje",
+  "date": "2026-10-09T16:00:43+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Dotor",
+  "amount": 5389187
+ },
+ {
+  "id": "81132346",
+  "type": "compra",
+  "date": "2026-10-07T17:00:11+02:00",
+  "who": "Al-Moradí CF",
+  "other": "EnriqueVeteYa69",
+  "player": "Agoumé",
+  "amount": 16711458
+ },
+ {
+  "id": "81093199",
+  "type": "compra",
+  "date": "2026-10-07T16:03:56+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": "Al-Moradí CF",
+  "player": "Yuri",
+  "amount": 19778988
+ },
+ {
+  "id": "81089474",
+  "type": "fichaje",
+  "date": "2026-10-07T16:00:36+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "F. De Jong",
+  "amount": 6057347
+ },
+ {
+  "id": "80980601",
+  "type": "venta",
+  "date": "2026-10-07T13:34:38+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Rodri",
+  "amount": 92556078
+ },
+ {
+  "id": "79830294",
+  "type": "venta",
+  "date": "2026-10-05T16:26:19+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "T. Morente",
+  "amount": 4337859
+ },
+ {
+  "id": "79813335",
+  "type": "fichaje",
+  "date": "2026-10-05T16:00:49+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Y. Zabiri",
+  "amount": 26481833
+ },
+ {
+  "id": "79251977",
+  "type": "fichaje",
+  "date": "2026-10-04T16:00:37+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Tenaglia",
+  "amount": 29318523
+ },
+ {
+  "id": "79251980",
+  "type": "fichaje",
+  "date": "2026-10-04T16:00:37+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Iñigo Vicente",
+  "amount": 27383002
+ },
+ {
+  "id": "78992624",
+  "type": "compra",
+  "date": "2026-10-03T23:32:20+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": "Al-Malumitas FC",
+  "player": "Luismi Cruz",
+  "amount": 13329565
+ },
+ {
+  "id": "78992276",
+  "type": "venta",
+  "date": "2026-10-03T23:31:33+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Aramburu",
+  "amount": 15646137
+ },
+ {
+  "id": "78758344",
+  "type": "venta",
+  "date": "2026-10-03T17:19:15+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "M. Román",
+  "amount": 18706741
+ },
+ {
+  "id": "78708549",
+  "type": "fichaje",
+  "date": "2026-10-03T16:00:32+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Dani Lorenzo",
+  "amount": 9499986
+ },
+ {
+  "id": "78148573",
+  "type": "fichaje",
+  "date": "2026-10-02T16:00:36+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Fornals",
+  "amount": 38000222
+ },
+ {
+  "id": "78002635",
+  "type": "compra",
+  "date": "2026-10-02T11:13:57+02:00",
+  "who": "Al-Moradí CF",
+  "other": "Al-SanJuanitoFC",
+  "player": "Paredes",
+  "amount": 17583671
+ },
+ {
+  "id": "77650708",
+  "type": "compra",
+  "date": "2026-10-01T18:27:16+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": "Al-Moradí CF",
+  "player": "Koski",
+  "amount": 25720335
+ },
+ {
+  "id": "77584659",
+  "type": "compra",
+  "date": "2026-10-01T16:59:34+02:00",
+  "who": "Al-Moradí CF",
+  "other": "Al-Ilitihad del segu",
+  "player": "Marc Roca",
+  "amount": 22870122
+ },
+ {
+  "id": "75857717",
+  "type": "compra",
+  "date": "2026-09-28T21:17:38+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": "Al-Moradí CF",
+  "player": "Miguel Sierra",
+  "amount": 10958778
+ },
+ {
+  "id": "75857594",
+  "type": "compra",
+  "date": "2026-09-28T21:17:25+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": "Al-Moradí CF",
+  "player": "M. Román",
+  "amount": 20911888
+ },
+ {
+  "id": "75598058",
+  "type": "compra",
+  "date": "2026-09-28T16:04:08+02:00",
+  "who": "Al-Moradí CF",
+  "other": "Al-Ilitihad del segu",
+  "player": "Sivera",
+  "amount": 47037289
+ },
+ {
+  "id": "75597732",
+  "type": "venta",
+  "date": "2026-09-28T16:03:46+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Natan",
+  "amount": 44141315
+ },
+ {
+  "id": "75597173",
+  "type": "venta",
+  "date": "2026-09-28T16:03:13+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Roberto",
+  "amount": 43667684
+ },
+ {
+  "id": "75593624",
+  "type": "fichaje",
+  "date": "2026-09-28T16:00:10+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Aitor Fdez",
+  "amount": 638916
+ },
+ {
+  "id": "74948235",
+  "type": "venta",
+  "date": "2026-09-27T16:23:04+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Koke",
+  "amount": 14555612
+ },
+ {
+  "id": "74948169",
+  "type": "venta",
+  "date": "2026-09-27T16:22:58+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Gerard Martín",
+  "amount": 45814814
+ },
+ {
+  "id": "74930835",
+  "type": "fichaje",
+  "date": "2026-09-27T16:01:15+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Jonny Otto",
+  "amount": 17251506
+ },
+ {
+  "id": "74930836",
+  "type": "fichaje",
+  "date": "2026-09-27T16:01:15+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "T. Morente",
+  "amount": 3522116
+ },
+ {
+  "id": "74374942",
+  "type": "venta",
+  "date": "2026-09-26T18:49:29+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Gerenabarrena",
+  "amount": 3446489
+ },
+ {
+  "id": "74374859",
+  "type": "venta",
+  "date": "2026-09-26T18:49:25+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Yeray",
+  "amount": 5815518
+ },
+ {
+  "id": "74228906",
+  "type": "fichaje",
+  "date": "2026-09-26T16:00:22+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Natan",
+  "amount": 43692795
+ },
+ {
+  "id": "74146501",
+  "type": "venta",
+  "date": "2026-09-26T14:22:56+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Dimitrievski",
+  "amount": 20385535
+ },
+ {
+  "id": "74145687",
+  "type": "venta",
+  "date": "2026-09-26T14:21:41+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Xavi Espart",
+  "amount": 43164173
+ },
+ {
+  "id": "74144466",
+  "type": "venta",
+  "date": "2026-09-26T14:20:16+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Marc Bernal",
+  "amount": 27030444
+ },
+ {
+  "id": "73133871",
+  "type": "venta",
+  "date": "2026-09-25T01:16:39+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Javi Hernández",
+  "amount": 18492656
+ },
+ {
+  "id": "73133773",
+  "type": "venta",
+  "date": "2026-09-25T01:16:22+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Abel Bretones",
+  "amount": 9566234
+ },
+ {
+  "id": "72627691",
+  "type": "fichaje",
+  "date": "2026-09-24T16:19:23+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "C. Soler",
+  "amount": 31231808
+ },
+ {
+  "id": "71622857",
+  "type": "fichaje",
+  "date": "2026-09-23T16:01:01+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Yuri",
+  "amount": 15901700
+ },
+ {
+  "id": "70537871",
+  "type": "fichaje",
+  "date": "2026-09-22T16:01:01+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "J. David",
+  "amount": 35530354
+ },
+ {
+  "id": "70537833",
+  "type": "fichaje",
+  "date": "2026-09-22T16:01:00+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Rodri",
+  "amount": 69921187
+ },
+ {
+  "id": "69441740",
+  "type": "venta",
+  "date": "2026-09-21T18:01:17+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Cucurella",
+  "amount": 54043755
+ },
+ {
+  "id": "67473318",
+  "type": "tipo_8",
+  "date": "2026-09-21T04:25:00+02:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "67473262",
+  "type": "alineacion_incorrecta",
+  "date": "2026-09-21T04:25:00+02:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "67473221",
+  "type": "premio_jornada",
+  "date": "2026-09-21T04:25:00+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": 5800000
+ },
+ {
+  "id": "67473182",
+  "type": "premio_jornada",
+  "date": "2026-09-21T04:25:00+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": 3800000
+ },
+ {
+  "id": "67473141",
+  "type": "premio_jornada",
+  "date": "2026-09-21T04:24:59+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": 4900000
+ },
+ {
+  "id": "66020810",
+  "type": "venta",
+  "date": "2026-09-20T20:03:16+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Moncayola",
+  "amount": 7907680
+ },
+ {
+  "id": "65659674",
+  "type": "venta",
+  "date": "2026-09-20T16:08:09+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Dotor",
+  "amount": 5257583
+ },
+ {
+  "id": "64650284",
+  "type": "venta",
+  "date": "2026-09-19T17:58:39+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "O. Sancet",
+  "amount": 48189269
+ },
+ {
+  "id": "64521278",
+  "type": "fichaje",
+  "date": "2026-09-19T16:01:11+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Pedri",
+  "amount": 94609732
+ },
+ {
+  "id": "63468833",
+  "type": "fichaje",
+  "date": "2026-09-18T16:01:14+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Dimitrievski",
+  "amount": 20756632
+ },
+ {
+  "id": "63468827",
+  "type": "fichaje",
+  "date": "2026-09-18T16:01:14+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Koke",
+  "amount": 16381824
+ },
+ {
+  "id": "63389939",
+  "type": "venta",
+  "date": "2026-09-18T14:58:29+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Sergio Herrera",
+  "amount": 31681845
+ },
+ {
+  "id": "61798167",
+  "type": "alineacion_incorrecta",
+  "date": "2026-09-18T04:31:16+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "61798296",
+  "type": "tipo_8",
+  "date": "2026-09-18T04:31:16+02:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "61798237",
+  "type": "alineacion_incorrecta",
+  "date": "2026-09-18T04:31:16+02:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "61798031",
+  "type": "premio_jornada",
+  "date": "2026-09-18T04:31:15+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": 2600000
+ },
+ {
+  "id": "61798105",
+  "type": "premio_jornada",
+  "date": "2026-09-18T04:31:15+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": 5300000
+ },
+ {
+  "id": "60720610",
+  "type": "venta",
+  "date": "2026-09-17T22:05:32+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Adama Traoré",
+  "amount": 15479255
+ },
+ {
+  "id": "60104024",
+  "type": "fichaje",
+  "date": "2026-09-17T16:01:00+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Salinas",
+  "amount": 882783
+ },
+ {
+  "id": "57903371",
+  "type": "compra",
+  "date": "2026-09-15T19:44:01+02:00",
+  "who": "Al-Moradí CF",
+  "other": "Al-SanJuanitoFC",
+  "player": "Koski",
+  "amount": 10758315
+ },
+ {
+  "id": "57902489",
+  "type": "compra",
+  "date": "2026-09-15T19:43:05+02:00",
+  "who": "Al-Moradí CF",
+  "other": "Al-SanJuanitoFC",
+  "player": "Yoel Lago",
+  "amount": 4810217
+ },
+ {
+  "id": "57750385",
+  "type": "venta",
+  "date": "2026-09-15T17:36:49+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Arguibide",
+  "amount": 3544126
+ },
+ {
+  "id": "55925848",
+  "type": "premio_jornada",
+  "date": "2026-09-15T04:23:14+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": 3700000
+ },
+ {
+  "id": "55925894",
+  "type": "tipo_8",
+  "date": "2026-09-15T04:23:14+02:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "55925874",
+  "type": "alineacion_incorrecta",
+  "date": "2026-09-15T04:23:14+02:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "55925859",
+  "type": "alineacion_incorrecta",
+  "date": "2026-09-15T04:23:14+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "55925830",
+  "type": "premio_jornada",
+  "date": "2026-09-15T04:23:14+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": 5500000
+ },
+ {
+  "id": "54638965",
+  "type": "venta",
+  "date": "2026-09-14T19:00:07+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Courtois",
+  "amount": 62874591
+ },
+ {
+  "id": "54638836",
+  "type": "venta",
+  "date": "2026-09-14T19:00:02+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Robbie Ure",
+  "amount": 12401163
+ },
+ {
+  "id": "54328773",
+  "type": "fichaje",
+  "date": "2026-09-14T16:00:23+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Sivera",
+  "amount": 43780331
+ },
+ {
+  "id": "54328758",
+  "type": "fichaje",
+  "date": "2026-09-14T16:00:22+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "I. Romero",
+  "amount": 6200000
+ },
+ {
+  "id": "52998888",
+  "type": "venta",
+  "date": "2026-09-13T16:02:00+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Leo Román",
+  "amount": 36198280
+ },
+ {
+  "id": "52997088",
+  "type": "fichaje",
+  "date": "2026-09-13T16:01:00+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Ryan",
+  "amount": 26647235
+ },
+ {
+  "id": "51203829",
+  "type": "venta",
+  "date": "2026-09-11T17:52:56+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Kike Barja",
+  "amount": 1640765
+ },
+ {
+  "id": "51084406",
+  "type": "fichaje",
+  "date": "2026-09-11T16:00:07+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Gerard Martín",
+  "amount": 51030677
+ },
+ {
+  "id": "50020418",
+  "type": "fichaje",
+  "date": "2026-09-10T16:01:12+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Gerenabarrena",
+  "amount": 2314191
+ },
+ {
+  "id": "50020414",
+  "type": "fichaje",
+  "date": "2026-09-10T16:01:12+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Abel Bretones",
+  "amount": 9113834
+ },
+ {
+  "id": "48099128",
+  "type": "venta",
+  "date": "2026-09-08T23:24:48+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Bartra",
+  "amount": 36273352
+ },
+ {
+  "id": "48098737",
+  "type": "venta",
+  "date": "2026-09-08T23:24:30+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Cala",
+  "amount": 7070580
+ },
+ {
+  "id": "45639876",
+  "type": "tipo_8",
+  "date": "2026-09-08T04:20:28+02:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "45639817",
+  "type": "alineacion_incorrecta",
+  "date": "2026-09-08T04:20:28+02:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "45639771",
+  "type": "premio_jornada",
+  "date": "2026-09-08T04:20:28+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": 3900000
+ },
+ {
+  "id": "45639723",
+  "type": "premio_jornada",
+  "date": "2026-09-08T04:20:28+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": 2800000
+ },
+ {
+  "id": "45639672",
+  "type": "premio_jornada",
+  "date": "2026-09-08T04:20:28+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": 5500000
+ },
+ {
+  "id": "44029210",
+  "type": "fichaje",
+  "date": "2026-09-07T16:01:29+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Miguel Sierra",
+  "amount": 3500000
+ },
+ {
+  "id": "42735431",
+  "type": "fichaje",
+  "date": "2026-09-06T16:36:43+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Bartra",
+  "amount": 33852904
+ },
+ {
+  "id": "41892739",
+  "type": "venta",
+  "date": "2026-09-05T18:35:06+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Llorente ",
+  "amount": 10837034
+ },
+ {
+  "id": "41726675",
+  "type": "fichaje",
+  "date": "2026-09-05T16:00:29+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Dotor",
+  "amount": 4626348
+ },
+ {
+  "id": "41253680",
+  "type": "compra",
+  "date": "2026-09-04T22:55:26+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": "Al-Moradí CF",
+  "player": "Carlos Espí",
+  "amount": 16491296
+ },
+ {
+  "id": "40725702",
+  "type": "fichaje",
+  "date": "2026-09-04T16:00:31+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Kang-In Lee",
+  "amount": 62602930
+ },
+ {
+  "id": "40725699",
+  "type": "fichaje",
+  "date": "2026-09-04T16:00:31+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Carlos Macià",
+  "amount": 1000000
+ },
+ {
+  "id": "40000021",
+  "type": "compra",
+  "date": "2026-09-03T20:21:46+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": "Al-Malumitas FC",
+  "player": "Aramburu",
+  "amount": 17360176
+ },
+ {
+  "id": "39520982",
+  "type": "fichaje",
+  "date": "2026-09-03T16:00:25+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Adama Traoré",
+  "amount": 13893746
+ },
+ {
+  "id": "39520958",
+  "type": "fichaje",
+  "date": "2026-09-03T16:00:25+02:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": "Gordon",
+  "amount": 69398702
+ },
+ {
+  "id": "39249373",
+  "type": "compra",
+  "date": "2026-09-03T13:01:43+02:00",
+  "who": "Al-Moradí CF",
+  "other": "Al-Malumitas FC",
+  "player": "M. Román",
+  "amount": 10438501
+ },
+ {
+  "id": "38088653",
+  "type": "venta",
+  "date": "2026-09-02T16:19:33+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Affengruber",
+  "amount": 25538444
+ },
+ {
+  "id": "38081170",
+  "type": "venta",
+  "date": "2026-09-02T16:15:09+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Vlachodimos",
+  "amount": 28488525
+ },
+ {
+  "id": "38080761",
+  "type": "venta",
+  "date": "2026-09-02T16:14:53+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Adeyemi",
+  "amount": 52556051
+ },
+ {
+  "id": "38053828",
+  "type": "fichaje",
+  "date": "2026-09-02T16:00:10+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Bellingham",
+  "amount": 112000000
+ },
+ {
+  "id": "38053766",
+  "type": "fichaje",
+  "date": "2026-09-02T16:00:08+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Xavi Espart",
+  "amount": 3259562
+ },
+ {
+  "id": "37695865",
+  "type": "venta",
+  "date": "2026-09-02T11:38:54+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "El Hilali",
+  "amount": 11558838
+ },
+ {
+  "id": "37520329",
+  "type": "compra",
+  "date": "2026-09-02T04:27:15+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": "Al-SanJuanitoFC",
+  "player": "Cala",
+  "amount": 5939073
+ },
+ {
+  "id": "36787664",
+  "type": "venta",
+  "date": "2026-09-01T18:16:14+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Sergio",
+  "amount": 1768708
+ },
+ {
+  "id": "36787392",
+  "type": "venta",
+  "date": "2026-09-01T18:16:08+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Bernardo Silva",
+  "amount": 58336193
+ },
+ {
+  "id": "36604851",
+  "type": "venta",
+  "date": "2026-09-01T16:19:51+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "A. Abqar",
+  "amount": 6689765
+ },
+ {
+  "id": "36574805",
+  "type": "fichaje",
+  "date": "2026-09-01T16:02:17+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Koski",
+  "amount": 4500000
+ },
+ {
+  "id": "36574802",
+  "type": "fichaje",
+  "date": "2026-09-01T16:02:17+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Rafita",
+  "amount": 5666674
+ },
+ {
+  "id": "34871021",
+  "type": "premio_jornada",
+  "date": "2026-09-01T04:18:06+02:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "amount": 2100000
+ },
+ {
+  "id": "34870981",
+  "type": "premio_jornada",
+  "date": "2026-09-01T04:18:06+02:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": 3700000
+ },
+ {
+  "id": "34870929",
+  "type": "premio_jornada",
+  "date": "2026-09-01T04:18:06+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": 3900000
+ },
+ {
+  "id": "34870864",
+  "type": "premio_jornada",
+  "date": "2026-09-01T04:18:06+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": 5500000
+ },
+ {
+  "id": "34870808",
+  "type": "premio_jornada",
+  "date": "2026-09-01T04:18:06+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": 4300000
+ },
+ {
+  "id": "34071110",
+  "type": "venta",
+  "date": "2026-08-31T23:47:08+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Ilaix Moriba",
+  "amount": 8263348
+ },
+ {
+  "id": "33331611",
+  "type": "fichaje",
+  "date": "2026-08-31T16:00:20+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Adeyemi",
+  "amount": 47111295
+ },
+ {
+  "id": "33331613",
+  "type": "fichaje",
+  "date": "2026-08-31T16:00:20+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Arguibide",
+  "amount": 1000000
+ },
+ {
+  "id": "33000207",
+  "type": "venta",
+  "date": "2026-08-31T10:45:40+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Febas",
+  "amount": 21960927
+ },
+ {
+  "id": "32999988",
+  "type": "venta",
+  "date": "2026-08-31T10:45:17+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Bellerín",
+  "amount": 16842935
+ },
+ {
+  "id": "32058354",
+  "type": "fichaje",
+  "date": "2026-08-30T16:00:58+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Robbie Ure",
+  "amount": 12621438
+ },
+ {
+  "id": "32058352",
+  "type": "fichaje",
+  "date": "2026-08-30T16:00:58+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Pablo García",
+  "amount": 2800000
+ },
+ {
+  "id": "31908821",
+  "type": "venta",
+  "date": "2026-08-30T13:48:51+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "C. Alvarez",
+  "amount": 15925945
+ },
+ {
+  "id": "31906946",
+  "type": "compra",
+  "date": "2026-08-30T13:46:42+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": "Al-Moradí CF",
+  "player": "Marc Roca",
+  "amount": 8446899
+ },
+ {
+  "id": "31504403",
+  "type": "compra",
+  "date": "2026-08-29T22:29:28+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": "Al-Malumitas FC",
+  "player": "Ángel Pérez",
+  "amount": 16810083
+ },
+ {
+  "id": "31430415",
+  "type": "compra",
+  "date": "2026-08-29T21:37:54+02:00",
+  "who": "Al-Moradí CF",
+  "other": "Al-Ilitihad del segu",
+  "player": "Roberto",
+  "amount": 14590199
+ },
+ {
+  "id": "31180635",
+  "type": "venta",
+  "date": "2026-08-29T18:38:32+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Andrés Martín",
+  "amount": 23082103
+ },
+ {
+  "id": "31036426",
+  "type": "venta",
+  "date": "2026-08-29T16:44:04+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Villalibre",
+  "amount": 6609283
+ },
+ {
+  "id": "31034177",
+  "type": "venta",
+  "date": "2026-08-29T16:41:40+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Mantilla",
+  "amount": 2121791
+ },
+ {
+  "id": "30988420",
+  "type": "fichaje",
+  "date": "2026-08-29T16:01:21+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Nuñez",
+  "amount": 7500000
+ },
+ {
+  "id": "30988423",
+  "type": "fichaje",
+  "date": "2026-08-29T16:01:21+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Nacho Perez",
+  "amount": 1500000
+ },
+ {
+  "id": "30708623",
+  "type": "venta",
+  "date": "2026-08-29T08:59:37+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "C. Romero",
+  "amount": 34736456
+ },
+ {
+  "id": "30708588",
+  "type": "venta",
+  "date": "2026-08-29T08:59:31+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Comesaña",
+  "amount": 28954870
+ },
+ {
+  "id": "30708516",
+  "type": "venta",
+  "date": "2026-08-29T08:59:16+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Manuel Fernández",
+  "amount": 384697
+ },
+ {
+  "id": "29933914",
+  "type": "fichaje",
+  "date": "2026-08-28T16:01:13+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Yoel Lago",
+  "amount": 2000000
+ },
+ {
+  "id": "28881167",
+  "type": "venta",
+  "date": "2026-08-27T16:46:17+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "G. Puerta",
+  "amount": 15007438
+ },
+ {
+  "id": "28880414",
+  "type": "venta",
+  "date": "2026-08-27T16:45:42+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Noubi",
+  "amount": 12944388
+ },
+ {
+  "id": "28880209",
+  "type": "venta",
+  "date": "2026-08-27T16:45:29+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Guruzeta",
+  "amount": 12884688
+ },
+ {
+  "id": "28879982",
+  "type": "venta",
+  "date": "2026-08-27T16:45:21+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "De Galarreta",
+  "amount": 12059748
+ },
+ {
+  "id": "28811483",
+  "type": "fichaje",
+  "date": "2026-08-27T16:00:59+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Vlachodimos",
+  "amount": 23458141
+ },
+ {
+  "id": "28811478",
+  "type": "fichaje",
+  "date": "2026-08-27T16:00:59+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Febas",
+  "amount": 24041980
+ },
+ {
+  "id": "27491303",
+  "type": "fichaje",
+  "date": "2026-08-26T16:01:12+02:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": "Konaté",
+  "amount": 48629681
+ },
+ {
+  "id": "26166817",
+  "type": "fichaje",
+  "date": "2026-08-25T16:01:44+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Javi Hernández",
+  "amount": 9414873
+ },
+ {
+  "id": "24647756",
+  "type": "premio_jornada",
+  "date": "2026-08-25T04:15:28+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": 4100000
+ },
+ {
+  "id": "24647638",
+  "type": "premio_jornada",
+  "date": "2026-08-25T04:15:28+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": 2900000
+ },
+ {
+  "id": "24647897",
+  "type": "premio_jornada",
+  "date": "2026-08-25T04:15:28+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": 4500000
+ },
+ {
+  "id": "24648011",
+  "type": "premio_jornada",
+  "date": "2026-08-25T04:15:28+02:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": 4100000
+ },
+ {
+  "id": "24081658",
+  "type": "blindaje",
+  "date": "2026-08-25T00:03:47+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Aubameyang",
+  "amount": null
+ },
+ {
+  "id": "22606753",
+  "type": "nuevo_miembro",
+  "date": "2026-08-23T21:33:18+02:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "22138113",
+  "type": "fichaje",
+  "date": "2026-08-23T16:01:20+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Andrés Martín",
+  "amount": 20854528
+ },
+ {
+  "id": "21505624",
+  "type": "venta",
+  "date": "2026-08-22T21:26:35+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Etta Eyong",
+  "amount": 24461966
+ },
+ {
+  "id": "21220144",
+  "type": "venta",
+  "date": "2026-08-22T17:26:07+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Williot",
+  "amount": 7401251
+ },
+ {
+  "id": "21220001",
+  "type": "venta",
+  "date": "2026-08-22T17:26:00+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Junior",
+  "amount": 3262765
+ },
+ {
+  "id": "20691709",
+  "type": "venta",
+  "date": "2026-08-21T22:32:48+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Sivera",
+  "amount": 37444397
+ },
+ {
+  "id": "20316252",
+  "type": "fichaje",
+  "date": "2026-08-21T16:00:51+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Sergio",
+  "amount": 2000000
+ },
+ {
+  "id": "20316256",
+  "type": "fichaje",
+  "date": "2026-08-21T16:00:51+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Courtois",
+  "amount": 63991601
+ },
+ {
+  "id": "19387579",
+  "type": "fichaje",
+  "date": "2026-08-20T16:00:54+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Kike Barja",
+  "amount": 2311296
+ },
+ {
+  "id": "18048233",
+  "type": "premio_jornada",
+  "date": "2026-08-20T04:12:28+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": 4900000
+ },
+ {
+  "id": "18048249",
+  "type": "premio_jornada",
+  "date": "2026-08-20T04:12:28+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": 2000000
+ },
+ {
+  "id": "18048264",
+  "type": "premio_jornada",
+  "date": "2026-08-20T04:12:28+02:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": 1800000
+ },
+ {
+  "id": "18048283",
+  "type": "premio_jornada",
+  "date": "2026-08-20T04:12:28+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": 1500000
+ },
+ {
+  "id": "16396469",
+  "type": "compra",
+  "date": "2026-08-18T18:13:49+02:00",
+  "who": "Al-Moradí CF",
+  "other": "Al-SanJuanitoFC",
+  "player": "Marc Bernal",
+  "amount": 7565424
+ },
+ {
+  "id": "16250176",
+  "type": "venta",
+  "date": "2026-08-18T16:06:46+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Isaac",
+  "amount": 6454306
+ },
+ {
+  "id": "15235608",
+  "type": "blindaje",
+  "date": "2026-08-17T16:12:02+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Aubameyang",
+  "amount": null
+ },
+ {
+  "id": "15222259",
+  "type": "fichaje",
+  "date": "2026-08-17T16:01:28+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Guruzeta",
+  "amount": 14004625
+ },
+ {
+  "id": "15212357",
+  "type": "venta",
+  "date": "2026-08-17T15:53:22+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Lookman",
+  "amount": 72390143
+ },
+ {
+  "id": "14821134",
+  "type": "venta",
+  "date": "2026-08-17T00:05:17+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Renato Veiga",
+  "amount": 40885915
+ },
+ {
+  "id": "14289574",
+  "type": "fichaje",
+  "date": "2026-08-16T16:00:39+02:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": "Nico Williams",
+  "amount": 65000000
+ },
+ {
+  "id": "14289572",
+  "type": "fichaje",
+  "date": "2026-08-16T16:00:39+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Djene",
+  "amount": 8500000
+ },
+ {
+  "id": "14289571",
+  "type": "fichaje",
+  "date": "2026-08-16T16:00:39+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Cala",
+  "amount": 3979107
+ },
+ {
+  "id": "13430444",
+  "type": "fichaje",
+  "date": "2026-08-15T16:01:13+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "A. Herrero",
+  "amount": 8075295
+ },
+ {
+  "id": "12918054",
+  "type": "venta",
+  "date": "2026-08-14T21:29:22+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Maguette",
+  "amount": 4551324
+ },
+ {
+  "id": "12517265",
+  "type": "fichaje",
+  "date": "2026-08-14T16:00:44+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Roberto",
+  "amount": 7500000
+ },
+ {
+  "id": "12517264",
+  "type": "fichaje",
+  "date": "2026-08-14T16:00:44+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Carlos Espí",
+  "amount": 8359239
+ },
+ {
+  "id": "12517263",
+  "type": "fichaje",
+  "date": "2026-08-14T16:00:44+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Villalibre",
+  "amount": 6946033
+ },
+ {
+  "id": "11717792",
+  "type": "compra",
+  "date": "2026-08-13T17:55:27+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": "Al-Ilitihad del segu",
+  "player": "Paredes",
+  "amount": 5000000
+ },
+ {
+  "id": "11615850",
+  "type": "venta",
+  "date": "2026-08-13T16:15:10+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Pepelu",
+  "amount": 7900168
+ },
+ {
+  "id": "11609026",
+  "type": "venta",
+  "date": "2026-08-13T16:09:49+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Dimitrievski",
+  "amount": 13088161
+ },
+ {
+  "id": "11598223",
+  "type": "fichaje",
+  "date": "2026-08-13T16:01:32+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Maguette",
+  "amount": 4186102
+ },
+ {
+  "id": "11598205",
+  "type": "fichaje",
+  "date": "2026-08-13T16:01:31+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Bernardo Silva",
+  "amount": 49596623
+ },
+ {
+  "id": "11598202",
+  "type": "fichaje",
+  "date": "2026-08-13T16:01:31+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "A. Abqar",
+  "amount": 8000000
+ },
+ {
+  "id": "11598174",
+  "type": "fichaje",
+  "date": "2026-08-13T16:01:30+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Isaac",
+  "amount": 7500000
+ },
+ {
+  "id": "10152607",
+  "type": "venta",
+  "date": "2026-08-11T18:28:26+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Mouriño",
+  "amount": 43054410
+ },
+ {
+  "id": "10015551",
+  "type": "fichaje",
+  "date": "2026-08-11T16:01:15+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Yeray",
+  "amount": 4279727
+ },
+ {
+  "id": "10015550",
+  "type": "fichaje",
+  "date": "2026-08-11T16:01:15+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Dimitrievski",
+  "amount": 12054539
+ },
+ {
+  "id": "9303376",
+  "type": "compra",
+  "date": "2026-08-10T16:05:54+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": "Al-Malumitas FC",
+  "player": "Etta Eyong",
+  "amount": 23943020
+ },
+ {
+  "id": "9303025",
+  "type": "venta",
+  "date": "2026-08-10T16:05:35+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "De Frutos",
+  "amount": 51702049
+ },
+ {
+  "id": "9298742",
+  "type": "fichaje",
+  "date": "2026-08-10T16:01:27+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Paredes",
+  "amount": 4550477
+ },
+ {
+  "id": "9078142",
+  "type": "venta",
+  "date": "2026-08-10T09:15:22+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Dolan",
+  "amount": 5746964
+ },
+ {
+  "id": "9078094",
+  "type": "venta",
+  "date": "2026-08-10T09:15:13+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Ferran Jutglà",
+  "amount": 9510548
+ },
+ {
+  "id": "8760867",
+  "type": "venta",
+  "date": "2026-08-09T18:26:48+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Iñaki Williams",
+  "amount": 29846415
+ },
+ {
+  "id": "8748811",
+  "type": "fichaje",
+  "date": "2026-08-09T18:11:42+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Comesaña",
+  "amount": 29256850
+ },
+ {
+  "id": "8098524",
+  "type": "venta",
+  "date": "2026-08-08T17:03:53+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Pau Navarro",
+  "amount": 10388673
+ },
+ {
+  "id": "8098272",
+  "type": "venta",
+  "date": "2026-08-08T17:03:22+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Sow",
+  "amount": 7863176
+ },
+ {
+  "id": "8097695",
+  "type": "fichaje",
+  "date": "2026-08-08T17:02:45+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Cucurella",
+  "amount": 76000000
+ },
+ {
+  "id": "7536415",
+  "type": "venta",
+  "date": "2026-08-07T17:53:15+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Eriksson",
+  "amount": 3028924
+ },
+ {
+  "id": "7530727",
+  "type": "fichaje",
+  "date": "2026-08-07T17:44:44+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "De Galarreta",
+  "amount": 10868568
+ },
+ {
+  "id": "7245175",
+  "type": "venta",
+  "date": "2026-08-07T07:19:25+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Ferran",
+  "amount": 73682039
+ },
+ {
+  "id": "7245169",
+  "type": "venta",
+  "date": "2026-08-07T07:19:16+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "A. Herrero",
+  "amount": 6760398
+ },
+ {
+  "id": "6903605",
+  "type": "venta",
+  "date": "2026-08-06T16:53:04+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Arda Güler",
+  "amount": 56046773
+ },
+ {
+  "id": "6903539",
+  "type": "venta",
+  "date": "2026-08-06T16:52:56+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Turrientes",
+  "amount": 6518505
+ },
+ {
+  "id": "6902886",
+  "type": "fichaje",
+  "date": "2026-08-06T16:51:51+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "De Frutos",
+  "amount": 47686869
+ },
+ {
+  "id": "6557498",
+  "type": "venta",
+  "date": "2026-08-05T22:12:13+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "A. Ferllo",
+  "amount": 5492221
+ },
+ {
+  "id": "6305872",
+  "type": "venta",
+  "date": "2026-08-05T16:07:15+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Barrenetxea",
+  "amount": 38106262
+ },
+ {
+  "id": "6305244",
+  "type": "fichaje",
+  "date": "2026-08-05T16:06:34+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Mouriño",
+  "amount": 36277353
+ },
+ {
+  "id": "6305229",
+  "type": "fichaje",
+  "date": "2026-08-05T16:06:33+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "C. Romero",
+  "amount": 33610519
+ },
+ {
+  "id": "6305215",
+  "type": "fichaje",
+  "date": "2026-08-05T16:06:32+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "El Hilali",
+  "amount": 7441442
+ },
+ {
+  "id": "5751699",
+  "type": "fichaje",
+  "date": "2026-08-04T16:05:59+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Marc Roca",
+  "amount": 4629597
+ },
+ {
+  "id": "5751698",
+  "type": "fichaje",
+  "date": "2026-08-04T16:05:59+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Marc Bernal",
+  "amount": 6000000
+ },
+ {
+  "id": "5265662",
+  "type": "venta",
+  "date": "2026-08-03T16:43:23+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Dani Lorenzo",
+  "amount": 8543166
+ },
+ {
+  "id": "5256545",
+  "type": "venta",
+  "date": "2026-08-03T16:27:25+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Oblak",
+  "amount": 55355732
+ },
+ {
+  "id": "5240597",
+  "type": "fichaje",
+  "date": "2026-08-03T16:02:52+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Aubameyang",
+  "amount": 16735376
+ },
+ {
+  "id": "5240592",
+  "type": "fichaje",
+  "date": "2026-08-03T16:02:52+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "O. Sancet",
+  "amount": 48168228
+ },
+ {
+  "id": "4871880",
+  "type": "venta",
+  "date": "2026-08-02T19:08:08+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Barrios",
+  "amount": 58903763
+ },
+ {
+  "id": "4858848",
+  "type": "venta",
+  "date": "2026-08-02T18:48:08+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Pere Milla",
+  "amount": 10439655
+ },
+ {
+  "id": "4858574",
+  "type": "fichaje",
+  "date": "2026-08-02T18:47:31+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Dani Lorenzo",
+  "amount": 8350901
+ },
+ {
+  "id": "4858569",
+  "type": "fichaje",
+  "date": "2026-08-02T18:47:30+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Lookman",
+  "amount": 66000000
+ },
+ {
+  "id": "4858565",
+  "type": "fichaje",
+  "date": "2026-08-02T18:47:30+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Mantilla",
+  "amount": 2169979
+ },
+ {
+  "id": "4334822",
+  "type": "venta",
+  "date": "2026-08-01T16:01:33+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Asencio",
+  "amount": 6756311
+ },
+ {
+  "id": "4334106",
+  "type": "fichaje",
+  "date": "2026-08-01T16:00:42+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Leo Román",
+  "amount": 24149630
+ },
+ {
+  "id": "4334096",
+  "type": "fichaje",
+  "date": "2026-08-01T16:00:41+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Eriksson",
+  "amount": 2416531
+ },
+ {
+  "id": "3939009",
+  "type": "venta",
+  "date": "2026-07-31T16:18:04+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Unai Lopez",
+  "amount": 6236267
+ },
+ {
+  "id": "3938874",
+  "type": "fichaje",
+  "date": "2026-07-31T16:17:48+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Mario Soriano",
+  "amount": 20308411
+ },
+ {
+  "id": "3938875",
+  "type": "fichaje",
+  "date": "2026-07-31T16:17:48+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Renato Veiga",
+  "amount": 40158242
+ },
+ {
+  "id": "3938872",
+  "type": "fichaje",
+  "date": "2026-07-31T16:17:48+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Barrios",
+  "amount": 54083503
+ },
+ {
+  "id": "3707075",
+  "type": "venta",
+  "date": "2026-07-30T21:44:14+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "V. Rosier",
+  "amount": 9848881
+ },
+ {
+  "id": "3615406",
+  "type": "venta",
+  "date": "2026-07-30T18:18:06+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "D. Martínez",
+  "amount": 487117
+ },
+ {
+  "id": "3604228",
+  "type": "fichaje",
+  "date": "2026-07-30T17:54:39+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Sivera",
+  "amount": 23000000
+ },
+ {
+  "id": "3211659",
+  "type": "venta",
+  "date": "2026-07-29T16:21:26+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Sadiq",
+  "amount": 10484582
+ },
+ {
+  "id": "2888333",
+  "type": "venta",
+  "date": "2026-07-28T16:46:39+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Berenguer",
+  "amount": 11257777
+ },
+ {
+  "id": "2888137",
+  "type": "venta",
+  "date": "2026-07-28T16:46:11+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Giménez",
+  "amount": 7329907
+ },
+ {
+  "id": "2887719",
+  "type": "venta",
+  "date": "2026-07-28T16:44:59+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "De Galarreta",
+  "amount": 11382432
+ },
+ {
+  "id": "2887674",
+  "type": "venta",
+  "date": "2026-07-28T16:44:45+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Hugo Duro",
+  "amount": 9666768
+ },
+ {
+  "id": "2887647",
+  "type": "venta",
+  "date": "2026-07-28T16:44:35+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Raúl Moro",
+  "amount": 9384612
+ },
+ {
+  "id": "2886929",
+  "type": "fichaje",
+  "date": "2026-07-28T16:42:31+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Unai Lopez",
+  "amount": 6130240
+ },
+ {
+  "id": "2886927",
+  "type": "fichaje",
+  "date": "2026-07-28T16:42:31+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Sergio Herrera",
+  "amount": 27056845
+ },
+ {
+  "id": "2886926",
+  "type": "fichaje",
+  "date": "2026-07-28T16:42:31+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Ferran",
+  "amount": 60000000
+ },
+ {
+  "id": "2653962",
+  "type": "venta",
+  "date": "2026-07-27T19:23:03+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Oskarsson",
+  "amount": 11451469
+ },
+ {
+  "id": "2653864",
+  "type": "venta",
+  "date": "2026-07-27T19:22:41+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "M. Dituro",
+  "amount": 7155492
+ },
+ {
+  "id": "2615315",
+  "type": "venta",
+  "date": "2026-07-27T17:33:40+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Joaquín",
+  "amount": 10265773
+ },
+ {
+  "id": "2614995",
+  "type": "venta",
+  "date": "2026-07-27T17:32:46+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Tárrega",
+  "amount": 10255010
+ },
+ {
+  "id": "2613334",
+  "type": "fichaje",
+  "date": "2026-07-27T17:27:23+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Arda Güler",
+  "amount": 61828024
+ },
+ {
+  "id": "2442915",
+  "type": "venta",
+  "date": "2026-07-26T21:53:54+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Rubén García",
+  "amount": 13670696
+ },
+ {
+  "id": "2379208",
+  "type": "venta",
+  "date": "2026-07-26T18:17:40+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Zubeldia",
+  "amount": 11828755
+ },
+ {
+  "id": "2378964",
+  "type": "venta",
+  "date": "2026-07-26T18:17:10+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Johnny",
+  "amount": 10401852
+ },
+ {
+  "id": "2378573",
+  "type": "fichaje",
+  "date": "2026-07-26T18:15:50+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Iñaki Williams",
+  "amount": 26000000
+ },
+ {
+  "id": "2222538",
+  "type": "venta",
+  "date": "2026-07-25T22:55:38+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Pathé I. Ciss",
+  "amount": 11433660
+ },
+ {
+  "id": "2222416",
+  "type": "venta",
+  "date": "2026-07-25T22:55:02+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Ruggeri",
+  "amount": 9117918
+ },
+ {
+  "id": "2222380",
+  "type": "venta",
+  "date": "2026-07-25T22:54:47+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Gayá",
+  "amount": 14790348
+ },
+ {
+  "id": "2190315",
+  "type": "venta",
+  "date": "2026-07-25T20:25:31+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Julio Díaz",
+  "amount": 474421
+ },
+ {
+  "id": "2189583",
+  "type": "fichaje",
+  "date": "2026-07-25T20:22:53+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Affengruber",
+  "amount": 25000000
+ },
+ {
+  "id": "2189582",
+  "type": "fichaje",
+  "date": "2026-07-25T20:22:53+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Barrenetxea",
+  "amount": 42000000
+ },
+ {
+  "id": "1976771",
+  "type": "venta",
+  "date": "2026-07-24T20:52:21+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Puado",
+  "amount": 13553412
+ },
+ {
+  "id": "1929566",
+  "type": "venta",
+  "date": "2026-07-24T18:15:52+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Iago Aspas",
+  "amount": 10054282
+ },
+ {
+  "id": "1929102",
+  "type": "venta",
+  "date": "2026-07-24T18:14:20+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Agoumé",
+  "amount": 6623780
+ },
+ {
+  "id": "1929067",
+  "type": "venta",
+  "date": "2026-07-24T18:14:15+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": "Gorrotxa",
+  "amount": 10263563
+ },
+ {
+  "id": "1928571",
+  "type": "fichaje",
+  "date": "2026-07-24T18:12:39+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Pere Milla",
+  "amount": 10413004
+ },
+ {
+  "id": "1928572",
+  "type": "fichaje",
+  "date": "2026-07-24T18:12:39+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Oblak",
+  "amount": 48000000
+ },
+ {
+  "id": "1751794",
+  "type": "nuevo_miembro",
+  "date": "2026-07-23T21:02:36+02:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "1729482",
+  "type": "nuevo_miembro",
+  "date": "2026-07-23T19:38:53+02:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "1728772",
+  "type": "nuevo_miembro",
+  "date": "2026-07-23T19:36:36+02:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "amount": null
+ },
+ {
+  "id": "1667952",
+  "type": "nuevo_miembro",
+  "date": "2026-07-23T16:00:23+02:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "amount": null
+ }
+]

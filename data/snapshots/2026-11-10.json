@@ -1,0 +1,706 @@
+{
+ "date": "2026-11-10",
+ "taken_at": "2026-11-10T11:23:02.044525+00:00",
+ "league_id": "017729275",
+ "league_name": "SUPER LIGA RIVES 26-27",
+ "week": 13,
+ "points_week": 12,
+ "standing": [
+  {
+   "team_id": "37020164",
+   "team": "Al-SanJuanitoFC",
+   "manager": "Al-SanJuanitoFC",
+   "points": 548,
+   "week_points": 61,
+   "value": 332594922,
+   "position": 1,
+   "prev_position": 1
+  },
+  {
+   "team_id": "37006883",
+   "team": "Al-Moradí CF",
+   "manager": "Al-Moradí CF",
+   "points": 506,
+   "week_points": 82,
+   "value": 633631311,
+   "position": 2,
+   "prev_position": 3
+  },
+  {
+   "team_id": "37020040",
+   "team": "Al-Ilitihad del segu",
+   "manager": "Al-Ilitihad del segu",
+   "points": 503,
+   "week_points": 45,
+   "value": 329808861,
+   "position": 3,
+   "prev_position": 2
+  },
+  {
+   "team_id": "37024497",
+   "team": "Al-Malumitas FC",
+   "manager": "Al-Malumitas FC",
+   "points": 104,
+   "week_points": 0,
+   "value": 110980819,
+   "position": 4,
+   "prev_position": 4
+  },
+  {
+   "team_id": "39060670",
+   "team": "EnriqueVeteYa69",
+   "manager": "EnriqueVeteYa69",
+   "points": 21,
+   "week_points": 0,
+   "value": 148622548,
+   "position": 5,
+   "prev_position": 5
+  }
+ ],
+ "squads": {
+  "37020164": [
+   {
+    "id": "2755",
+    "name": "Ryan",
+    "pos": "POR",
+    "value": 18146536,
+    "points": 81,
+    "clause": 26647235
+   },
+   {
+    "id": "2742",
+    "name": "Nacho Perez",
+    "pos": "DEF",
+    "value": 1172402,
+    "points": 41,
+    "clause": 1500000
+   },
+   {
+    "id": "2714",
+    "name": "Javi Rueda",
+    "pos": "DEF",
+    "value": 4867984,
+    "points": 40,
+    "clause": 5368294
+   },
+   {
+    "id": "3155",
+    "name": "Grimaldo",
+    "pos": "DEF",
+    "value": 97885797,
+    "points": 95,
+    "clause": 97885797
+   },
+   {
+    "id": "3082",
+    "name": "Lejeune",
+    "pos": "DEF",
+    "value": 14028330,
+    "points": 34,
+    "clause": 14028330
+   },
+   {
+    "id": "2426",
+    "name": "E. Militão",
+    "pos": "DEF",
+    "value": 6335478,
+    "points": 2,
+    "clause": 7500000
+   },
+   {
+    "id": "2868",
+    "name": "Carlos Macià",
+    "pos": "MED",
+    "value": 777245,
+    "points": 29,
+    "clause": 1000000
+   },
+   {
+    "id": "3044",
+    "name": "Dotor",
+    "pos": "MED",
+    "value": 3869708,
+    "points": 45,
+    "clause": 5389187
+   },
+   {
+    "id": "2932",
+    "name": "Ángel Pérez",
+    "pos": "MED",
+    "value": 34493489,
+    "points": 63,
+    "clause": 43483814
+   },
+   {
+    "id": "2995",
+    "name": "Mario Soriano",
+    "pos": "MED",
+    "value": 49859138,
+    "points": 82,
+    "clause": 49859138
+   },
+   {
+    "id": "2464",
+    "name": "Pepelu",
+    "pos": "MED",
+    "value": 45375360,
+    "points": 68,
+    "clause": 45375360
+   },
+   {
+    "id": "2358",
+    "name": "F. De Jong",
+    "pos": "MED",
+    "value": 11291734,
+    "points": 10,
+    "clause": 11291734
+   },
+   {
+    "id": "3249",
+    "name": "Adama Traoré",
+    "pos": "DEL",
+    "value": 5906706,
+    "points": 33,
+    "clause": 5906706
+   },
+   {
+    "id": "927",
+    "name": "Berenguer",
+    "pos": "DEL",
+    "value": 31022367,
+    "points": 79,
+    "clause": 31022367
+   },
+   {
+    "id": "3129",
+    "name": "Carlos Espí",
+    "pos": "DEL",
+    "value": 7562648,
+    "points": 23,
+    "clause": 16491296
+   }
+  ],
+  "37006883": [
+   {
+    "id": "204",
+    "name": "Aitor Fdez",
+    "pos": "POR",
+    "value": 1187650,
+    "points": 27,
+    "clause": 1187650
+   },
+   {
+    "id": "988",
+    "name": "Sivera",
+    "pos": "POR",
+    "value": 32512180,
+    "points": 89,
+    "clause": 47037289
+   },
+   {
+    "id": "3026",
+    "name": "Pablo Ramón",
+    "pos": "DEF",
+    "value": 1620985,
+    "points": 40,
+    "clause": 1620985
+   },
+   {
+    "id": "3068",
+    "name": "Cabrera",
+    "pos": "DEF",
+    "value": 15149985,
+    "points": 55,
+    "clause": 15149985
+   },
+   {
+    "id": "2525",
+    "name": "Salinas",
+    "pos": "DEF",
+    "value": 694180,
+    "points": 23,
+    "clause": 1000000
+   },
+   {
+    "id": "2561",
+    "name": "Hancko",
+    "pos": "DEF",
+    "value": 61334609,
+    "points": 75,
+    "clause": 61334609
+   },
+   {
+    "id": "2206",
+    "name": "Yoel Lago",
+    "pos": "DEF",
+    "value": 29020858,
+    "points": 66,
+    "clause": 29020858
+   },
+   {
+    "id": "652",
+    "name": "Rubén García",
+    "pos": "MED",
+    "value": 13843706,
+    "points": 55,
+    "clause": 13843706
+   },
+   {
+    "id": "637",
+    "name": "Moncayola",
+    "pos": "MED",
+    "value": 3857813,
+    "points": 35,
+    "clause": 4383877
+   },
+   {
+    "id": "3101",
+    "name": "Bellingham",
+    "pos": "MED",
+    "value": 143810960,
+    "points": 118,
+    "clause": 143810960
+   },
+   {
+    "id": "1674",
+    "name": "Arda Güler",
+    "pos": "MED",
+    "value": 134809688,
+    "points": 125,
+    "clause": 134809688
+   },
+   {
+    "id": "3262",
+    "name": "Félix Correia",
+    "pos": "DEL",
+    "value": 9843242,
+    "points": 58,
+    "clause": 9843242
+   },
+   {
+    "id": "2973",
+    "name": "Bil Nsongo",
+    "pos": "DEL",
+    "value": 12738247,
+    "points": 59,
+    "clause": 12738247
+   },
+   {
+    "id": "2522",
+    "name": "Raphinha",
+    "pos": "DEL",
+    "value": 173207208,
+    "points": 146,
+    "clause": 173207208
+   }
+  ],
+  "37020040": [
+   {
+    "id": "3040",
+    "name": "A. Herrero",
+    "pos": "POR",
+    "value": 15825772,
+    "points": 56,
+    "clause": 15825772
+   },
+   {
+    "id": "2930",
+    "name": "Nuñez",
+    "pos": "DEF",
+    "value": 3571663,
+    "points": 25,
+    "clause": 7500000
+   },
+   {
+    "id": "2596",
+    "name": "V. Chust",
+    "pos": "DEF",
+    "value": 6632101,
+    "points": 49,
+    "clause": 9127350
+   },
+   {
+    "id": "3284",
+    "name": "Carvajal",
+    "pos": "DEF",
+    "value": 9323893,
+    "points": 4,
+    "clause": 9323893
+   },
+   {
+    "id": "2938",
+    "name": "Koski",
+    "pos": "DEF",
+    "value": 40274082,
+    "points": 64,
+    "clause": 40274082
+   },
+   {
+    "id": "3041",
+    "name": "Rafita",
+    "pos": "DEF",
+    "value": 6604628,
+    "points": 43,
+    "clause": 6604628
+   },
+   {
+    "id": "1337",
+    "name": "Tenaglia",
+    "pos": "DEF",
+    "value": 19459079,
+    "points": 52,
+    "clause": 29318523
+   },
+   {
+    "id": "2314",
+    "name": "Vivian",
+    "pos": "DEF",
+    "value": 5462519,
+    "points": 27,
+    "clause": 5462519
+   },
+   {
+    "id": "3100",
+    "name": "Pedri",
+    "pos": "MED",
+    "value": 84502489,
+    "points": 68,
+    "clause": 94609732
+   },
+   {
+    "id": "3099",
+    "name": "Fornals",
+    "pos": "MED",
+    "value": 49520027,
+    "points": 67,
+    "clause": 49520027
+   },
+   {
+    "id": "3036",
+    "name": "Dani Lorenzo",
+    "pos": "MED",
+    "value": 8594798,
+    "points": 42,
+    "clause": 9499986
+   },
+   {
+    "id": "3108",
+    "name": "Aubameyang",
+    "pos": "DEL",
+    "value": 57289567,
+    "points": 67,
+    "clause": 126250095
+   },
+   {
+    "id": "2303",
+    "name": "I. Romero",
+    "pos": "DEL",
+    "value": 7479247,
+    "points": 49,
+    "clause": 7479247
+   },
+   {
+    "id": "2962",
+    "name": "Luismi Cruz",
+    "pos": "DEL",
+    "value": 11000419,
+    "points": 57,
+    "clause": 13329565
+   },
+   {
+    "id": "2712",
+    "name": "Pablo García",
+    "pos": "DEL",
+    "value": 4268577,
+    "points": 33,
+    "clause": 4268577
+   }
+  ],
+  "37024497": [
+   {
+    "id": "2321",
+    "name": "J. Musso",
+    "pos": "POR",
+    "value": 805999,
+    "points": 0,
+    "clause": 12185628
+   },
+   {
+    "id": "2325",
+    "name": "Molina",
+    "pos": "DEF",
+    "value": 5057075,
+    "points": 0,
+    "clause": 8927945
+   },
+   {
+    "id": "2356",
+    "name": "R. Araujo",
+    "pos": "DEF",
+    "value": 4635257,
+    "points": 0,
+    "clause": 12349753
+   },
+   {
+    "id": "2479",
+    "name": "Kike Salas",
+    "pos": "DEF",
+    "value": 24939466,
+    "points": 60,
+    "clause": 24939466
+   },
+   {
+    "id": "2936",
+    "name": "Egiluz",
+    "pos": "DEF",
+    "value": 608779,
+    "points": 0,
+    "clause": 1000000
+   },
+   {
+    "id": "1029",
+    "name": "Álvaro García",
+    "pos": "MED",
+    "value": 10064795,
+    "points": 37,
+    "clause": 23204656
+   },
+   {
+    "id": "2338",
+    "name": "Aimar",
+    "pos": "MED",
+    "value": 2418842,
+    "points": 12,
+    "clause": 29398281
+   },
+   {
+    "id": "2553",
+    "name": "Almada",
+    "pos": "MED",
+    "value": 5800439,
+    "points": 0,
+    "clause": 14194478
+   },
+   {
+    "id": "3035",
+    "name": "Izan M.",
+    "pos": "MED",
+    "value": 1147805,
+    "points": 17,
+    "clause": 13630301
+   },
+   {
+    "id": "3083",
+    "name": "Nico Williams",
+    "pos": "DEL",
+    "value": 56562647,
+    "points": 64,
+    "clause": 65000000
+   }
+  ],
+  "39060670": [
+   {
+    "id": "3018",
+    "name": "Eriksson",
+    "pos": "POR",
+    "value": 701843,
+    "points": 0,
+    "clause": 4064790
+   },
+   {
+    "id": "2429",
+    "name": "Fran García",
+    "pos": "DEF",
+    "value": 19532080,
+    "points": 40,
+    "clause": 19532080
+   },
+   {
+    "id": "2533",
+    "name": "Á. Carreras",
+    "pos": "DEF",
+    "value": 4336972,
+    "points": 29,
+    "clause": 18117700
+   },
+   {
+    "id": "3107",
+    "name": "Konaté",
+    "pos": "DEF",
+    "value": 39734981,
+    "points": 50,
+    "clause": 48629681
+   },
+   {
+    "id": "581",
+    "name": "Rioja",
+    "pos": "MED",
+    "value": 3319591,
+    "points": 33,
+    "clause": 16602023
+   },
+   {
+    "id": "3133",
+    "name": "Mangala",
+    "pos": "MED",
+    "value": 4546903,
+    "points": 36,
+    "clause": 17601283
+   },
+   {
+    "id": "3140",
+    "name": "Juan Cruz",
+    "pos": "MED",
+    "value": 1763541,
+    "points": 13,
+    "clause": 23024938
+   },
+   {
+    "id": "3199",
+    "name": "F. Bernal",
+    "pos": "MED",
+    "value": 4928207,
+    "points": 24,
+    "clause": 18068656
+   },
+   {
+    "id": "3183",
+    "name": "Dubasin",
+    "pos": "DEL",
+    "value": 2485161,
+    "points": 32,
+    "clause": 21876583
+   },
+   {
+    "id": "3210",
+    "name": "Gordon",
+    "pos": "DEL",
+    "value": 67273269,
+    "points": 62,
+    "clause": 69398702
+   }
+  ]
+ },
+ "_raw_standing": [
+  {
+   "position": 1,
+   "previousPosition": 1,
+   "points": 548,
+   "team": {
+    "managerWarned": false,
+    "id": "37020164",
+    "managerId": 10550470,
+    "banned": false,
+    "teamValue": 332594922,
+    "teamPoints": 548,
+    "manager": {
+     "id": "10550470",
+     "managerName": "Al-SanJuanitoFC",
+     "avatar": "https://ll1prglcdn.azureedge.net/global-avatar/default.png"
+    },
+    "teamMoney": null,
+    "isAdmin": false
+   }
+  },
+  {
+   "position": 2,
+   "previousPosition": 3,
+   "points": 506,
+   "team": {
+    "managerWarned": false,
+    "id": "37006883",
+    "managerId": 3929673,
+    "banned": false,
+    "teamValue": 633631311,
+    "teamPoints": 506,
+    "manager": {
+     "id": "3929673",
+     "managerName": "Al-Moradí CF",
+     "avatar": "https://ll1prglcdn.azureedge.net/global-avatar/default.png"
+    },
+    "teamMoney": null,
+    "isAdmin": true
+   }
+  },
+  {
+   "position": 3,
+   "previousPosition": 2,
+   "points": 503,
+   "team": {
+    "managerWarned": false,
+    "id": "37020040",
+    "managerId": 9705542,
+    "banned": false,
+    "teamValue": 329808861,
+    "teamPoints": 503,
+    "manager": {
+     "id": "9705542",
+     "managerName": "Al-Ilitihad del segu",
+     "avatar": "https://ll1prglcdn.azureedge.net/global-avatar/default.png"
+    },
+    "teamMoney": null,
+    "isAdmin": false
+   }
+  },
+  {
+   "position": 4,
+   "previousPosition": 4,
+   "points": 104,
+   "team": {
+    "managerWarned": false,
+    "id": "37024497",
+    "managerId": 9725102,
+    "banned": false,
+    "teamValue": 110980819,
+    "teamPoints": 104,
+    "manager": {
+     "id": "9725102",
+     "managerName": "Al-Malumitas FC",
+     "avatar": "https://ll1prglcdn.azureedge.net/global-avatar/default.png"
+    },
+    "isAdmin": false
+   }
+  },
+  {
+   "position": 5,
+   "previousPosition": 5,
+   "points": 21,
+   "team": {
+    "managerWarned": false,
+    "id": "39060670",
+    "managerId": 12064357,
+    "banned": false,
+    "teamValue": 148622548,
+    "teamPoints": 21,
+    "manager": {
+     "id": "12064357",
+     "managerName": "EnriqueVeteYa69",
+     "avatar": "https://ll1prglcdn.azureedge.net/global-avatar/default.png"
+    },
+    "teamMoney": null,
+    "isAdmin": false
+   }
+  }
+ ],
+ "_raw_standing_week": [
+  {
+   "position": 1,
+   "points": 82,
+   "team": {
+    "managerWarned": false,
+    "id": "37006883",
+    "managerId": 3929673,
+    "banned": false,
+    "teamValue": 633631311,
+    "teamPoints": 506,
+    "manager": {
+     "id": "3929673",
+     "managerName": "Al-Moradí CF",
+     "avatar": "https://ll1prglcdn.azureedge.net/global-avatar/default.png"
+    },
+    "teamMoney": null,
+    "isAdmin": true
+   }
+  }
+ ]
+}

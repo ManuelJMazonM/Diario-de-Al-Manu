@@ -1,0 +1,70 @@
+# Edición diaria automática + publicación en GitHub Pages.
+# Secretos necesarios (Settings → Secrets and variables → Actions):
+#   LALIGA_TOKENS      → contenido completo de tokens.json
+#   GH_PAT             → token fine-grained SOLO de este repo con "Secrets: Read and write"
+#                        (LaLiga cambia el refresh_token en cada uso y hay que guardarlo)
+#   ANTHROPIC_API_KEY  → opcional, textos escritos por IA
+name: Periódico diario
+
+on:
+  schedule:
+    - cron: "17 6 * * *"   # 07:17 en España (invierno), después de la actualización del mercado
+  workflow_dispatch:        # botón "Run workflow" para lanzarlo a mano
+
+permissions:
+  contents: write   # guardar data/ en el repo
+  pages: write      # publicar la web
+  id-token: write
+
+concurrency:
+  group: periodico
+  cancel-in-progress: false
+
+jobs:
+  edicion:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deploy.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Restaurar token (nunca se imprime)
+        env:
+          T: ${{ secrets.LALIGA_TOKENS }}
+        run: |
+          umask 077
+          printf '%s' "$T" > tokens.json
+
+      - name: Generar edición
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python periodico.py daily
+
+      - name: Guardar el refresh_token nuevo y borrar el archivo
+        if: always()
+        env:
+          GH_TOKEN: ${{ secrets.GH_PAT }}
+          GH_REPO: ${{ github.repository }}
+        run: |
+          if [ -s tokens.json ]; then gh secret set LALIGA_TOKENS < tokens.json; fi
+          rm -f tokens.json
+
+      - name: Guardar historial (data/)
+        run: |
+          git config user.name "periodico-bot"
+          git config user.email "periodico-bot@users.noreply.github.com"
+          git add data
+          git commit -m "Edición $(date +%F)" || echo "sin cambios"
+          git push
+
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+      - id: deploy
+        uses: actions/deploy-pages@v4
