@@ -2,6 +2,7 @@
 import json
 import os
 import random
+import re
 import urllib.request
 from datetime import datetime, timedelta
 from pathlib import Path
@@ -469,6 +470,12 @@ def render(edition, out_dir="site", template=Path(__file__).parent / "periodico.
     (out / "archivo").mkdir(parents=True, exist_ok=True)
     js = json.dumps(edition, ensure_ascii=False).replace("</", "<\\/")
     html = Path(template).read_text("utf-8").replace("/*EDITION*/null", js)
+    # Título real en el <head> para pestañas y vistas previas (WhatsApp, Telegram...)
+    import html as _h
+    titulo = _h.escape(edition["title"])
+    html = re.sub(r"<title>.*?</title>", f"<title>{titulo}</title>", html, count=1)
+    html = html.replace("<title>", f'<meta property="og:title" content="{titulo}">\n'
+                        f'<meta property="og:description" content="{_h.escape(edition["lead"]["headline"])}">\n<title>', 1)
     (out / "index.html").write_text(html, "utf-8")
     (out / "robots.txt").write_text("User-agent: *\nDisallow: /\n", "utf-8")
     (out / "archivo" / f"{edition['date']}.html").write_text(html, "utf-8")
