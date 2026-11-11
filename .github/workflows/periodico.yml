@@ -1,34 +1,34 @@
-# Edición diaria automática + publicación en GitHub Pages.
+# Edición diaria automática del periódico.
+# Sin acciones externas (uses:): solo git, python3 y gh, que ya vienen en la máquina.
+# La web se publica en la rama gh-pages (Settings → Pages → Deploy from a branch → gh-pages).
+#
 # Secretos necesarios (Settings → Secrets and variables → Actions):
 #   LALIGA_TOKENS      → contenido completo de tokens.json
 #   GH_PAT             → token fine-grained SOLO de este repo con "Secrets: Read and write"
-#                        (LaLiga cambia el refresh_token en cada uso y hay que guardarlo)
 #   ANTHROPIC_API_KEY  → opcional, textos escritos por IA
 name: Periodico diario
 
 on:
   schedule:
-    - cron: "17 6 * * *"   # 07:17 en España (invierno), después de la actualización del mercado
-  workflow_dispatch:        # botón "Run workflow" para lanzarlo a mano
+    - cron: "17 6 * * *"   # 07:17 en España (invierno)
+  workflow_dispatch:
 
-concurrency:
-  group: periodico
-  cancel-in-progress: false
+permissions:
+  contents: write
 
 jobs:
-  # 1) Descarga los datos, genera la web y guarda el historial
-  build:
+  edicion:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write   # guardar data/ en el repo
     steps:
-      - uses: actions/checkout@v4
-
-      - uses: actions/setup-python@v5
-        with:
-          python-version: "3.12"
+      - name: Descargar el repo
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          git clone --depth 1 "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" repo
+          python3 --version
 
       - name: Restaurar token (nunca se imprime)
+        working-directory: repo
         env:
           T: ${{ secrets.LALIGA_TOKENS }}
         run: |
@@ -36,20 +36,22 @@ jobs:
           printf '%s' "$T" > tokens.json
 
       - name: Generar edicion
+        working-directory: repo
         env:
           ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
-        run: python periodico.py daily
+        run: python3 periodico.py daily
 
       - name: Guardar el refresh_token nuevo y borrar el archivo
         if: always()
+        working-directory: repo
         env:
           GH_TOKEN: ${{ secrets.GH_PAT }}
-          GH_REPO: ${{ github.repository }}
         run: |
-          if [ -s tokens.json ]; then gh secret set LALIGA_TOKENS < tokens.json; fi
+          if [ -s tokens.json ]; then gh secret set LALIGA_TOKENS --repo "$GITHUB_REPOSITORY" < tokens.json; fi
           rm -f tokens.json
 
-      - name: Guardar historial (data/)
+      - name: Guardar historial (data/) en main
+        working-directory: repo
         run: |
           git config user.name "periodico-bot"
           git config user.email "periodico-bot@users.noreply.github.com"
@@ -57,20 +59,15 @@ jobs:
           git commit -m "Edicion $(date +%F)" || echo "sin cambios"
           git push
 
-      - uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
-
-  # 2) Solo publica la web generada (forma estándar de GitHub Pages)
-  deploy:
-    needs: build
-    runs-on: ubuntu-latest
-    permissions:
-      pages: write
-      id-token: write
-    environment:
-      name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
-    steps:
-      - id: deployment
-        uses: actions/deploy-pages@v4
+      - name: Publicar la web en la rama gh-pages
+        working-directory: repo/site
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          touch .nojekyll
+          git init -q -b gh-pages
+          git config user.name "periodico-bot"
+          git config user.email "periodico-bot@users.noreply.github.com"
+          git add -A
+          git commit -q -m "Web $(date +%F)"
+          git push -f -q "https://x-access-token:${GH_TOKEN}@github.com/${GITHUB_REPOSITORY}.git" gh-pages
