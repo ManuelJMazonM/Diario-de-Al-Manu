@@ -11,6 +11,8 @@ name: Periodico diario
 on:
   schedule:
     - cron: "17 6 * * *"   # 07:17 en España (invierno)
+    - cron: "43 9 * * *"    # 10:43, por si GitHub se salta la primera
+    
   workflow_dispatch:
 
 permissions:
