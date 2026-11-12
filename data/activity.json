@@ -1,5 +1,25 @@
 [
  {
+  "id": "118107149",
+  "type": "fichaje",
+  "date": "2026-11-12T16:00:40+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Y. Zabiri",
+  "player_id": "3152",
+  "amount": 51504864
+ },
+ {
+  "id": "118107133",
+  "type": "fichaje",
+  "date": "2026-11-12T16:00:39+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Edu Expósito",
+  "player_id": "3077",
+  "amount": 50500000
+ },
+ {
   "id": "117611178",
   "type": "venta",
   "date": "2026-11-11T16:48:36+01:00",
@@ -146,6 +166,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Cabrera",
+  "player_id": "3068",
   "amount": 11992996
  },
  {
@@ -155,6 +176,7 @@
   "who": "EnriqueVeteYa69",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": null
  },
  {
@@ -164,6 +186,7 @@
   "who": "Al-Malumitas FC",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": null
  },
  {
@@ -173,6 +196,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 6100000
  },
  {
@@ -182,6 +206,7 @@
   "who": "Al-Ilitihad del segu",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 3100000
  },
  {
@@ -191,6 +216,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 5700000
  },
  {
@@ -200,6 +226,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Natan",
+  "player_id": "2543",
   "amount": 51002239
  },
  {
@@ -209,6 +236,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Ayoze",
+  "player_id": "2504",
   "amount": 31365062
  },
  {
@@ -218,6 +246,7 @@
   "who": "Al-Ilitihad del segu",
   "other": null,
   "player": "Vivian",
+  "player_id": "2314",
   "amount": 3109336
  },
  {
@@ -227,6 +256,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Félix Correia",
+  "player_id": "3262",
   "amount": 5997757
  },
  {
@@ -236,6 +266,7 @@
   "who": "Al-Ilitihad del segu",
   "other": "EnriqueVeteYa69",
   "player": "V. Chust",
+  "player_id": "2596",
   "amount": 9127350
  },
  {
@@ -245,6 +276,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Arda Güler",
+  "player_id": "1674",
   "amount": 121223132
  },
  {
@@ -254,6 +286,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "C. Soler",
+  "player_id": "2772",
   "amount": 56686584
  },
  {
@@ -263,6 +296,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": "Berenguer",
+  "player_id": "927",
   "amount": 18000000
  },
  {
@@ -272,6 +306,7 @@
   "who": "EnriqueVeteYa69",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": null
  },
  {
@@ -281,6 +316,7 @@
   "who": "Al-Malumitas FC",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": null
  },
  {
@@ -290,6 +326,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 5900000
  },
  {
@@ -299,6 +336,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 5600000
  },
  {
@@ -308,6 +346,7 @@
   "who": "Al-Ilitihad del segu",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 3800000
  },
  {
@@ -317,6 +356,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "J. David",
+  "player_id": "3255",
   "amount": 86139169
  },
  {
@@ -326,6 +366,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Yoel Lago",
+  "player_id": "2206",
   "amount": null
  },
  {
@@ -335,6 +376,7 @@
   "who": "Al-SanJuanitoFC",
   "other": "Al-Moradí CF",
   "player": "Paredes",
+  "player_id": "2315",
   "amount": 22561429
  },
  {
@@ -344,6 +386,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Hancko",
+  "player_id": "2561",
   "amount": 47770147
  },
  {
@@ -353,6 +396,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": "E. Militão",
+  "player_id": "2426",
   "amount": 7500000
  },
  {
@@ -362,6 +406,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Ez Abde",
+  "player_id": "3089",
   "amount": 67926889
  },
  {
@@ -371,6 +416,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": "Javi Rueda",
+  "player_id": "2714",
   "amount": 5368294
  },
  {
@@ -380,6 +426,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Pablo Ramón",
+  "player_id": "3026",
   "amount": 1308375
  },
  {
@@ -389,6 +436,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Moncayola",
+  "player_id": "637",
   "amount": 4383877
  },
  {
@@ -398,6 +446,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Raphinha",
+  "player_id": "2522",
   "amount": 164722249
  },
  {
@@ -407,6 +456,7 @@
   "who": "EnriqueVeteYa69",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": null
  },
  {
@@ -416,6 +466,7 @@
   "who": "Al-Malumitas FC",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": null
  },
  {
@@ -425,6 +476,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 4500000
  },
  {
@@ -434,6 +486,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 4500000
  },
  {
@@ -443,6 +496,7 @@
   "who": "Al-Ilitihad del segu",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 2000000
  },
  {
@@ -452,6 +506,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Djene",
+  "player_id": "2661",
   "amount": 22034320
  },
  {
@@ -461,6 +516,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": "Jonny Otto",
+  "player_id": "2552",
   "amount": 20574975
  },
  {
@@ -470,6 +526,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": "Yuri",
+  "player_id": "74",
   "amount": 20373098
  },
  {
@@ -479,6 +536,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Agoumé",
+  "player_id": "2453",
   "amount": 17186714
  },
  {
@@ -488,6 +546,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Y. Zabiri",
+  "player_id": "3152",
   "amount": 35243083
  },
  {
@@ -497,6 +556,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Rubén García",
+  "player_id": "652",
   "amount": 10571287
  },
  {
@@ -506,6 +566,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Ez Abde",
+  "player_id": "3089",
   "amount": 61094966
  },
  {
@@ -515,6 +576,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": "Marc Roca",
+  "player_id": "2418",
   "amount": 23554388
  },
  {
@@ -524,6 +586,7 @@
   "who": "Al-Ilitihad del segu",
   "other": null,
   "player": "Carvajal",
+  "player_id": "3284",
   "amount": 6557140
  },
  {
@@ -533,6 +596,7 @@
   "who": "Al-SanJuanitoFC",
   "other": "EnriqueVeteYa69",
   "player": "Lucas Boyé",
+  "player_id": "2768",
   "amount": 37074663
  },
  {
@@ -542,6 +606,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": "Pepelu",
+  "player_id": "2464",
   "amount": 18199771
  },
  {
@@ -551,6 +616,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": "Miguel Sierra",
+  "player_id": "2746",
   "amount": 16125369
  },
  {
@@ -560,6 +626,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": "Grimaldo",
+  "player_id": "3155",
   "amount": 80000000
  },
  {
@@ -569,6 +636,7 @@
   "who": "EnriqueVeteYa69",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": null
  },
  {
@@ -578,6 +646,7 @@
   "who": "Al-Malumitas FC",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": null
  },
  {
@@ -587,6 +656,7 @@
   "who": "Al-Moradí CF",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 4500000
  },
  {
@@ -596,6 +666,7 @@
   "who": "Al-SanJuanitoFC",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 3600000
  },
  {
@@ -605,6 +676,7 @@
   "who": "Al-Ilitihad del segu",
   "other": null,
   "player": null,
+  "player_id": null,
   "amount": 4400000
  },
  {

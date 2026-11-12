@@ -1,6 +1,6 @@
 {
  "date": "2026-11-12",
- "taken_at": "2026-11-12T10:33:26.477701+00:00",
+ "taken_at": "2026-11-12T15:11:12.913221+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 506,
    "week_points": 82,
-   "value": 645628635,
+   "value": 745303423,
    "position": 2,
    "prev_position": 3
   },
@@ -230,6 +230,14 @@
     "clause": 60579046
    },
    {
+    "id": "637",
+    "name": "Moncayola",
+    "pos": "MED",
+    "value": 3771308,
+    "points": 35,
+    "clause": 4383877
+   },
+   {
     "id": "652",
     "name": "Rubén García",
     "pos": "MED",
@@ -238,12 +246,12 @@
     "clause": 14254415
    },
    {
-    "id": "637",
-    "name": "Moncayola",
+    "id": "3077",
+    "name": "Edu Expósito",
     "pos": "MED",
-    "value": 3771308,
-    "points": 35,
-    "clause": 4383877
+    "value": 46471309,
+    "points": 74,
+    "clause": 50500000
    },
    {
     "id": "3101",
@@ -268,6 +276,14 @@
     "value": 34152444,
     "points": 59,
     "clause": 34152444
+   },
+   {
+    "id": "3152",
+    "name": "Y. Zabiri",
+    "pos": "DEL",
+    "value": 53203479,
+    "points": 78,
+    "clause": 53203479
    },
    {
     "id": "3262",
