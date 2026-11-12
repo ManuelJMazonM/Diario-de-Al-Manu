@@ -76,6 +76,31 @@
   .res-row{display:flex;justify-content:space-between;gap:8px;font:14px system-ui,sans-serif;
            padding:5px 0;border-bottom:1px solid var(--soft)}
   .res-row b{font-variant-numeric:tabular-nums;white-space:nowrap}
+  .rosa.band{margin:18px 0 0;padding:14px 18px 6px}
+  .rosa .cols{columns:3 260px;column-gap:26px;column-rule:1px solid #e3b8c3}
+  .rosa .cols .item{break-inside:avoid}
+  .rosa{background:#f6dfe3;border-top:3px solid #b0174f;padding:12px 14px 4px;margin:0 0 16px}
+  .rosa h3.sec{border-top:0;border-bottom:1px solid #b0174f;color:#b0174f;padding-top:0}
+  .rosa .item{padding:8px 0 10px;border-bottom:1px dotted #c98a9b}
+  .rosa .item:last-child{border-bottom:0}
+  .rosa .kicker{color:#b0174f}
+  .rosa h4{margin:3px 0 4px;font-size:19px;line-height:1.15;font-style:italic}
+  .rosa p{margin:0;font-size:15px}
+  .thermo{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0 4px}
+  .thermo div{padding:10px 12px;border-top:3px solid var(--rule)}
+  .thermo .hot{background:#f7e3cf}.thermo .cold{background:#dde6ee}
+  .thermo b{display:block;font-size:19px;line-height:1.1;margin:3px 0}
+  .thermo small{font:12px system-ui,sans-serif;color:var(--muted)}
+  .ad{margin:16px 0;padding:14px;text-align:center;font-family:system-ui,sans-serif}
+  .ad .lbl{font:600 9px system-ui,sans-serif;letter-spacing:.2em;color:var(--muted);text-transform:uppercase;margin-bottom:6px}
+  .ad .brand{font:900 13px system-ui,sans-serif;letter-spacing:.18em}
+  .ad .t{font:italic 700 20px/1.15 Georgia,serif;margin:8px 0 6px}
+  .ad .d{font-size:13px;margin:0 0 8px}
+  .ad .p{display:inline-block;font:800 15px system-ui,sans-serif;padding:3px 10px}
+  .ad.dark{background:var(--ink);color:var(--paper)}
+  .ad.dark .lbl{color:#b9b09f}.ad.dark .p{background:#c9a227;color:var(--ink)}
+  .ad.box{border:3px double var(--ink)}.ad.box .p{border:2px solid var(--ink)}
+  .ad.classic{border:1px dashed var(--ink);background:#ebe3d1}.ad.classic .p{background:var(--red);color:#fff}
   footer{margin-top:28px;border-top:4px double var(--rule);padding-top:8px;text-align:center;
          font:12px system-ui,sans-serif;color:var(--muted)}
   @media (max-width:860px){
@@ -95,8 +120,8 @@ const fecha = new Date(E.date + "T12:00:00").toLocaleDateString("es-ES",{weekday
 const dt = (d) => d ? new Date(d).toLocaleDateString("es-ES",{day:"numeric",month:"short"}) : "";
 const verb = {fichaje:"ficha a",compra:"compra a",clausulazo:"clausula a",venta:"vende a"};
 const arrow = (d) => d > 0 ? `<span class="up">▲${d}</span>` : d < 0 ? `<span class="down">▼${-d}</span>` : `<span class="eq">=</span>`;
-const kick = {estrella:"La jornada",clausulazo:"Última hora",fichaje:"Mercado",compra:"Mercado",venta:"Mercado",
-              nuevo_lider:"Clasificación",subida:"Clasificación",bajada:"Clasificación",lider:"Clasificación"};
+const kick = {estrella:"Exhibición",clausulazo:"Última hora",fichaje:"Exclusiva",compra:"Bombazo",venta:"Mercado",
+              nuevo_lider:"Terremoto",subida:"Clasificación",bajada:"Clasificación",lider:"Clasificación"};
 const J = E.jornada;
 const editorial = String(E.editorial||"").split(/\n\s*\n/).map(p=>`<p>${$(p)}</p>`).join("");
 
@@ -116,15 +141,15 @@ document.getElementById("app").innerHTML = `
      : `<p>${$(E.standing[0].team)} encabeza la tabla con ${$(E.standing[0].points)} puntos.</p>`}
 </section>
 
+${(E.gossip||[]).length ? `<section class="rosa band"><h3 class="sec">Prensa rosa · Lo que nadie se atreve a contar</h3>
+  <div class="cols">${E.gossip.map(g=>`<div class="item"><div class="kicker">${$(g.kicker)}</div><h4>${$(g.headline)}</h4><p>${$(g.text)}</p></div>`).join("")}</div></section>` : ""}
+
 <div class="grid">
   <div class="col">
     ${E.features.length ? `<h3 class="sec">Reportajes</h3>` + E.features.map(f => `<article class="feature">
       <div class="kicker">${$(kick[f.kind]||"Mercado")}${f.date?" · "+dt(f.date):""}</div>
       <h4>${$(f.headline)}</h4>${f.dek?`<p class="dek">${$(f.dek)}</p>`:""}
       ${f.body.map(p=>`<p>${$(p)}</p>`).join("")}</article>`).join("") : ""}
-    <h3 class="sec">Más noticias</h3>
-    ${E.briefs.length ? E.briefs.map(b => `<div class="brief"><div class="kicker">${$(kick[b.kind]||"")}${b.date?" · "+dt(b.date):""}</div><h4>${$(b.headline)}</h4>${b.dek?`<p style="margin:4px 0 0">${$(b.dek)}</p>`:""}</div>`).join("")
-                      : `<p><i>Semana tranquila. Demasiado tranquila.</i></p>`}
   </div>
 
   <div class="col">
@@ -137,11 +162,18 @@ document.getElementById("app").innerHTML = `
         <td>${$(t.team)}${t.manager && t.manager!==t.team ? `<br><small style="color:var(--muted)">${$(t.manager)}</small>`:""}</td>
         <td class="n">${$(t.points)}</td><td class="n">${t.week_points ?? "—"}</td><td class="n">${arrow(t.delta)}</td></tr>`).join("")}
     </table>
+    ${E.thermo ? `<div class="thermo">
+      <div class="hot"><div class="kicker">🔥 On fire</div><b>${$(E.thermo.hot.team)}</b><small>${$(E.thermo.hot.points)} pts en la jornada</small></div>
+      <div class="cold"><div class="kicker">🧊 En crisis</div><b>${$(E.thermo.cold.team)}</b><small>${$(E.thermo.cold.points)} pts en la jornada</small></div>
+    </div>` : ""}
     <h3 class="sec" style="margin-top:18px">Mercado de fichajes</h3>
     ${E.market.length ? E.market.map(a => `<div class="mkt"><span class="tag ${a.type}">${a.type}</span>
       <b>${$(a.who)}</b> ${verb[a.type]||""} <b>${$(a.player)}</b>${a.other && a.type!=="fichaje" && a.type!=="venta" ? ` (de ${$(a.other)})`:""}
       · ${M(a.amount)} <span style="color:var(--muted)">${dt(a.date)}</span></div>`).join("")
       : `<p><i>Ni un movimiento esta semana.</i></p>`}
+    <h3 class="sec" style="margin-top:18px">Más noticias</h3>
+    ${E.briefs.length ? E.briefs.map(b => `<div class="brief"><div class="kicker">${$(kick[b.kind]||"")}${b.date?" · "+dt(b.date):""}</div><h4>${$(b.headline)}</h4>${b.dek?`<p style="margin:4px 0 0">${$(b.dek)}</p>`:""}</div>`).join("")
+                      : `<p><i>Semana tranquila. Demasiado tranquila.</i></p>`}
   </div>
 
   <div class="col">
@@ -162,7 +194,30 @@ document.getElementById("app").innerHTML = `
   </div>
 </div>
 
-<footer>${$(E.title)} · Periódico no oficial hecho entre amigos con datos de LaLiga Fantasy · Generado el ${$(E.date)}</footer>`;
+
+<footer>${$(E.title)} · Anuncios y marcas 100% inventados · Periódico no oficial hecho entre amigos con datos de LaLiga Fantasy · Generado el ${$(E.date)}</footer>`;
+
+// Rellena con anuncios las columnas que se quedan cortas
+(function fillAds(){
+  const ads = (E.ads || []).slice();
+  const cols = [...document.querySelectorAll(".grid > .col")];
+  if (!ads.length || cols.length < 2 || getComputedStyle(cols[0]).borderLeftStyle === undefined) return;
+  if (window.matchMedia("(max-width:860px)").matches) {   // móvil: un par de anuncios intercalados
+    ads.slice(0, 2).forEach((a, i) => cols[i] && cols[i].insertAdjacentHTML("beforeend", adHTML(a)));
+    return;
+  }
+  for (let n = 0; n < 8 && ads.length; n++) {
+    // altura del contenido real (la rejilla estira las columnas, así que medimos hasta el último hijo)
+    const hs = cols.map(c => c.lastElementChild ? c.lastElementChild.getBoundingClientRect().bottom - c.getBoundingClientRect().top : 0);
+    const max = Math.max(...hs), i = hs.indexOf(Math.min(...hs));
+    if (max - hs[i] < 230) break;
+    cols[i].insertAdjacentHTML("beforeend", adHTML(ads.shift()));
+  }
+  function adHTML(a){
+    return `<div class="ad ${a.style}"><div class="lbl">Publicidad</div><div class="brand">${$(a.brand)}</div>
+      <div class="t">${$(a.title)}</div><p class="d">${$(a.text)}</p><span class="p">${$(a.price)}</span></div>`;
+  }
+})();
 </script>
 </body>
 </html>

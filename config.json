@@ -6,5 +6,10 @@
   "OUT_DIR": "site",
   "EXCLUDE": ["Al-Malumitas FC", "EnriqueVeteYa69"],
   "IMPORTANT_MIN": 10000000,
-  "ALIAS": {"Al-Ilitihad del segu": "Al-Ittihad del Segura"}
+  "ALIAS": {"Al-Ilitihad del segu": "Al-Ittihad del Segura"},
+  "AFICION": {
+  "Al-SanJuanitoFC": "Barça",
+  "Al-Moradí CF": "Madrid",
+  "Al-Ittihad del Segura": "Barça"
+  }
 }

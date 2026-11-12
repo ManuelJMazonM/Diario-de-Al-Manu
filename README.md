@@ -50,7 +50,8 @@ comprobar campos la primera vez.
 ## 3. Automatizarlo en GitHub
 
 El workflow `.github/workflows/periodico.yml` genera la edición cada mañana y la publica
-en GitHub Pages. El repo debe ser **privado** (Pages desde un repo privado requiere
+en la rama `gh-pages` (Settings → Pages → Deploy from a branch → gh-pages / root).
+No usa acciones externas: solo git, python3 y gh. El repo debe ser **privado** (Pages desde un repo privado requiere
 GitHub Pro, gratis con el Student Pack). La web publicada es accesible para quien tenga
 el enlace, pero no se indexa en buscadores (`noindex` + `robots.txt`).
 
@@ -64,6 +65,10 @@ Con `ANTHROPIC_API_KEY` en el entorno, el editorial lo escribe un modelo a parti
 día (sin inventar cifras). Sin clave, usa plantillas.
 
 ## Personalizar
+
+- **Afición** (`AFICION` en config.json): de qué equipo es cada mánager. La prensa rosa cruza
+  los resultados reales de la jornada ("Luto en casa de X") y las plantillas ("culé de boquilla"
+  si tiene jugadores del eterno rival). Vale "Madrid", "Barça", "Atleti", "Betis"…
 
 - Titulares: diccionario `HEAD` en `lff/news.py` (mete los motes de tus amigos).
 - Diseño: `lff/periodico.html`.

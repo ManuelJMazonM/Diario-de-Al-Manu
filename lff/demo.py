@@ -15,7 +15,7 @@ PLAYERS = [
     (6, "Nico Williams", "DEL", "Athletic Club", 19_500_000, 58, 4.8, 5),
     (7, "Oyarzabal", "DEL", "Real Sociedad", 13_000_000, 61, 5.1, 13),
     (8, "Budimir", "DEL", "Osasuna", 8_400_000, 55, 4.6, 1),
-    (9, "Isco", "MED", "Real Betis", 7_000_000, 49, 4.1, 7),
+    (9, "Isco", "MED", "Real Betis", 7_000_000, 49, 4.1, 9),
     (10, "Kubo", "MED", "Real Sociedad", 15_000_000, 52, 4.3, 10),
     (11, "Fermín", "MED", "FC Barcelona", 6_900_000, 40, 3.3, 8),
     (12, "Sørloth", "DEL", "Atlético de Madrid", 12_000_000, 47, 3.9, 0),
@@ -66,8 +66,9 @@ def make_demo(out="demo_data"):
         ("compra", "Rayo Vayacansancio", "Real Sofá CF", 10, 14_000_000, 3.4),
         ("fichaje", "Manu United", None, 11, 7_300_000, 4.0),
         ("fichaje", "Los Galácticos de Pepe", None, 6, 22_400_000, 6.1),
+        ("alineacion_incorrecta", "Atlético Resaca", None, 12, None, 1.5),
     ]
-    activity = [{"id": str(n), "type": t, "who": w, "other": o, "player": info[pid][1], "player_id": str(pid),
+    activity = [{"id": str(n), "type": t, "who": w, "other": o, "player": info[pid][1] if t != "alineacion_incorrecta" else None, "player_id": str(pid),
                  "amount": a, "date": (today - timedelta(days=ago)).isoformat()}
                 for n, (t, w, o, pid, a, ago) in enumerate(acts)]
     (d / "activity.json").write_text(json.dumps(activity, ensure_ascii=False, indent=1), "utf-8")

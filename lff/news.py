@@ -14,6 +14,8 @@ HEAD = {
         "¡CLAUSULAZO! {who} le arranca a {player} a {other} por {amount}",
         "Atraco a mano armada: {who} paga la cláusula de {player} ({amount})",
         "{other} no da crédito: {who} se lleva a {player} por la vía rápida",
+        "¡ESCÁNDALO! {who} saquea a {other} y se lleva a {player} ({amount})",
+        "Puñalada en el mercado: {player} abandona a {other} por {who}",
     ],
     "fichaje": [
         "{who} rompe la hucha: {player} llega por {amount}",
@@ -22,6 +24,8 @@ HEAD = {
         "{player} ya tiene nuevo jefe: {who} paga {amount}",
         "Movimiento en los despachos: {who} cierra a {player} ({amount})",
         "{who} no se esconde y suelta {amount} por {player}",
+        "¡BOMBA! {who} pone {amount} encima de la mesa y {player} dice sí",
+        "{who} enloquece en el mercado: {amount} por {player}",
     ],
     "compra": [
         "{who} negocia con {other} y se queda a {player} por {amount}",
@@ -30,6 +34,8 @@ HEAD = {
     "venta": [
         "{who} hace caja: vende a {player} por {amount}",
         "Adiós, {player}: {who} lo vende y se embolsa {amount}",
+        "{who} da la patada a {player}: fuera por {amount}",
+        "Sin sentimientos: {who} vende a {player} por {amount}",
     ],
     "lider": [
         "{team} sigue mandando: líder con {points} puntos",
@@ -319,8 +325,200 @@ def build_jornada(cur, rng, owners):
     }
 
 
+RIVALES = {"Real Madrid": ["FC Barcelona", "Atlético de Madrid"],
+           "FC Barcelona": ["Real Madrid", "RCD Espanyol"],
+           "Atlético de Madrid": ["Real Madrid"],
+           "Real Betis": ["Sevilla FC"], "Sevilla FC": ["Real Betis"],
+           "Athletic Club": ["Real Sociedad"], "Real Sociedad": ["Athletic Club"],
+           "Valencia CF": ["Levante UD", "Villarreal CF"]}
+APODO_AFICION = {"Real Madrid": "madridista", "FC Barcelona": "culé", "Atlético de Madrid": "colchonero",
+                 "Real Betis": "bético", "Sevilla FC": "sevillista", "Athletic Club": "león",
+                 "Valencia CF": "valencianista", "Real Sociedad": "txuri-urdin"}
+
+
+def _club_key(name):
+    """'barça', 'Barcelona', 'FC Barcelona' -> 'FC Barcelona' (para cruzar la afición con los resultados)."""
+    import unicodedata
+    n = "".join(c for c in unicodedata.normalize("NFD", (name or "").lower().replace("ç", "c"))
+                if unicodedata.category(c) != "Mn")
+    for key, words in (("FC Barcelona", ("barca", "barcelona")), ("Atlético de Madrid", ("atletico", "atleti")),
+                       ("Real Madrid", ("madrid",)), ("Real Betis", ("betis",)), ("Sevilla FC", ("sevilla",)),
+                       ("Athletic Club", ("athletic",)), ("Real Sociedad", ("sociedad", "la real")),
+                       ("Valencia CF", ("valencia",)), ("Villarreal CF", ("villarreal",)),
+                       ("RCD Espanyol", ("espanyol",)), ("Levante UD", ("levante",))):
+        if any(w in n for w in words):
+            return key
+    return name
+
+
+def build_gossip(cur, activity, standing, jornada, owners, P, aficion, today, rng):
+    """Prensa rosa: todo sale de datos reales; lo especulativo va marcado como rumor."""
+    items = []
+    teams = [t["team"] for t in standing]
+    recent = lambda a, d: (_parse(a.get("date")) or datetime.min) >= today - timedelta(days=d)
+    jpts = {}
+    for m in ((jornada or {}).get("_matches") or []):
+        for p in m["players"]:
+            jpts[p["id"]] = p
+    week = (jornada or {}).get("week")
+
+    # Culebrón: clausulazos/compras entre los mismos dos mánagers
+    pairs = {}
+    for a in activity:
+        if a["type"] in ("clausulazo", "compra") and a.get("who") in teams and a.get("other") in teams and recent(a, 45):
+            k = tuple(sorted((a["who"], a["other"])))
+            pairs.setdefault(k, []).append(a)
+    for (x, y), ops in sorted(pairs.items(), key=lambda kv: -len(kv[1]))[:1]:
+        claus = [o for o in ops if o["type"] == "clausulazo"]
+        if claus:
+            c = claus[0]
+            items.append({"kicker": "Culebrón", "headline": f"Guerra fría entre {x} y {y}",
+                          "text": f"Desde que {c['who']} le levantó a {c['player']} a {c['other']}, en el vestuario "
+                                  f"no se hablan. Fuentes de esta redacción aseguran que la cosa no ha terminado."})
+        elif len(ops) >= 2:
+            items.append({"kicker": "Romance de mercado", "headline": f"{x} y {y}, inseparables",
+                          "text": f"Ya van {len(ops)} operaciones entre ellos. ¿Amistad, negocio… o algo más?"})
+
+    # Corazón roto: vendió a un jugador que después revienta la jornada
+    for a in activity:
+        if a["type"] == "venta" and a.get("who") in teams and recent(a, 21):
+            p = jpts.get(str(a.get("player_id")))
+            o = owners.get(p["id"]) if p else None
+            if p and (p["points"] or 0) >= 8 and o != a["who"]:
+                items.append({"kicker": "Corazón roto",
+                              "headline": f"{a['who']} se tira de los pelos: {a['player']} hace {pts(p['points'])}",
+                              "text": f"Lo vendió por {M(a['amount'])} y en la jornada {week} se salió"
+                                      + (f"… con la camiseta de {o}." if o else ". Y encima sigue libre en el mercado.")})
+                break
+
+    # Sucesos: alineaciones indebidas
+    for a in activity:
+        if a["type"] == "alineacion_incorrecta" and a.get("who") in teams and recent(a, 14):
+            items.append({"kicker": "Sucesos", "headline": f"Escándalo: {a['who']} se presenta con la alineación mal hecha",
+                          "text": "Los servicios jurídicos de la liga estudian el caso. La afición, indignada."})
+            break
+
+    # Afición: el equipo del corazón de cada mánager en la jornada real
+    results = {}
+    for r in ((jornada or {}).get("results") or []):
+        if r.get("ls") is None or r.get("vs") is None:
+            continue
+        for side, gf, gc, rival in (("local", r["ls"], r["vs"], r["visitor"]), ("visitor", r["vs"], r["ls"], r["local"])):
+            results[_club_key(r[side])] = (gf, gc, rival)
+    fan_lines = []
+    for team, club in (aficion or {}).items():
+        if team not in teams:
+            continue
+        ck = _club_key(club)
+        apodo = APODO_AFICION.get(ck, f"hincha del {ck}")
+        res = results.get(ck)
+        if res:
+            gf, gc, rival = res
+            if gf < gc:
+                fan_lines.append({"kicker": "Drama", "headline": f"Luto en casa de {team}",
+                                  "text": f"Su {ck} cayó {gf}-{gc} ante el {rival}. Nos cuentan que no ha querido hablar con nadie."})
+            elif gf > gc + 1:
+                fan_lines.append({"kicker": "Euforia", "headline": f"{team}, insoportable tras el {gf}-{gc} de su {ck}",
+                                  "text": "Testigos aseguran que lleva desde el partido mandando audios al grupo."})
+        # Traición: tiene jugadores del eterno rival
+        tid = next((t["team_id"] for t in standing if t["team"] == team), None)
+        squad = (cur.get("squads") or {}).get(tid) or []
+        traitors = [P[str(pl["id"])]["name"] for pl in squad
+                    if str(pl["id"]) in P and _club_key(P[str(pl["id"])].get("club")) in RIVALES.get(ck, [])]
+        if traitors:
+            fan_lines.append({"kicker": "Traición", "headline": f"{team}, {apodo} de boquilla",
+                              "text": f"Presume de {ck}, pero en su plantilla tiene a {', '.join(traitors[:3])}. "
+                                      "La grada pide explicaciones."})
+    rng.shuffle(fan_lines)
+    # Primero lo que pasó en el campo (drama/euforia), luego traiciones; como mucho una por kicker
+    fan_lines.sort(key=lambda f: f["kicker"] not in ("Drama", "Euforia"))
+    seen = set()
+    for f in fan_lines:
+        if f["kicker"] not in seen and len(seen) < 2:
+            items.append(f)
+            seen.add(f["kicker"])
+
+    # Rumor (sin contrastar): la estrella de la jornada que nadie tiene
+    free = [p for p in ((jornada or {}).get("stars") or []) if not p.get("owner")]
+    if free and teams:
+        p = free[0]
+        target = rng.choice(teams)
+        items.append({"kicker": "Rumor · sin contrastar",
+                      "headline": f"{p['name']}, en la órbita de {target}",
+                      "text": f"Tras sus {pts(p['points'])} en la jornada {week}, fuentes cercanas al mánager "
+                              f"(que no han querido identificarse) aseguran que {target} ya prepara una puja."})
+
+    # Desaparecido
+    last = {}
+    for a in activity:
+        d = _parse(a.get("date"))
+        if a.get("who") in teams and d and a["type"] in TRANSFER_TYPES:
+            last[a["who"]] = max(last.get(a["who"], d), d)
+    idle = sorted(((today - last[t]).days if t in last else 999, t) for t in teams)
+    if idle and idle[-1][0] >= 7:
+        days, t = idle[-1]
+        items.append({"kicker": "Se busca", "headline": f"¿Alguien ha visto a {t}?",
+                      "text": (f"Lleva {days} días sin tocar el mercado." if days < 999 else "No consta que haya fichado nunca.")
+                              + " Su familia pide colaboración ciudadana."})
+    return items[:6]
+
+
+def thermometer(standing):
+    wk = [t for t in standing if t.get("week_points") is not None]
+    if len(wk) < 2:
+        return None
+    hot = max(wk, key=lambda t: t["week_points"])
+    cold = min(wk, key=lambda t: t["week_points"])
+    return {"hot": {"team": hot["team"], "points": hot["week_points"]},
+            "cold": {"team": cold["team"], "points": cold["week_points"]}}
+
+
+def build_ads(standing, jornada, gossip, top_spender, rng):
+    """Anuncios de marcas inventadas con el merchandising de la liga. Todo ficticio."""
+    teams = [t["team"] for t in standing]
+    if not teams:
+        return []
+    leader, last = standing[0]["team"], standing[-1]["team"]
+    price = lambda: f"{rng.choice([9, 12, 14, 19, 24, 29, 39])},99 €"
+    j = jornada or {}
+    ads = [
+        {"brand": "EAU DE CLAUSULAZO", "style": "dark",
+         "title": "La fragancia de los que no piden permiso",
+         "text": f"Notas de cartera abierta y madera de banquillo. Inspirada en {leader}.", "price": price()},
+        {"brand": "BUFANDAS EL SUPLENTE", "style": "box",
+         "title": f"Bufanda oficial de {rng.choice(teams)}",
+         "text": "100% poliéster, 0% títulos. Abriga más que su delantera.", "price": price()},
+        {"brand": "SEGUROS FAROLILLO", "style": "classic",
+         "title": "¿Último de la liga? Le cubrimos la vergüenza",
+         "text": f"Pregunte por nuestro Plan {last}: cobertura total contra memes del grupo.", "price": "Llame ya"},
+        {"brand": "ACADEMIA EL ONCE BIEN PUESTO", "style": "box",
+         "title": "Aprenda a alinear en 3 sencillas lecciones",
+         "text": "Método probado. Primera clase gratis para quien salió con la alineación mal hecha.", "price": "Matrícula abierta"},
+    ]
+    if top_spender:
+        ads.append({"brand": "EDICIONES DERROCHE", "style": "classic",
+                    "title": f"Curso online: cómo fundirse {M(top_spender[1])} en una semana",
+                    "text": f"Impartido por {top_spender[0]}. Incluye diploma y deudas.", "price": price()})
+    if j.get("paquete"):
+        ads.append({"brand": "PELUCHES TITULAR", "style": "dark",
+                    "title": f"Peluche oficial de {j['paquete']['name']}",
+                    "text": "Abrazable, lavable y, como el original, no alineable.", "price": price()})
+    if j.get("crack"):
+        ads.append({"brand": "TEXTIL LA GRADA", "style": "box",
+                    "title": f"Camiseta «Yo tengo a {j['crack']['name']}»",
+                    "text": f"Edición limitada para la afición de {j['crack']['owner']}. Tallas de la S a la XXL de ego.",
+                    "price": price()})
+    se_busca = next((g for g in gossip or [] if g["kicker"] == "Se busca"), None)
+    if se_busca:
+        ads.append({"brand": "GPS LOCALIZA-MÍSTER", "style": "classic",
+                    "title": "¿Su mánager no ficha? Lo encontramos",
+                    "text": "Rastreo 24h de mánagers desaparecidos. Discreción garantizada.", "price": price()})
+    rng.shuffle(ads)
+    return ads
+
+
 def build_edition(cur, prev, activity, title="El Diario del Míster", days=7, exclude=None,
-                  important_min=10_000_000, max_articles=3, alias=None):
+                  important_min=10_000_000, max_articles=3, alias=None, aficion=None):
     P = cur.pop("_players", {}) or {}
     _apply_alias(cur, prev, activity, alias or {})
     excl = list(exclude or []) + [alias[e] for e in (exclude or []) if alias and e in alias]
@@ -358,6 +556,12 @@ def build_edition(cur, prev, activity, title="El Diario del Míster", days=7, ex
 
     # --- jornada ---
     jornada = build_jornada(cur, rng, owners)
+    if jornada:
+        jornada["_matches"] = (cur.get("jornada") or {}).get("matches") or []
+    aficion = {(alias or {}).get(k, k): v for k, v in (aficion or {}).items()}
+    gossip = build_gossip(cur, activity, standing, jornada, owners, P, aficion, today, rng)
+    if jornada:
+        jornada.pop("_matches", None)
 
     # --- breves ---
     stories = []
@@ -402,13 +606,14 @@ def build_edition(cur, prev, activity, title="El Diario del Míster", days=7, ex
         "points_week": cur.get("points_week"),
         "lead": lead, "features": features, "briefs": stories[:6], "standing": standing,
         "market": sorted(money, key=lambda a: a["date"] or "", reverse=True)[:12],
-        "jornada": jornada, "top_spender": max(spend.items(), key=lambda x: x[1]) if spend else None,
+        "jornada": jornada, "gossip": gossip, "thermo": thermometer(standing), "top_spender": max(spend.items(), key=lambda x: x[1]) if spend else None,
         "editorial": None,
     }
     if os.environ.get("ANTHROPIC_API_KEY"):
         for art in [lead] + features:
             if art.get("body") and art.get("kind") in TRANSFER_TYPES:
                 art["body"] = llm_article(art) or art["body"]
+    edition["ads"] = build_ads(standing, jornada, gossip, edition["top_spender"], rng)
     edition["editorial"] = llm_editorial(edition) or default_editorial(edition, rng)
     return edition
 

@@ -21,7 +21,7 @@ def build(data_dir="data"):
     ed = news.build_edition(cur, prev, activity, title=CFG.get("TITLE", "El Diario del Míster"),
                             days=CFG.get("DAYS", 7), exclude=CFG.get("EXCLUDE", []),
                             important_min=CFG.get("IMPORTANT_MIN", 10_000_000),
-                            alias=CFG.get("ALIAS", {}))
+                            alias=CFG.get("ALIAS", {}), aficion=CFG.get("AFICION", {}))
     news.render(ed, CFG.get("OUT_DIR", "site"))
 
 
@@ -41,6 +41,8 @@ def main():
     if cmd == "demo":
         from lff.demo import make_demo
         make_demo("demo_data")
+        CFG.setdefault("TITLE", "El Diario de Al-Manu")
+        CFG.setdefault("AFICION", {"Manu United": "Barça", "Rayo Vayacansancio": "Real Madrid", "Atlético Resaca": "Atleti"})
         build("demo_data")
     if cmd not in ("collect", "build", "daily", "demo", "diag", "login"):
         print(__doc__)
