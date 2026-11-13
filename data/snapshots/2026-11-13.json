@@ -1,0 +1,3565 @@
+{
+ "date": "2026-11-13",
+ "taken_at": "2026-11-13T13:35:31.336880+00:00",
+ "league_id": "017729275",
+ "league_name": "SUPER LIGA RIVES 26-27",
+ "week": 13,
+ "points_week": 12,
+ "standing": [
+  {
+   "team_id": "37020164",
+   "team": "Al-SanJuanitoFC",
+   "manager": "Al-SanJuanitoFC",
+   "points": 548,
+   "week_points": 61,
+   "value": 336987413,
+   "position": 1,
+   "prev_position": 1
+  },
+  {
+   "team_id": "37006883",
+   "team": "Al-Moradí CF",
+   "manager": "Al-Moradí CF",
+   "points": 506,
+   "week_points": 82,
+   "value": 745303423,
+   "position": 2,
+   "prev_position": 3
+  },
+  {
+   "team_id": "37020040",
+   "team": "Al-Ilitihad del segu",
+   "manager": "Al-Ilitihad del segu",
+   "points": 503,
+   "week_points": 45,
+   "value": 331600126,
+   "position": 3,
+   "prev_position": 2
+  },
+  {
+   "team_id": "37024497",
+   "team": "Al-Malumitas FC",
+   "manager": "Al-Malumitas FC",
+   "points": 104,
+   "week_points": 0,
+   "value": 116496167,
+   "position": 4,
+   "prev_position": 4
+  },
+  {
+   "team_id": "39060670",
+   "team": "EnriqueVeteYa69",
+   "manager": "EnriqueVeteYa69",
+   "points": 21,
+   "week_points": 0,
+   "value": 148445237,
+   "position": 5,
+   "prev_position": 5
+  }
+ ],
+ "squads": {
+  "37020164": [
+   {
+    "id": "2755",
+    "name": "Ryan",
+    "pos": "POR",
+    "value": 18060313,
+    "points": 81,
+    "clause": 26647235
+   },
+   {
+    "id": "2742",
+    "name": "Nacho Perez",
+    "pos": "DEF",
+    "value": 1248703,
+    "points": 41,
+    "clause": 1500000
+   },
+   {
+    "id": "2714",
+    "name": "Javi Rueda",
+    "pos": "DEF",
+    "value": 4744010,
+    "points": 40,
+    "clause": 5368294
+   },
+   {
+    "id": "3155",
+    "name": "Grimaldo",
+    "pos": "DEF",
+    "value": 93946124,
+    "points": 95,
+    "clause": 93946124
+   },
+   {
+    "id": "3082",
+    "name": "Lejeune",
+    "pos": "DEF",
+    "value": 14345768,
+    "points": 34,
+    "clause": 14345768
+   },
+   {
+    "id": "2426",
+    "name": "E. Militão",
+    "pos": "DEF",
+    "value": 6090971,
+    "points": 2,
+    "clause": 7500000
+   },
+   {
+    "id": "2868",
+    "name": "Carlos Macià",
+    "pos": "MED",
+    "value": 804901,
+    "points": 29,
+    "clause": 1000000
+   },
+   {
+    "id": "3044",
+    "name": "Dotor",
+    "pos": "MED",
+    "value": 3899037,
+    "points": 45,
+    "clause": 5389187
+   },
+   {
+    "id": "2932",
+    "name": "Ángel Pérez",
+    "pos": "MED",
+    "value": 32621611,
+    "points": 63,
+    "clause": 43483814
+   },
+   {
+    "id": "2995",
+    "name": "Mario Soriano",
+    "pos": "MED",
+    "value": 54084597,
+    "points": 82,
+    "clause": 54084597
+   },
+   {
+    "id": "2464",
+    "name": "Pepelu",
+    "pos": "MED",
+    "value": 47778626,
+    "points": 68,
+    "clause": 47778626
+   },
+   {
+    "id": "2358",
+    "name": "F. De Jong",
+    "pos": "MED",
+    "value": 12885411,
+    "points": 10,
+    "clause": 12885411
+   },
+   {
+    "id": "3249",
+    "name": "Adama Traoré",
+    "pos": "DEL",
+    "value": 5769827,
+    "points": 33,
+    "clause": 5832427
+   },
+   {
+    "id": "927",
+    "name": "Berenguer",
+    "pos": "DEL",
+    "value": 35860220,
+    "points": 79,
+    "clause": 35860220
+   },
+   {
+    "id": "3129",
+    "name": "Carlos Espí",
+    "pos": "DEL",
+    "value": 7059749,
+    "points": 23,
+    "clause": 16491296
+   }
+  ],
+  "37006883": [
+   {
+    "id": "204",
+    "name": "Aitor Fdez",
+    "pos": "POR",
+    "value": 1155055,
+    "points": 27,
+    "clause": 1155055
+   },
+   {
+    "id": "988",
+    "name": "Sivera",
+    "pos": "POR",
+    "value": 31690505,
+    "points": 89,
+    "clause": 47037289
+   },
+   {
+    "id": "3026",
+    "name": "Pablo Ramón",
+    "pos": "DEF",
+    "value": 1756308,
+    "points": 40,
+    "clause": 1756308
+   },
+   {
+    "id": "3068",
+    "name": "Cabrera",
+    "pos": "DEF",
+    "value": 16528936,
+    "points": 55,
+    "clause": 16528936
+   },
+   {
+    "id": "2525",
+    "name": "Salinas",
+    "pos": "DEF",
+    "value": 692231,
+    "points": 23,
+    "clause": 1000000
+   },
+   {
+    "id": "2561",
+    "name": "Hancko",
+    "pos": "DEF",
+    "value": 59750326,
+    "points": 75,
+    "clause": 59750326
+   },
+   {
+    "id": "637",
+    "name": "Moncayola",
+    "pos": "MED",
+    "value": 3735385,
+    "points": 35,
+    "clause": 4383877
+   },
+   {
+    "id": "652",
+    "name": "Rubén García",
+    "pos": "MED",
+    "value": 14501106,
+    "points": 55,
+    "clause": 14501106
+   },
+   {
+    "id": "3077",
+    "name": "Edu Expósito",
+    "pos": "MED",
+    "value": 47423150,
+    "points": 74,
+    "clause": 50500000
+   },
+   {
+    "id": "3101",
+    "name": "Bellingham",
+    "pos": "MED",
+    "value": 148673996,
+    "points": 118,
+    "clause": 148673996
+   },
+   {
+    "id": "1674",
+    "name": "Arda Güler",
+    "pos": "MED",
+    "value": 142125910,
+    "points": 125,
+    "clause": 142125910
+   },
+   {
+    "id": "2418",
+    "name": "Marc Roca",
+    "pos": "MED",
+    "value": 35244773,
+    "points": 59,
+    "clause": 35244773
+   },
+   {
+    "id": "3152",
+    "name": "Y. Zabiri",
+    "pos": "DEL",
+    "value": 54728489,
+    "points": 78,
+    "clause": 54728489
+   },
+   {
+    "id": "3262",
+    "name": "Félix Correia",
+    "pos": "DEL",
+    "value": 11372671,
+    "points": 58,
+    "clause": 11372671
+   },
+   {
+    "id": "2973",
+    "name": "Bil Nsongo",
+    "pos": "DEL",
+    "value": 13633500,
+    "points": 59,
+    "clause": 13633500
+   },
+   {
+    "id": "2522",
+    "name": "Raphinha",
+    "pos": "DEL",
+    "value": 168885481,
+    "points": 146,
+    "clause": 168885481
+   }
+  ],
+  "37020040": [
+   {
+    "id": "3040",
+    "name": "A. Herrero",
+    "pos": "POR",
+    "value": 15030020,
+    "points": 56,
+    "clause": 15030020
+   },
+   {
+    "id": "2930",
+    "name": "Nuñez",
+    "pos": "DEF",
+    "value": 3314826,
+    "points": 25,
+    "clause": 7500000
+   },
+   {
+    "id": "2596",
+    "name": "V. Chust",
+    "pos": "DEF",
+    "value": 6988391,
+    "points": 49,
+    "clause": 9127350
+   },
+   {
+    "id": "3284",
+    "name": "Carvajal",
+    "pos": "DEF",
+    "value": 8826264,
+    "points": 4,
+    "clause": 8826264
+   },
+   {
+    "id": "2938",
+    "name": "Koski",
+    "pos": "DEF",
+    "value": 38706594,
+    "points": 64,
+    "clause": 38706594
+   },
+   {
+    "id": "3041",
+    "name": "Rafita",
+    "pos": "DEF",
+    "value": 6107551,
+    "points": 43,
+    "clause": 6107551
+   },
+   {
+    "id": "1337",
+    "name": "Tenaglia",
+    "pos": "DEF",
+    "value": 19035357,
+    "points": 52,
+    "clause": 29318523
+   },
+   {
+    "id": "2314",
+    "name": "Vivian",
+    "pos": "DEF",
+    "value": 6484171,
+    "points": 27,
+    "clause": 6484171
+   },
+   {
+    "id": "3100",
+    "name": "Pedri",
+    "pos": "MED",
+    "value": 81526196,
+    "points": 68,
+    "clause": 94609732
+   },
+   {
+    "id": "3099",
+    "name": "Fornals",
+    "pos": "MED",
+    "value": 53141236,
+    "points": 67,
+    "clause": 53141236
+   },
+   {
+    "id": "3036",
+    "name": "Dani Lorenzo",
+    "pos": "MED",
+    "value": 8197898,
+    "points": 42,
+    "clause": 9499986
+   },
+   {
+    "id": "3108",
+    "name": "Aubameyang",
+    "pos": "DEL",
+    "value": 63645740,
+    "points": 67,
+    "clause": 126250095
+   },
+   {
+    "id": "2303",
+    "name": "I. Romero",
+    "pos": "DEL",
+    "value": 7138082,
+    "points": 49,
+    "clause": 7138082
+   },
+   {
+    "id": "2962",
+    "name": "Luismi Cruz",
+    "pos": "DEL",
+    "value": 10555060,
+    "points": 57,
+    "clause": 13329565
+   },
+   {
+    "id": "2712",
+    "name": "Pablo García",
+    "pos": "DEL",
+    "value": 4016030,
+    "points": 33,
+    "clause": 4016030
+   }
+  ],
+  "37024497": [
+   {
+    "id": "2321",
+    "name": "J. Musso",
+    "pos": "POR",
+    "value": 791161,
+    "points": 0,
+    "clause": 12185628
+   },
+   {
+    "id": "2325",
+    "name": "Molina",
+    "pos": "DEF",
+    "value": 5057075,
+    "points": 0,
+    "clause": 8927945
+   },
+   {
+    "id": "2356",
+    "name": "R. Araujo",
+    "pos": "DEF",
+    "value": 4635257,
+    "points": 0,
+    "clause": 12349753
+   },
+   {
+    "id": "2479",
+    "name": "Kike Salas",
+    "pos": "DEF",
+    "value": 28256683,
+    "points": 60,
+    "clause": 28256683
+   },
+   {
+    "id": "2936",
+    "name": "Egiluz",
+    "pos": "DEF",
+    "value": 616674,
+    "points": 0,
+    "clause": 1000000
+   },
+   {
+    "id": "1029",
+    "name": "Álvaro García",
+    "pos": "MED",
+    "value": 9304740,
+    "points": 37,
+    "clause": 23204656
+   },
+   {
+    "id": "2338",
+    "name": "Aimar",
+    "pos": "MED",
+    "value": 2249489,
+    "points": 12,
+    "clause": 29398281
+   },
+   {
+    "id": "2553",
+    "name": "Almada",
+    "pos": "MED",
+    "value": 5800439,
+    "points": 0,
+    "clause": 14194478
+   },
+   {
+    "id": "3035",
+    "name": "Izan M.",
+    "pos": "MED",
+    "value": 1093569,
+    "points": 17,
+    "clause": 13630301
+   },
+   {
+    "id": "3083",
+    "name": "Nico Williams",
+    "pos": "DEL",
+    "value": 62623586,
+    "points": 64,
+    "clause": 65000000
+   }
+  ],
+  "39060670": [
+   {
+    "id": "3018",
+    "name": "Eriksson",
+    "pos": "POR",
+    "value": 699011,
+    "points": 0,
+    "clause": 4064790
+   },
+   {
+    "id": "2429",
+    "name": "Fran García",
+    "pos": "DEF",
+    "value": 19749926,
+    "points": 40,
+    "clause": 19749926
+   },
+   {
+    "id": "2533",
+    "name": "Á. Carreras",
+    "pos": "DEF",
+    "value": 4071450,
+    "points": 29,
+    "clause": 18117700
+   },
+   {
+    "id": "3107",
+    "name": "Konaté",
+    "pos": "DEF",
+    "value": 43546494,
+    "points": 50,
+    "clause": 48629681
+   },
+   {
+    "id": "581",
+    "name": "Rioja",
+    "pos": "MED",
+    "value": 3196911,
+    "points": 33,
+    "clause": 16602023
+   },
+   {
+    "id": "3133",
+    "name": "Mangala",
+    "pos": "MED",
+    "value": 4363438,
+    "points": 36,
+    "clause": 17601283
+   },
+   {
+    "id": "3140",
+    "name": "Juan Cruz",
+    "pos": "MED",
+    "value": 1638334,
+    "points": 13,
+    "clause": 23024938
+   },
+   {
+    "id": "3199",
+    "name": "F. Bernal",
+    "pos": "MED",
+    "value": 4584427,
+    "points": 24,
+    "clause": 18068656
+   },
+   {
+    "id": "3183",
+    "name": "Dubasin",
+    "pos": "DEL",
+    "value": 2342750,
+    "points": 32,
+    "clause": 21876583
+   },
+   {
+    "id": "3210",
+    "name": "Gordon",
+    "pos": "DEL",
+    "value": 64133763,
+    "points": 62,
+    "clause": 69398702
+   }
+  ]
+ },
+ "jornada": {
+  "week": 12,
+  "matches": [
+   {
+    "id": "111",
+    "date": "2026-11-08T18:30:00+01:00",
+    "local": "Villarreal CF",
+    "visitor": "Getafe CF",
+    "ls": 2,
+    "vs": 0,
+    "state": 7,
+    "players": [
+     {
+      "id": "2614",
+      "name": "C. Romero",
+      "points": 16,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2469",
+      "name": "Costa",
+      "points": 13,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2556",
+      "name": "Buchanan",
+      "points": 13,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2504",
+      "name": "Ayoze",
+      "points": 10,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "3130",
+      "name": "Gulácsi",
+      "points": 9,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "1959",
+      "name": "Mouriño",
+      "points": 8,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2728",
+      "name": "Renato Veiga",
+      "points": 8,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "3087",
+      "name": "Pepe",
+      "points": 8,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "184",
+      "name": "David Soria",
+      "points": 7,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "2473",
+      "name": "Gueye",
+      "points": 6,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "3086",
+      "name": "Moleiro",
+      "points": 6,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2926",
+      "name": "Boselli",
+      "points": 6,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "1849",
+      "name": "Iñigo Perez",
+      "points": 5,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2868",
+      "name": "Carlos Macià",
+      "points": 5,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2761",
+      "name": "Oluwaseyi",
+      "points": 4,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2771",
+      "name": "Mikautadze",
+      "points": 4,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2661",
+      "name": "Djene",
+      "points": 3,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "3133",
+      "name": "Mangala",
+      "points": 3,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "3137",
+      "name": "Satriano",
+      "points": 3,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "2934",
+      "name": "Freeman",
+      "points": 2,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2511",
+      "name": "R. Terrats",
+      "points": 2,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "3135",
+      "name": "Andrés Garcia",
+      "points": 2,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "3154",
+      "name": "Enes Ünal",
+      "points": 2,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "3254",
+      "name": "Iván Azón",
+      "points": 2,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "1031",
+      "name": "Comesaña",
+      "points": 1,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "3242",
+      "name": "Saliba",
+      "points": 1,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2452",
+      "name": "Gudelj",
+      "points": 1,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "2774",
+      "name": "Kiko F.",
+      "points": 1,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "3200",
+      "name": "Francho",
+      "points": 1,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "3284",
+      "name": "Carvajal",
+      "points": 1,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "1614",
+      "name": "Cardona",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2467",
+      "name": "Júnior R.",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2696",
+      "name": "Ruben",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2698",
+      "name": "Pau Navarro",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "3220",
+      "name": "Nizar El Jmili",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "1611",
+      "name": "Bordalás",
+      "points": 0,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "2363",
+      "name": "Letacek",
+      "points": 0,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "2640",
+      "name": "Mario Martín",
+      "points": 0,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "2662",
+      "name": "Risco",
+      "points": 0,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "2699",
+      "name": "J. Ives Valou",
+      "points": 0,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "2736",
+      "name": "Davinchi",
+      "points": 0,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "2776",
+      "name": "A. Abqar",
+      "points": 0,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "2819",
+      "name": "Ferrer",
+      "points": 0,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "3134",
+      "name": "Saba Sazonov",
+      "points": 0,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "3150",
+      "name": "Mojica",
+      "points": 0,
+      "club": "Getafe CF"
+     },
+     {
+      "id": "3306",
+      "name": "Danfakha",
+      "points": 0,
+      "club": "Getafe CF"
+     }
+    ]
+   },
+   {
+    "id": "112",
+    "date": "2026-11-07T21:00:00+01:00",
+    "local": "Valencia CF",
+    "visitor": "Real Madrid",
+    "ls": 0,
+    "vs": 3,
+    "state": 7,
+    "players": [
+     {
+      "id": "1674",
+      "name": "Arda Güler",
+      "points": 19,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "2430",
+      "name": "Valverde",
+      "points": 13,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "3103",
+      "name": "Mbappé",
+      "points": 12,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "230",
+      "name": "Courtois",
+      "points": 11,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "2530",
+      "name": "Huijsen",
+      "points": 10,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "3106",
+      "name": "Cucurella",
+      "points": 10,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "3107",
+      "name": "Konaté",
+      "points": 9,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "1480",
+      "name": "Tchouaméni",
+      "points": 8,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "3101",
+      "name": "Bellingham",
+      "points": 8,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "2457",
+      "name": "Dimitrievski",
+      "points": 7,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3116",
+      "name": "Bernardo Silva",
+      "points": 7,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "3143",
+      "name": "Diomande",
+      "points": 7,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "3093",
+      "name": "Mourinho",
+      "points": 5,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "2431",
+      "name": "Brahim",
+      "points": 3,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "2464",
+      "name": "Pepelu",
+      "points": 2,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2612",
+      "name": "Ugrinic",
+      "points": 2,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3075",
+      "name": "Javi Guerra",
+      "points": 2,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "1300",
+      "name": "Camavinga",
+      "points": 2,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "3112",
+      "name": "Endrick",
+      "points": 2,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "1991",
+      "name": "Tárrega",
+      "points": 1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2461",
+      "name": "J. Vázquez",
+      "points": 1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2588",
+      "name": "Danjuma",
+      "points": 1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2748",
+      "name": "Aimar Blázquez",
+      "points": 1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3236",
+      "name": "Arnau",
+      "points": 1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3239",
+      "name": "Mayol",
+      "points": 1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2735",
+      "name": "Thiago Pitarch",
+      "points": 1,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "3129",
+      "name": "Carlos Espí",
+      "points": 1,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "1191",
+      "name": "Hugo Duro",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2403",
+      "name": "Copete",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2458",
+      "name": "Diakhaby",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2560",
+      "name": "Raba",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2617",
+      "name": "Sadiq",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3121",
+      "name": "Dieng",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3128",
+      "name": "Guido Rodríguez",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3232",
+      "name": "Van Oevelen",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3250",
+      "name": "Harvey Elliott",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3283",
+      "name": "Javier Aguirre",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2426",
+      "name": "E. Militão",
+      "points": 0,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "2428",
+      "name": "Rüdiger",
+      "points": 0,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "2531",
+      "name": "Trent",
+      "points": 0,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "2533",
+      "name": "Á. Carreras",
+      "points": 0,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "2722",
+      "name": "Mestre",
+      "points": 0,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "3080",
+      "name": "Dumfries",
+      "points": 0,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "581",
+      "name": "Rioja",
+      "points": -1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3120",
+      "name": "De Haas",
+      "points": -1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3206",
+      "name": "Maffeo",
+      "points": -1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2423",
+      "name": "Lunin",
+      "points": -1,
+      "club": "Real Madrid"
+     },
+     {
+      "id": "302",
+      "name": "Gayá",
+      "points": -3,
+      "club": "Valencia CF"
+     }
+    ]
+   },
+   {
+    "id": "113",
+    "date": "2026-11-06T21:00:00+01:00",
+    "local": "Sevilla FC",
+    "visitor": "Deportivo Alavés",
+    "ls": 0,
+    "vs": 0,
+    "state": 7,
+    "players": [
+     {
+      "id": "988",
+      "name": "Sivera",
+      "points": 15,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2759",
+      "name": "Vlachodimos",
+      "points": 10,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "3262",
+      "name": "Félix Correia",
+      "points": 10,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2568",
+      "name": "Youssef",
+      "points": 10,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3156",
+      "name": "Valentini",
+      "points": 10,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "1147",
+      "name": "Juan Iglesias",
+      "points": 9,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2753",
+      "name": "Suazo",
+      "points": 9,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2479",
+      "name": "Kike Salas",
+      "points": 8,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "1337",
+      "name": "Tenaglia",
+      "points": 8,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2453",
+      "name": "Agoumé",
+      "points": 7,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2938",
+      "name": "Koski",
+      "points": 7,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3069",
+      "name": "Blanco",
+      "points": 6,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3265",
+      "name": "Fofana",
+      "points": 5,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "270",
+      "name": "Guevara",
+      "points": 5,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2569",
+      "name": "Ibañez",
+      "points": 5,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2768",
+      "name": "Lucas Boyé",
+      "points": 5,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2454",
+      "name": "Ejuke",
+      "points": 4,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2456",
+      "name": "Isaac",
+      "points": 4,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "3138",
+      "name": "Sangante",
+      "points": 4,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "3266",
+      "name": "Stassin",
+      "points": 4,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2932",
+      "name": "Ángel Pérez",
+      "points": 3,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2680",
+      "name": "A. Castrín",
+      "points": 2,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2754",
+      "name": "Alfon",
+      "points": 2,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2959",
+      "name": "Luis García",
+      "points": 2,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "3145",
+      "name": "Robbie Ure",
+      "points": 2,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2577",
+      "name": "A. Rebbach",
+      "points": 2,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2600",
+      "name": "Mariano",
+      "points": 2,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2951",
+      "name": "Sánchez Flores",
+      "points": 2,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2342",
+      "name": "Protesoni",
+      "points": 1,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2552",
+      "name": "Jonny Otto",
+      "points": 1,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2887",
+      "name": "Mañas",
+      "points": 1,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3078",
+      "name": "T. Martínez",
+      "points": 1,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "856",
+      "name": "Guridi",
+      "points": 0,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "1251",
+      "name": "Carmona",
+      "points": 0,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2579",
+      "name": "Fran González",
+      "points": 0,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2790",
+      "name": "Cardoso",
+      "points": 0,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2876",
+      "name": "Iker Muñoz",
+      "points": 0,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2912",
+      "name": "Julio Díaz",
+      "points": 0,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "3117",
+      "name": "Vargas",
+      "points": 0,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "3175",
+      "name": "Guillén",
+      "points": 0,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "3211",
+      "name": "Kochorashvili",
+      "points": 0,
+      "club": "Sevilla FC"
+     },
+     {
+      "id": "2474",
+      "name": "Denis Suárez",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2564",
+      "name": "Aleñá",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2885",
+      "name": "Xanet Olaiz",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3153",
+      "name": "Miguel Rodríguez",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3159",
+      "name": "Novoa",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3160",
+      "name": "A. Rodriguez",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3257",
+      "name": "Diallo",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     }
+    ]
+   },
+   {
+    "id": "114",
+    "date": "2026-11-08T16:15:00+01:00",
+    "local": "Real Sociedad",
+    "visitor": "Rayo Vallecano",
+    "ls": 1,
+    "vs": 0,
+    "state": 7,
+    "players": [
+     {
+      "id": "701",
+      "name": "Barrenetxea",
+      "points": 13,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2448",
+      "name": "Oskarsson",
+      "points": 13,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "274",
+      "name": "Remiro",
+      "points": 12,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2444",
+      "name": "Sucic",
+      "points": 9,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2656",
+      "name": "Jon Martin",
+      "points": 9,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2772",
+      "name": "C. Soler",
+      "points": 9,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2438",
+      "name": "Aihen",
+      "points": 7,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "265",
+      "name": "Zubeldia",
+      "points": 6,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "1197",
+      "name": "Kubo",
+      "points": 6,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2443",
+      "name": "Aramburu",
+      "points": 6,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2387",
+      "name": "Camello",
+      "points": 6,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3082",
+      "name": "Lejeune",
+      "points": 6,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "1215",
+      "name": "Turrientes",
+      "points": 5,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2869",
+      "name": "Matarazzo",
+      "points": 5,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2383",
+      "name": "Pathé I. Ciss",
+      "points": 5,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3081",
+      "name": "Ratiu",
+      "points": 5,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2384",
+      "name": "Unai Lopez",
+      "points": 4,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2385",
+      "name": "Pedro Díaz",
+      "points": 4,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3267",
+      "name": "Emil Audero",
+      "points": 4,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "886",
+      "name": "De Frutos",
+      "points": 3,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "1056",
+      "name": "Pedrosa",
+      "points": 3,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3198",
+      "name": "Tsitaishvili",
+      "points": 3,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "1989",
+      "name": "Sergio Gómez",
+      "points": 2,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2621",
+      "name": "Gorrotxa",
+      "points": 2,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2818",
+      "name": "Hector Fort",
+      "points": 2,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2955",
+      "name": "Ochieng",
+      "points": 2,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2382",
+      "name": "Isi",
+      "points": 2,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2386",
+      "name": "Nteka",
+      "points": 2,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3260",
+      "name": "Mujaid Sadick",
+      "points": 2,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3085",
+      "name": "Guedes",
+      "points": 1,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2678",
+      "name": "J. Vertrouwd",
+      "points": 1,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2798",
+      "name": "Alemâo",
+      "points": 1,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2372",
+      "name": "Herrera",
+      "points": 0,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2435",
+      "name": "Marrero",
+      "points": 0,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2439",
+      "name": "Pacheco",
+      "points": 0,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2446",
+      "name": "Zakharyan",
+      "points": 0,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2665",
+      "name": "Marín",
+      "points": 0,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2834",
+      "name": "Beitia",
+      "points": 0,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "2865",
+      "name": "Gorka Carrera",
+      "points": 0,
+      "club": "Real Sociedad"
+     },
+     {
+      "id": "1121",
+      "name": "Balliu",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2378",
+      "name": "D. Cárdenas",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2465",
+      "name": "Fran Pérez",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2725",
+      "name": "De Las Sias",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2813",
+      "name": "Rayane",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3097",
+      "name": "Beñat",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3157",
+      "name": "Pelayo",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3244",
+      "name": "G. Bouaré",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     }
+    ]
+   },
+   {
+    "id": "115",
+    "date": "2026-11-07T18:30:00+01:00",
+    "local": "C.A. Osasuna",
+    "visitor": "Athletic Club",
+    "ls": 1,
+    "vs": 1,
+    "state": 7,
+    "players": [
+     {
+      "id": "1033",
+      "name": "Catena",
+      "points": 11,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "3083",
+      "name": "Nico Williams",
+      "points": 11,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2314",
+      "name": "Vivian",
+      "points": 9,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "652",
+      "name": "Rubén García",
+      "points": 8,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "68",
+      "name": "Unai Simón",
+      "points": 8,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2559",
+      "name": "V. Rosier",
+      "points": 7,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "204",
+      "name": "Aitor Fdez",
+      "points": 6,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "680",
+      "name": "Moi Gómez",
+      "points": 6,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "74",
+      "name": "Yuri",
+      "points": 6,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2549",
+      "name": "Navarro",
+      "points": 6,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3023",
+      "name": "Peio Canales",
+      "points": 6,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "873",
+      "name": "Torró",
+      "points": 5,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "927",
+      "name": "Berenguer",
+      "points": 5,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3065",
+      "name": "Laporte",
+      "points": 5,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3185",
+      "name": "Gerenabarrena",
+      "points": 5,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "1890",
+      "name": "Boyomo",
+      "points": 4,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "2337",
+      "name": "Kike Barja",
+      "points": 4,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "2923",
+      "name": "Raúl Moro",
+      "points": 4,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "91",
+      "name": "Iñaki Williams",
+      "points": 4,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "637",
+      "name": "Moncayola",
+      "points": 3,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "2005",
+      "name": "Abel Bretones",
+      "points": 3,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "3184",
+      "name": "H. Rincón",
+      "points": 3,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2721",
+      "name": "A. Osambela",
+      "points": 2,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "3084",
+      "name": "Budimir",
+      "points": 2,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "3285",
+      "name": "Arrasate",
+      "points": 2,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "1070",
+      "name": "De Galarreta",
+      "points": 2,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3094",
+      "name": "Edin Terzic",
+      "points": 2,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2339",
+      "name": "Raúl",
+      "points": 1,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "3183",
+      "name": "Dubasin",
+      "points": 1,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "77",
+      "name": "Yeray",
+      "points": 1,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "1787",
+      "name": "Prados",
+      "points": 1,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3213",
+      "name": "Johaneko",
+      "points": 1,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "644",
+      "name": "Sergio Herrera",
+      "points": 0,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "1730",
+      "name": "Iker Muñoz",
+      "points": 0,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "2366",
+      "name": "Diego Rico",
+      "points": 0,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "2723",
+      "name": "Mauro",
+      "points": 0,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "2846",
+      "name": "Arguibide",
+      "points": 0,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "2873",
+      "name": "Santos",
+      "points": 0,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "3243",
+      "name": "Rockson",
+      "points": 0,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "3290",
+      "name": "Rafa Fdez.",
+      "points": 0,
+      "club": "C.A. Osasuna"
+     },
+     {
+      "id": "2040",
+      "name": "Jauregizar",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2318",
+      "name": "O. Sancet",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2335",
+      "name": "Areso",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2644",
+      "name": "Padilla",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2645",
+      "name": "Rego",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3122",
+      "name": "Djalo",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3287",
+      "name": "Imga",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3295",
+      "name": "Vizcay",
+      "points": 0,
+      "club": "Athletic Club"
+     }
+    ]
+   },
+   {
+    "id": "116",
+    "date": "2026-11-07T14:00:00+01:00",
+    "local": "Málaga CF",
+    "visitor": "R. Racing Club",
+    "ls": 1,
+    "vs": 2,
+    "state": 7,
+    "players": [
+     {
+      "id": "3152",
+      "name": "Y. Zabiri",
+      "points": 12,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "1219",
+      "name": "Agirrezabala",
+      "points": 11,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3026",
+      "name": "Pablo Ramón",
+      "points": 10,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3247",
+      "name": "Iker Luque",
+      "points": 10,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3072",
+      "name": "Larrubia",
+      "points": 9,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3044",
+      "name": "Dotor",
+      "points": 8,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3045",
+      "name": "Niño",
+      "points": 8,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3234",
+      "name": "Matteo Prati",
+      "points": 7,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3125",
+      "name": "Canales",
+      "points": 6,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3002",
+      "name": "Iñigo Vicente",
+      "points": 5,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3004",
+      "name": "José Alberto",
+      "points": 5,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3011",
+      "name": "Jorge Salinas",
+      "points": 5,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3261",
+      "name": "Belocian",
+      "points": 5,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "2525",
+      "name": "Salinas",
+      "points": 4,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3038",
+      "name": "Rafa Rodríguez",
+      "points": 4,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3040",
+      "name": "A. Herrero",
+      "points": 4,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3048",
+      "name": "Ramon",
+      "points": 4,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3070",
+      "name": "Chupe",
+      "points": 4,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3139",
+      "name": "Pedro Felipe",
+      "points": 4,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "2398",
+      "name": "F. Calero",
+      "points": 3,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3036",
+      "name": "Dani Lorenzo",
+      "points": 3,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3059",
+      "name": "Pastor",
+      "points": 3,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "2712",
+      "name": "Pablo García",
+      "points": 3,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3034",
+      "name": "Joaquín",
+      "points": 2,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3041",
+      "name": "Rafita",
+      "points": 2,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "1529",
+      "name": "Almeida",
+      "points": 2,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3000",
+      "name": "Iñigo",
+      "points": 2,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3017",
+      "name": "Guliashvili",
+      "points": 2,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3207",
+      "name": "P. Martínez",
+      "points": 1,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3253",
+      "name": "Aaron",
+      "points": 1,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3035",
+      "name": "Izan M.",
+      "points": 0,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3042",
+      "name": "Einar",
+      "points": 0,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3050",
+      "name": "Jauregi",
+      "points": 0,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3053",
+      "name": "Funes",
+      "points": 0,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3054",
+      "name": "Recio",
+      "points": 0,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3057",
+      "name": "Carlos Lopez",
+      "points": 0,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3132",
+      "name": "J. Berrocal",
+      "points": 0,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3204",
+      "name": "Juani",
+      "points": 0,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3274",
+      "name": "Cajuste",
+      "points": 0,
+      "club": "Málaga CF"
+     },
+     {
+      "id": "3007",
+      "name": "Arana",
+      "points": 0,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3008",
+      "name": "Manu Hernando",
+      "points": 0,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3012",
+      "name": "Maguette",
+      "points": 0,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3018",
+      "name": "Eriksson",
+      "points": 0,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3022",
+      "name": "Villalibre",
+      "points": 0,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3027",
+      "name": "Facu",
+      "points": 0,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3205",
+      "name": "Iván Martín",
+      "points": 0,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3212",
+      "name": "Hugo Pérez",
+      "points": 0,
+      "club": "R. Racing Club"
+     },
+     {
+      "id": "3270",
+      "name": "Aznou",
+      "points": -2,
+      "club": "Málaga CF"
+     }
+    ]
+   },
+   {
+    "id": "117",
+    "date": "2026-11-07T16:15:00+01:00",
+    "local": "RCD Espanyol",
+    "visitor": "RC Deportivo",
+    "ls": 0,
+    "vs": 0,
+    "state": 7,
+    "players": [
+     {
+      "id": "2324",
+      "name": "Giménez",
+      "points": 12,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3109",
+      "name": "Leo Román",
+      "points": 12,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2565",
+      "name": "A. Fortuño",
+      "points": 11,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "1930",
+      "name": "El Hilali",
+      "points": 9,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2623",
+      "name": "Dolan",
+      "points": 9,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2965",
+      "name": "M. Loureiro",
+      "points": 9,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2976",
+      "name": "A. Alti",
+      "points": 9,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3077",
+      "name": "Edu Expósito",
+      "points": 8,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2995",
+      "name": "Mario Soriano",
+      "points": 8,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3098",
+      "name": "Q. Hartman",
+      "points": 7,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "1938",
+      "name": "Pol Lozano",
+      "points": 6,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2400",
+      "name": "Pere Milla",
+      "points": 6,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3068",
+      "name": "Cabrera",
+      "points": 6,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2963",
+      "name": "Quagliata",
+      "points": 6,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3119",
+      "name": "Amatucci",
+      "points": 6,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2973",
+      "name": "Bil Nsongo",
+      "points": 5,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2994",
+      "name": "Mella",
+      "points": 5,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2520",
+      "name": "Roberto",
+      "points": 3,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3105",
+      "name": "Cala",
+      "points": 3,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3305",
+      "name": "A. Santiago",
+      "points": 3,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3249",
+      "name": "Adama Traoré",
+      "points": 3,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3131",
+      "name": "Marcos",
+      "points": 2,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3161",
+      "name": "Javi Hernández",
+      "points": 2,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3177",
+      "name": "Vanja Drkusic",
+      "points": 2,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2362",
+      "name": "M. Casadó",
+      "points": 2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2962",
+      "name": "Luismi Cruz",
+      "points": 2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2977",
+      "name": "Riki",
+      "points": 2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2986",
+      "name": "Antonio Hidalgo",
+      "points": 2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3076",
+      "name": "Yeremay",
+      "points": 2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3237",
+      "name": "Bryan",
+      "points": 1,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2991",
+      "name": "D. Villares",
+      "points": 1,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2316",
+      "name": "Gorosabel",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2507",
+      "name": "Dmitrovic",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2516",
+      "name": "Puado",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2785",
+      "name": "Riedel",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2930",
+      "name": "Nuñez",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3127",
+      "name": "Moscardo",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3169",
+      "name": "Bauza",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3172",
+      "name": "Jose Angel",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2974",
+      "name": "Noé",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2975",
+      "name": "A. Ferllo",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2985",
+      "name": "Noubi",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2990",
+      "name": "Ximo Navarro",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3108",
+      "name": "Aubameyang",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3142",
+      "name": "Angeliño",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3148",
+      "name": "Asp Jensen",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3186",
+      "name": "Kevin",
+      "points": 0,
+      "club": "RC Deportivo"
+     }
+    ]
+   },
+   {
+    "id": "118",
+    "date": "2026-11-08T14:00:00+01:00",
+    "local": "Elche CF",
+    "visitor": "Real Betis",
+    "ls": 0,
+    "vs": 2,
+    "state": 7,
+    "players": [
+     {
+      "id": "121",
+      "name": "Bartra",
+      "points": 17,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2541",
+      "name": "Á. Valles",
+      "points": 11,
+      "club": "Real Betis"
+     },
+     {
+      "id": "3264",
+      "name": "Ceballos",
+      "points": 11,
+      "club": "Real Betis"
+     },
+     {
+      "id": "3263",
+      "name": "Revivo",
+      "points": 10,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3090",
+      "name": "Isco",
+      "points": 10,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2429",
+      "name": "Fran García",
+      "points": 9,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2543",
+      "name": "Natan",
+      "points": 9,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2548",
+      "name": "Riquelme",
+      "points": 9,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2613",
+      "name": "M. Dituro",
+      "points": 8,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3074",
+      "name": "Germán V.",
+      "points": 7,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2414",
+      "name": "Bellerín",
+      "points": 7,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2418",
+      "name": "Marc Roca",
+      "points": 7,
+      "club": "Real Betis"
+     },
+     {
+      "id": "3099",
+      "name": "Fornals",
+      "points": 7,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2703",
+      "name": "Redondo",
+      "points": 6,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2580",
+      "name": "Manuel Pellegrini",
+      "points": 5,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2770",
+      "name": "Antony",
+      "points": 5,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2596",
+      "name": "V. Chust",
+      "points": 4,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2601",
+      "name": "Martim Neto",
+      "points": 4,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2933",
+      "name": "Cepeda",
+      "points": 4,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3147",
+      "name": "Fer Niño",
+      "points": 4,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3089",
+      "name": "Ez Abde",
+      "points": 4,
+      "club": "Real Betis"
+     },
+     {
+      "id": "3231",
+      "name": "Parrott",
+      "points": 4,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2780",
+      "name": "Grady Diangana",
+      "points": 3,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2419",
+      "name": "Aitor Ruibal",
+      "points": 3,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2529",
+      "name": "Rubén S.",
+      "points": 2,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2958",
+      "name": "Morcillo",
+      "points": 2,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3190",
+      "name": "Ali Houary",
+      "points": 2,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2626",
+      "name": "Deossa",
+      "points": 2,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2941",
+      "name": "T. Morente",
+      "points": 1,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3151",
+      "name": "Buonanotte",
+      "points": 1,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3276",
+      "name": "Morante",
+      "points": 1,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2587",
+      "name": "Josan",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2715",
+      "name": "A. Iturbe",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2922",
+      "name": "Osorio",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3096",
+      "name": "Martín Anselmi",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3115",
+      "name": "Diaby",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3188",
+      "name": "E. Ponce",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3189",
+      "name": "Barzic",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3191",
+      "name": "Á. Padilla",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3268",
+      "name": "Lomonaco",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2415",
+      "name": "Llorente ",
+      "points": 0,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2468",
+      "name": "Diego Conde",
+      "points": 0,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2609",
+      "name": "Valentín Gómez",
+      "points": 0,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2627",
+      "name": "Junior",
+      "points": 0,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2651",
+      "name": "Iker Losada",
+      "points": 0,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2711",
+      "name": "Á. Ortiz",
+      "points": 0,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2940",
+      "name": "Fidalgo",
+      "points": 0,
+      "club": "Real Betis"
+     },
+     {
+      "id": "2294",
+      "name": "R.P. Bigas",
+      "points": -1,
+      "club": "Elche CF"
+     }
+    ]
+   },
+   {
+    "id": "119",
+    "date": "2026-11-08T18:30:00+01:00",
+    "local": "Celta",
+    "visitor": "Levante UD",
+    "ls": 0,
+    "vs": 0,
+    "state": 7,
+    "players": [
+     {
+      "id": "2755",
+      "name": "Ryan",
+      "points": 14,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2604",
+      "name": "Carreira",
+      "points": 10,
+      "club": "Celta"
+     },
+     {
+      "id": "3259",
+      "name": "Cáceres",
+      "points": 10,
+      "club": "Celta"
+     },
+     {
+      "id": "3174",
+      "name": "Mandi",
+      "points": 10,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2713",
+      "name": "Ionut Radu",
+      "points": 9,
+      "club": "Celta"
+     },
+     {
+      "id": "3123",
+      "name": "Marcos Alonso",
+      "points": 9,
+      "club": "Celta"
+     },
+     {
+      "id": "2445",
+      "name": "Olasagasti",
+      "points": 8,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2742",
+      "name": "Nacho Perez",
+      "points": 7,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2397",
+      "name": "Pablo Durán",
+      "points": 6,
+      "club": "Celta"
+     },
+     {
+      "id": "2607",
+      "name": "Ilaix Moriba",
+      "points": 6,
+      "club": "Celta"
+     },
+     {
+      "id": "2074",
+      "name": "Javi Rodríguez",
+      "points": 5,
+      "club": "Celta"
+     },
+     {
+      "id": "2954",
+      "name": "Antañón",
+      "points": 5,
+      "club": "Celta"
+     },
+     {
+      "id": "2671",
+      "name": "Jeremy Toljan",
+      "points": 5,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2078",
+      "name": "Hugo Alvarez",
+      "points": 4,
+      "club": "Celta"
+     },
+     {
+      "id": "2394",
+      "name": "Williot",
+      "points": 4,
+      "club": "Celta"
+     },
+     {
+      "id": "2492",
+      "name": "Iago Aspas",
+      "points": 4,
+      "club": "Celta"
+     },
+     {
+      "id": "2714",
+      "name": "Javi Rueda",
+      "points": 4,
+      "club": "Celta"
+     },
+     {
+      "id": "2302",
+      "name": "R. Brugué",
+      "points": 4,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3227",
+      "name": "Ifeanyi Ndukwe",
+      "points": 4,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3240",
+      "name": "Driouech",
+      "points": 3,
+      "club": "Celta"
+     },
+     {
+      "id": "2628",
+      "name": "O. Rey",
+      "points": 3,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3228",
+      "name": "Requena",
+      "points": 3,
+      "club": "Levante UD"
+     },
+     {
+      "id": "1851",
+      "name": "Claudio Giraldez",
+      "points": 2,
+      "club": "Celta"
+     },
+     {
+      "id": "2850",
+      "name": "H. González",
+      "points": 2,
+      "club": "Celta"
+     },
+     {
+      "id": "2913",
+      "name": "Burcio",
+      "points": 2,
+      "club": "Celta"
+     },
+     {
+      "id": "2300",
+      "name": "Dela",
+      "points": 2,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2395",
+      "name": "Hugo Sotelo",
+      "points": 2,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2670",
+      "name": "Víctor G.",
+      "points": 2,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2877",
+      "name": "Luís Castro",
+      "points": 2,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3165",
+      "name": "Marc Santos",
+      "points": 2,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2329",
+      "name": "Javi Galán",
+      "points": 1,
+      "club": "Celta"
+     },
+     {
+      "id": "2303",
+      "name": "I. Romero",
+      "points": 1,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2700",
+      "name": "Etta Eyong",
+      "points": 1,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3230",
+      "name": "Thiago",
+      "points": 1,
+      "club": "Levante UD"
+     },
+     {
+      "id": "140",
+      "name": "Iván Villar",
+      "points": 0,
+      "club": "Celta"
+     },
+     {
+      "id": "2206",
+      "name": "Yoel Lago",
+      "points": 0,
+      "club": "Celta"
+     },
+     {
+      "id": "2295",
+      "name": "Febas",
+      "points": 0,
+      "club": "Celta"
+     },
+     {
+      "id": "2603",
+      "name": "Ferran Jutglà",
+      "points": 0,
+      "club": "Celta"
+     },
+     {
+      "id": "3195",
+      "name": "Faye",
+      "points": 0,
+      "club": "Celta"
+     },
+     {
+      "id": "3196",
+      "name": "Bayindir",
+      "points": 0,
+      "club": "Celta"
+     },
+     {
+      "id": "2666",
+      "name": "P. Campos",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2673",
+      "name": "Paco Cortes",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2858",
+      "name": "Huseini",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3111",
+      "name": "Cabello",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3164",
+      "name": "Bardeli",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3229",
+      "name": "Yanis Musuayi",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3256",
+      "name": "Ratkov",
+      "points": 0,
+      "club": "Levante UD"
+     }
+    ]
+   },
+   {
+    "id": "120",
+    "date": "2026-11-08T21:00:00+01:00",
+    "local": "Atlético de Madrid",
+    "visitor": "FC Barcelona",
+    "ls": 1,
+    "vs": 2,
+    "state": 7,
+    "players": [
+     {
+      "id": "1715",
+      "name": "Fermín",
+      "points": 17,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3104",
+      "name": "Lamine Yamal",
+      "points": 11,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "1210",
+      "name": "Giuliano",
+      "points": 8,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "3088",
+      "name": "Julián Alvarez",
+      "points": 8,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "1775",
+      "name": "Cubarsí",
+      "points": 7,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2634",
+      "name": "Joan García",
+      "points": 7,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2326",
+      "name": "Koke",
+      "points": 5,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "1976",
+      "name": "Hansi Flick",
+      "points": 5,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2757",
+      "name": "Gerard Martín",
+      "points": 5,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2322",
+      "name": "Oblak",
+      "points": 4,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "3100",
+      "name": "Pedri",
+      "points": 4,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "1565",
+      "name": "Barrios",
+      "points": 3,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "3193",
+      "name": "Kang-In Lee",
+      "points": 3,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "2358",
+      "name": "F. De Jong",
+      "points": 3,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2522",
+      "name": "Raphinha",
+      "points": 3,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2480",
+      "name": "Johnny",
+      "points": 2,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "1221",
+      "name": "Gavi",
+      "points": 2,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2353",
+      "name": "Christensen",
+      "points": 2,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2354",
+      "name": "Eric",
+      "points": 2,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2784",
+      "name": "Marc Bernal",
+      "points": 2,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2906",
+      "name": "Cancelo",
+      "points": 2,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3209",
+      "name": "Adeyemi",
+      "points": 2,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3210",
+      "name": "Gordon",
+      "points": 2,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "67",
+      "name": "Marcos Llorente",
+      "points": 1,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "2332",
+      "name": "Sorloth",
+      "points": 1,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "3255",
+      "name": "J. David",
+      "points": 1,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "3224",
+      "name": "Brian Fariñas",
+      "points": 1,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "255",
+      "name": "Le Normand",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "2321",
+      "name": "J. Musso",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "2527",
+      "name": "Simeone",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "2534",
+      "name": "Álex Baena",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "2561",
+      "name": "Hancko",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "2562",
+      "name": "Marc Pubill",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "2717",
+      "name": "R. Mendoza",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "2881",
+      "name": "D. Martínez",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "3079",
+      "name": "Lookman",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "3114",
+      "name": "Hjulmand",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "3155",
+      "name": "Grimaldo",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "3194",
+      "name": "Arnau Ortiz",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "3273",
+      "name": "J. Dominguez",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "3311",
+      "name": "Romeo",
+      "points": 0,
+      "club": "Atlético de Madrid"
+     },
+     {
+      "id": "1218",
+      "name": "Álex Balde",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2783",
+      "name": "Szczesny",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3225",
+      "name": "Abdelkarim",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3251",
+      "name": "Livakovic",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3258",
+      "name": "Gabriel Jesus",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3291",
+      "name": "Alex Campos",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3309",
+      "name": "Ebrima Tunkara",
+      "points": 0,
+      "club": "FC Barcelona"
+     }
+    ]
+   }
+  ]
+ }
+}
