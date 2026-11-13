@@ -1,6 +1,6 @@
 {
  "date": "2026-11-13",
- "taken_at": "2026-11-13T13:35:31.336880+00:00",
+ "taken_at": "2026-11-13T14:32:32.495030+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -12,7 +12,7 @@
    "manager": "Al-SanJuanitoFC",
    "points": 548,
    "week_points": 61,
-   "value": 336987413,
+   "value": 339199868,
    "position": 1,
    "prev_position": 1
   },
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 506,
    "week_points": 82,
-   "value": 745303423,
+   "value": 751897822,
    "position": 2,
    "prev_position": 3
   },
@@ -32,7 +32,7 @@
    "manager": "Al-Ilitihad del segu",
    "points": 503,
    "week_points": 45,
-   "value": 331600126,
+   "value": 332713416,
    "position": 3,
    "prev_position": 2
   },
@@ -42,7 +42,7 @@
    "manager": "Al-Malumitas FC",
    "points": 104,
    "week_points": 0,
-   "value": 116496167,
+   "value": 119368388,
    "position": 4,
    "prev_position": 4
   },
@@ -52,7 +52,7 @@
    "manager": "EnriqueVeteYa69",
    "points": 21,
    "week_points": 0,
-   "value": 148445237,
+   "value": 148326504,
    "position": 5,
    "prev_position": 5
   }
