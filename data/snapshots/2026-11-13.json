@@ -1,6 +1,6 @@
 {
  "date": "2026-11-13",
- "taken_at": "2026-11-13T14:32:32.495030+00:00",
+ "taken_at": "2026-11-13T17:23:21.244381+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -12,7 +12,7 @@
    "manager": "Al-SanJuanitoFC",
    "points": 548,
    "week_points": 61,
-   "value": 339199868,
+   "value": 368860846,
    "position": 1,
    "prev_position": 1
   },
@@ -68,22 +68,6 @@
     "clause": 26647235
    },
    {
-    "id": "2742",
-    "name": "Nacho Perez",
-    "pos": "DEF",
-    "value": 1248703,
-    "points": 41,
-    "clause": 1500000
-   },
-   {
-    "id": "2714",
-    "name": "Javi Rueda",
-    "pos": "DEF",
-    "value": 4744010,
-    "points": 40,
-    "clause": 5368294
-   },
-   {
     "id": "3155",
     "name": "Grimaldo",
     "pos": "DEF",
@@ -100,44 +84,44 @@
     "clause": 14345768
    },
    {
+    "id": "3174",
+    "name": "Mandi",
+    "pos": "DEF",
+    "value": 4478032,
+    "points": 40,
+    "clause": 4478032
+   },
+   {
+    "id": "2742",
+    "name": "Nacho Perez",
+    "pos": "DEF",
+    "value": 1248703,
+    "points": 41,
+    "clause": 1500000
+   },
+   {
+    "id": "2714",
+    "name": "Javi Rueda",
+    "pos": "DEF",
+    "value": 4744010,
+    "points": 40,
+    "clause": 5368294
+   },
+   {
+    "id": "3184",
+    "name": "H. Rincón",
+    "pos": "DEF",
+    "value": 1519348,
+    "points": 28,
+    "clause": 1519348
+   },
+   {
     "id": "2426",
     "name": "E. Militão",
     "pos": "DEF",
     "value": 6090971,
     "points": 2,
     "clause": 7500000
-   },
-   {
-    "id": "2868",
-    "name": "Carlos Macià",
-    "pos": "MED",
-    "value": 804901,
-    "points": 29,
-    "clause": 1000000
-   },
-   {
-    "id": "3044",
-    "name": "Dotor",
-    "pos": "MED",
-    "value": 3899037,
-    "points": 45,
-    "clause": 5389187
-   },
-   {
-    "id": "2932",
-    "name": "Ángel Pérez",
-    "pos": "MED",
-    "value": 32621611,
-    "points": 63,
-    "clause": 43483814
-   },
-   {
-    "id": "2995",
-    "name": "Mario Soriano",
-    "pos": "MED",
-    "value": 54084597,
-    "points": 82,
-    "clause": 54084597
    },
    {
     "id": "2464",
@@ -148,12 +132,60 @@
     "clause": 47778626
    },
    {
+    "id": "3044",
+    "name": "Dotor",
+    "pos": "MED",
+    "value": 3899037,
+    "points": 45,
+    "clause": 5389187
+   },
+   {
+    "id": "2995",
+    "name": "Mario Soriano",
+    "pos": "MED",
+    "value": 54084597,
+    "points": 82,
+    "clause": 54084597
+   },
+   {
+    "id": "2932",
+    "name": "Ángel Pérez",
+    "pos": "MED",
+    "value": 32621611,
+    "points": 63,
+    "clause": 43483814
+   },
+   {
+    "id": "2868",
+    "name": "Carlos Macià",
+    "pos": "MED",
+    "value": 804901,
+    "points": 29,
+    "clause": 1000000
+   },
+   {
+    "id": "701",
+    "name": "Barrenetxea",
+    "pos": "MED",
+    "value": 23663598,
+    "points": 58,
+    "clause": 24285942
+   },
+   {
     "id": "2358",
     "name": "F. De Jong",
     "pos": "MED",
     "value": 12885411,
     "points": 10,
     "clause": 12885411
+   },
+   {
+    "id": "3129",
+    "name": "Carlos Espí",
+    "pos": "DEL",
+    "value": 7059749,
+    "points": 23,
+    "clause": 16491296
    },
    {
     "id": "3249",
@@ -170,14 +202,6 @@
     "value": 35860220,
     "points": 79,
     "clause": 35860220
-   },
-   {
-    "id": "3129",
-    "name": "Carlos Espí",
-    "pos": "DEL",
-    "value": 7059749,
-    "points": 23,
-    "clause": 16491296
    }
   ],
   "37006883": [
