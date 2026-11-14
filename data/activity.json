@@ -1,5 +1,15 @@
 [
  {
+  "id": "118950875",
+  "type": "venta",
+  "date": "2026-11-14T15:40:08+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Hancko",
+  "player_id": "2561",
+  "amount": 57926512
+ },
+ {
   "id": "118570900",
   "type": "fichaje",
   "date": "2026-11-13T16:00:22+01:00",

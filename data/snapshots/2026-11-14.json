@@ -1,6 +1,6 @@
 {
  "date": "2026-11-14",
- "taken_at": "2026-11-14T13:29:02.049689+00:00",
+ "taken_at": "2026-11-14T16:07:50.219718+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 506,
    "week_points": 82,
-   "value": 757923727,
+   "value": 699068285,
    "position": 2,
    "prev_position": 3
   },
@@ -244,14 +244,6 @@
     "value": 693013,
     "points": 23,
     "clause": 1000000
-   },
-   {
-    "id": "2561",
-    "name": "Hancko",
-    "pos": "DEF",
-    "value": 58855442,
-    "points": 75,
-    "clause": 58855442
    },
    {
     "id": "637",
