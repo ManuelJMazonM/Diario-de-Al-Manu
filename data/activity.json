@@ -1,5 +1,25 @@
 [
  {
+  "id": "119276687",
+  "type": "fichaje",
+  "date": "2026-11-15T16:00:43+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Sucic",
+  "player_id": "2444",
+  "amount": 41518623
+ },
+ {
+  "id": "119276659",
+  "type": "fichaje",
+  "date": "2026-11-15T16:00:42+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Buchanan",
+  "player_id": "2556",
+  "amount": 5779200
+ },
+ {
   "id": "118950875",
   "type": "venta",
   "date": "2026-11-14T15:40:08+01:00",

@@ -1,6 +1,6 @@
 {
  "date": "2026-11-15",
- "taken_at": "2026-11-15T13:54:31.110332+00:00",
+ "taken_at": "2026-11-15T16:36:41.436077+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 506,
    "week_points": 82,
-   "value": 705376580,
+   "value": 753787362,
    "position": 2,
    "prev_position": 3
   },
@@ -222,6 +222,14 @@
     "clause": 47037289
    },
    {
+    "id": "2525",
+    "name": "Salinas",
+    "pos": "DEF",
+    "value": 695389,
+    "points": 23,
+    "clause": 1000000
+   },
+   {
     "id": "3026",
     "name": "Pablo Ramón",
     "pos": "DEF",
@@ -236,14 +244,6 @@
     "value": 17357499,
     "points": 55,
     "clause": 17357499
-   },
-   {
-    "id": "2525",
-    "name": "Salinas",
-    "pos": "DEF",
-    "value": 695389,
-    "points": 23,
-    "clause": 1000000
    },
    {
     "id": "637",
@@ -262,22 +262,6 @@
     "clause": 14993351
    },
    {
-    "id": "3077",
-    "name": "Edu Expósito",
-    "pos": "MED",
-    "value": 48934626,
-    "points": 74,
-    "clause": 50500000
-   },
-   {
-    "id": "3101",
-    "name": "Bellingham",
-    "pos": "MED",
-    "value": 151762579,
-    "points": 118,
-    "clause": 151762579
-   },
-   {
     "id": "1674",
     "name": "Arda Güler",
     "pos": "MED",
@@ -294,6 +278,54 @@
     "clause": 37302121
    },
    {
+    "id": "2444",
+    "name": "Sucic",
+    "pos": "MED",
+    "value": 42526910,
+    "points": 66,
+    "clause": 42526910
+   },
+   {
+    "id": "2556",
+    "name": "Buchanan",
+    "pos": "MED",
+    "value": 5883872,
+    "points": 35,
+    "clause": 5883872
+   },
+   {
+    "id": "3077",
+    "name": "Edu Expósito",
+    "pos": "MED",
+    "value": 48934626,
+    "points": 74,
+    "clause": 50500000
+   },
+   {
+    "id": "3101",
+    "name": "Bellingham",
+    "pos": "MED",
+    "value": 151762579,
+    "points": 118,
+    "clause": 151762579
+   },
+   {
+    "id": "2522",
+    "name": "Raphinha",
+    "pos": "DEL",
+    "value": 166851303,
+    "points": 146,
+    "clause": 166851303
+   },
+   {
+    "id": "2973",
+    "name": "Bil Nsongo",
+    "pos": "DEL",
+    "value": 14157922,
+    "points": 59,
+    "clause": 14157922
+   },
+   {
     "id": "3152",
     "name": "Y. Zabiri",
     "pos": "DEL",
@@ -308,22 +340,6 @@
     "value": 12282804,
     "points": 58,
     "clause": 12282804
-   },
-   {
-    "id": "2973",
-    "name": "Bil Nsongo",
-    "pos": "DEL",
-    "value": 14157922,
-    "points": 59,
-    "clause": 14157922
-   },
-   {
-    "id": "2522",
-    "name": "Raphinha",
-    "pos": "DEL",
-    "value": 166851303,
-    "points": 146,
-    "clause": 166851303
    }
   ],
   "37020040": [
