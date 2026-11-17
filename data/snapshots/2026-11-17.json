@@ -1,6 +1,6 @@
 {
  "date": "2026-11-17",
- "taken_at": "2026-11-17T06:20:32.756828+00:00",
+ "taken_at": "2026-11-17T11:40:50.851688+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -12,7 +12,7 @@
    "manager": "Al-SanJuanitoFC",
    "points": 548,
    "week_points": 61,
-   "value": 374589953,
+   "value": 376483347,
    "position": 1,
    "prev_position": 1
   },
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 506,
    "week_points": 82,
-   "value": 760532296,
+   "value": 766704750,
    "position": 2,
    "prev_position": 3
   },
@@ -32,7 +32,7 @@
    "manager": "Al-Ilitihad del segu",
    "points": 503,
    "week_points": 45,
-   "value": 335820731,
+   "value": 337162670,
    "position": 3,
    "prev_position": 2
   },
@@ -42,7 +42,7 @@
    "manager": "Al-Malumitas FC",
    "points": 104,
    "week_points": 0,
-   "value": 127367582,
+   "value": 129777407,
    "position": 4,
    "prev_position": 4
   },
@@ -52,7 +52,7 @@
    "manager": "EnriqueVeteYa69",
    "points": 21,
    "week_points": 0,
-   "value": 147934907,
+   "value": 147963602,
    "position": 5,
    "prev_position": 5
   }
@@ -3591,6 +3591,61 @@
       "club": "FC Barcelona"
      }
     ]
+   }
+  ]
+ },
+ "next_jornada": {
+  "week": 13,
+  "matches": [
+   {
+    "local": "Sevilla FC",
+    "visitor": "Real Betis",
+    "date": "2026-11-21T18:30:00+01:00"
+   },
+   {
+    "local": "Real Madrid",
+    "visitor": "Celta",
+    "date": "2026-11-21T21:00:00+01:00"
+   },
+   {
+    "local": "Rayo Vallecano",
+    "visitor": "Valencia CF",
+    "date": "2026-11-21T16:15:00+01:00"
+   },
+   {
+    "local": "R. Racing Club",
+    "visitor": "Real Sociedad",
+    "date": "2026-11-22T16:15:00+01:00"
+   },
+   {
+    "local": "C.A. Osasuna",
+    "visitor": "Málaga CF",
+    "date": "2026-11-22T18:30:00+01:00"
+   },
+   {
+    "local": "Levante UD",
+    "visitor": "Elche CF",
+    "date": "2026-11-23T21:00:00+01:00"
+   },
+   {
+    "local": "Getafe CF",
+    "visitor": "Atlético de Madrid",
+    "date": "2026-11-22T21:00:00+01:00"
+   },
+   {
+    "local": "FC Barcelona",
+    "visitor": "Villarreal CF",
+    "date": "2026-11-22T14:00:00+01:00"
+   },
+   {
+    "local": "Athletic Club",
+    "visitor": "RCD Espanyol",
+    "date": "2026-11-20T21:00:00+01:00"
+   },
+   {
+    "local": "Deportivo Alavés",
+    "visitor": "RC Deportivo",
+    "date": "2026-11-21T14:00:00+01:00"
    }
   ]
  }
