@@ -101,6 +101,14 @@
   .ad.dark .lbl{color:#b9b09f}.ad.dark .p{background:#c9a227;color:var(--ink)}
   .ad.box{border:3px double var(--ink)}.ad.box .p{border:2px solid var(--ink)}
   .ad.classic{border:1px dashed var(--ink);background:#ebe3d1}.ad.classic .p{background:var(--red);color:#fff}
+  .paron{display:flex;justify-content:center;align-items:center;gap:14px;flex-wrap:wrap;margin:10px 0 0;
+         padding:8px 12px;background:var(--red);color:#fff;font:800 13px system-ui,sans-serif;
+         letter-spacing:.1em;text-transform:uppercase}
+  .paron .cd{background:#fff;color:var(--red);padding:2px 8px}
+  .next-row{display:flex;justify-content:space-between;gap:8px;font:14px system-ui,sans-serif;
+            padding:5px 0;border-bottom:1px solid var(--soft)}
+  .next-row small{color:var(--muted);white-space:nowrap}
+  .next-row.big{font-weight:800}
   footer{margin-top:28px;border-top:4px double var(--rule);padding-top:8px;text-align:center;
          font:12px system-ui,sans-serif;color:var(--muted)}
   @media (max-width:860px){
@@ -120,7 +128,7 @@ const fecha = new Date(E.date + "T12:00:00").toLocaleDateString("es-ES",{weekday
 const dt = (d) => d ? new Date(d).toLocaleDateString("es-ES",{day:"numeric",month:"short"}) : "";
 const verb = {fichaje:"ficha a",compra:"compra a",clausulazo:"clausula a",venta:"vende a"};
 const arrow = (d) => d > 0 ? `<span class="up">▲${d}</span>` : d < 0 ? `<span class="down">▼${-d}</span>` : `<span class="eq">=</span>`;
-const kick = {estrella:"Exhibición",clausulazo:"Última hora",fichaje:"Exclusiva",compra:"Bombazo",venta:"Mercado",
+const kick = {paron:"Parón",previa:"Previa",estrella:"Exhibición",clausulazo:"Última hora",fichaje:"Exclusiva",compra:"Bombazo",venta:"Mercado",
               nuevo_lider:"Terremoto",subida:"Clasificación",bajada:"Clasificación",lider:"Clasificación"};
 const J = E.jornada;
 const editorial = String(E.editorial||"").split(/\n\s*\n/).map(p=>`<p>${$(p)}</p>`).join("");
@@ -132,6 +140,10 @@ document.getElementById("app").innerHTML = `
   <h1 class="name">${$(E.title)}</h1>
   <div class="dateline"><span>${$(fecha)}</span>${E.week ? `<span>Jornada ${$(E.week)}</span>` : ""}<span>${E.standing.length} mánagers</span></div>
 </header>
+
+${E.paron ? `<div class="paron"><span>Parón de selecciones</span>
+  ${E.paron.days_left != null ? `<span class="cd">La liga vuelve en ${E.paron.days_left} ${E.paron.days_left==1?"día":"días"}</span>` : ""}
+  ${E.paron.first_date ? `<span>Jornada ${$(E.paron.week)} · ${new Date(E.paron.first_date).toLocaleDateString("es-ES",{weekday:"long",day:"numeric",month:"long"})}</span>` : ""}</div>` : ""}
 
 <section class="lead">
   <div class="kicker">${$(kick[E.lead.kind] || "Portada")}</div>
@@ -177,7 +189,13 @@ ${(E.gossip||[]).length ? `<section class="rosa band"><h3 class="sec">Prensa ros
   </div>
 
   <div class="col">
-    ${J ? `<h3 class="sec">Jornada ${$(J.week)}</h3>
+    ${E.paron && E.paron.matches.length ? `<h3 class="sec">Próxima jornada · J${$(E.paron.week)}</h3>
+      ${E.paron.big ? `<div class="kicker" style="margin-top:4px">Partido a seguir</div>
+        <div class="score"><span class="tm">${$(E.paron.big.local)}</span><span class="res" style="font-size:22px">vs</span><span class="tm">${$(E.paron.big.visitor)}</span></div>` : ""}
+      ${E.paron.matches.map(m=>`<div class="next-row ${E.paron.big && m.local===E.paron.big.local ? "big":""}"><span>${$(m.local)} – ${$(m.visitor)}</span>
+        <small>${m.date ? new Date(m.date).toLocaleString("es-ES",{weekday:"short",day:"numeric",hour:"2-digit",minute:"2-digit"}) : ""}</small></div>`).join("")}
+      <div style="height:18px"></div>` : ""}
+    ${J ? `<h3 class="sec">${E.paron ? "Última jornada · J" : "Jornada "}${$(J.week)}</h3>
     ${J.featured ? `<div class="match"><div class="kicker">Partido de la jornada</div>
       <div class="score"><span class="tm">${$(J.featured.match.local)}</span><span class="res">${J.featured.match.ls}-${J.featured.match.vs}</span><span class="tm">${$(J.featured.match.visitor)}</span></div>
       <h4>${$(J.featured.headline)}</h4>${J.featured.body.map(p=>`<p>${$(p)}</p>`).join("")}</div>` : ""}

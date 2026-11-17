@@ -9,65 +9,23 @@ from pathlib import Path
 
 M = lambda x: f"{(x or 0) / 1_000_000:.1f} M€".replace(".", ",")
 
-HEAD = {
-    "clausulazo": [
-        "¡CLAUSULAZO! {who} le arranca a {player} a {other} por {amount}",
-        "Atraco a mano armada: {who} paga la cláusula de {player} ({amount})",
-        "{other} no da crédito: {who} se lleva a {player} por la vía rápida",
-        "¡ESCÁNDALO! {who} saquea a {other} y se lleva a {player} ({amount})",
-        "Puñalada en el mercado: {player} abandona a {other} por {who}",
-    ],
-    "fichaje": [
-        "{who} rompe la hucha: {player} llega por {amount}",
-        "Bombazo en el mercado: {player} ficha por {who} ({amount})",
-        "{who} se hace con {player} tras una puja de {amount}",
-        "{player} ya tiene nuevo jefe: {who} paga {amount}",
-        "Movimiento en los despachos: {who} cierra a {player} ({amount})",
-        "{who} no se esconde y suelta {amount} por {player}",
-        "¡BOMBA! {who} pone {amount} encima de la mesa y {player} dice sí",
-        "{who} enloquece en el mercado: {amount} por {player}",
-    ],
-    "compra": [
-        "{who} negocia con {other} y se queda a {player} por {amount}",
-        "Acuerdo cerrado: {player} cambia de manos de {other} a {who}",
-    ],
-    "venta": [
-        "{who} hace caja: vende a {player} por {amount}",
-        "Adiós, {player}: {who} lo vende y se embolsa {amount}",
-        "{who} da la patada a {player}: fuera por {amount}",
-        "Sin sentimientos: {who} vende a {player} por {amount}",
-    ],
-    "lider": [
-        "{team} sigue mandando: líder con {points} puntos",
-        "Nadie tose a {team}, que lidera con {points} puntos",
-    ],
-    "nuevo_lider": [
-        "¡CAMBIO EN LO MÁS ALTO! {team} es el nuevo líder",
-        "Golpe de estado: {team} asalta el liderato",
-    ],
-    "subida": ["{team} se dispara: sube {n} {puestos} y ya es {pos}º", "{team} escala {n} {puestos}: ya es {pos}º"],
-    "bajada": ["Crisis en {team}: cae {n} {puestos} hasta el {pos}º", "{team} se desinfla y baja al {pos}º puesto"],
-    "estrella": [
-        "{player} arrasa: {points} puntos en la jornada {week}",
-        "Exhibición de {player}: {points} puntos y la jornada a sus pies",
-        "{player} se sale con {points} puntos",
-    ],
-    "partido": [
-        "{local} {ls}-{vs} {visitor}: el partido que movió la liga",
-        "Lo que pasó en el {local}-{visitor} ({ls}-{vs})",
-    ],
-    "quieto": ["{who} lleva {days} días sin tocar el mercado. ¿Sigue vivo?"],
-}
+from .frases import FRASES, ANUNCIOS
+
+HEAD = FRASES
 
 
 _used = {}
 
 
 def _fmt(tpl, rng, **kw):
-    # Va rotando las plantillas para no repetir el mismo titular seguido.
+    """Elige una variante de frase: cambia cada día y no se repite dentro de la misma edición."""
     opts = HEAD[tpl]
     if tpl not in _used:
-        _used[tpl] = rng.sample(range(len(opts)), len(opts))
+        n = len(opts)
+        start = (_used.get("_day", 0) * 7 + sum(map(ord, tpl))) % n   # cada día arranca en otra variante
+        rest = [i for i in range(n) if i != start]
+        rng.shuffle(rest)
+        _used[tpl] = [start] + rest
     order = _used[tpl]
     i = order.pop(0)
     order.append(i)
@@ -194,35 +152,21 @@ def transaction_article(a, P, standing, week, rng):
     info = _player_info(a, P)
     who, other, player = a["who"] or "Alguien", a.get("other"), a["player"] or "un jugador"
     pos = POS_LARGO.get(info.get("pos"), "")
-    club = (", " if pos else "") + info["club"] if info.get("club") else ""
-    if not pos and not club:
-        pos = "jugador"
+    desc = ", ".join(x for x in (pos, info.get("club")) if x) or "jugador"
     amount = a["amount"] or 0
+    kw = {"who": who, "other": other or "el mercado", "player": player, "amount": M(amount), "desc": desc}
     paras = []
 
     # 1. La operación
-    if a["type"] == "clausulazo":
-        p1 = f"{who} no ha pedido permiso: ha pagado {M(amount)} por la cláusula de {player} ({pos}{club})"
-        p1 += f", y se lo ha arrebatado a {other}." if other else "."
-    elif a["type"] == "venta":
-        p1 = f"{who} ha decidido hacer caja con {player} ({pos}{club}), y se embolsa {M(amount)}."
-    elif a["type"] == "compra" and other:
-        p1 = f"{who} y {other} han cerrado un acuerdo: {player} ({pos}{club}) cambia de manos por {M(amount)}."
-    else:
-        p1 = f"{who} ha ganado la puja por {player} ({pos}{club}) con una oferta de {M(amount)}."
+    t = a["type"] if a["type"] in ("clausulazo", "venta") else ("compra" if a["type"] == "compra" and other else "fichaje")
+    p1 = _fmt(f"art_{t}", rng, **kw)
     value = info.get("value")
     if value and amount and a["type"] != "venta":
         diff = (amount - value) / value * 100
-        if diff > 15:
-            p1 += f" Ha pagado un {diff:.0f}% por encima de su valor de mercado ({M(value)}): o sabe algo, o se ha dejado llevar."
-        elif diff < -5:
-            p1 += f" Y a buen precio: un {-diff:.0f}% por debajo de su valor de mercado ({M(value)})."
-        else:
-            p1 += f" Un precio en línea con su valor de mercado ({M(value)})."
-    elif value and a["type"] == "venta":
-        diff = (amount - value) / value * 100
-        if diff > 5:
-            p1 += f" Lo vende un {diff:.0f}% por encima de su valor ({M(value)}): buen negocio."
+        key = "art_caro" if diff > 15 else ("art_barato" if diff < -5 else "art_justo")
+        p1 += " " + _fmt(key, rng, pct=f"{abs(diff):.0f}", value=M(value))
+    elif value and a["type"] == "venta" and (amount - value) / value * 100 > 5:
+        p1 += " " + _fmt("art_venta_buena", rng, pct=f"{(amount - value) / value * 100:.0f}", value=M(value))
     paras.append(p1)
 
     # 2. Rendimiento del jugador
@@ -233,42 +177,30 @@ def transaction_article(a, P, standing, week, rng):
         wk = (info.get("weeks") or {}).get(str(week)) if week else None
         if wk is not None:
             p2 += f", y en la jornada {week} hizo {pts(wk)}"
-            p2 += ": llega en plena forma." if wk >= 8 else (". Toca esperar a que despierte." if wk <= 2 else ".")
+            p2 += _fmt("art_forma_buena", rng) if wk >= 8 else (_fmt("art_forma_mala", rng) if wk <= 2 else ".")
         else:
             p2 += "."
         paras.append(p2)
 
     # 3. Contexto en la clasificación
-    by_team = {t["team"]: t for t in standing}
-    t = by_team.get(who)
-    if t:
+    t3 = next((t for t in standing if t["team"] == who), None)
+    if t3:
         lider = standing[0]
-        if t["position"] == 1:
-            p3 = f"{who} es líder con {t['points']} puntos y no quiere que nadie se le acerque."
+        if t3["position"] == 1:
+            p3 = _fmt("art_lider", rng, who=who, points=t3["points"])
         else:
-            p3 = (f"{who} es {t['position']}º con {t['points']} puntos, a {lider['points'] - t['points']} "
-                  f"del liderato de {lider['team']}.")
+            p3 = _fmt("art_persigue", rng, who=who, pos=t3["position"], points=t3["points"],
+                      gap=lider["points"] - t3["points"], leader=lider["team"])
         if a["type"] == "clausulazo" and other:
-            p3 += f" {other} pierde a una pieza importante y tendrá que reaccionar en el mercado."
+            p3 += _fmt("art_victima", rng, other=other)
         elif a["type"] == "venta":
-            p3 += " Habrá que ver en qué invierte el dinero."
+            p3 += _fmt("art_venta_extra", rng)
         paras.append(p3)
 
-    opts = {
-        "venta": ["Seguiremos informando.", "El dinero ya quema en la cuenta.",
-                  "Ahora toca acertar con el siguiente fichaje."],
-        "clausulazo": ["La respuesta de la víctima no se hará esperar.", "El vestuario ya comenta la jugada.",
-                       "Ahora le toca demostrar que valía la cláusula."],
-    }.get(a["type"], ["El vestuario ya comenta la jugada.", "Seguiremos informando.",
-                      "Ahora le toca demostrarlo en el campo."])
-    fresh = [o for o in opts if o not in _used.setdefault("_cierres", [])] or opts
-    cierre = rng.choice(fresh)
-    _used["_cierres"].append(cierre)
-    paras.append(cierre)
-    kw = {"who": who, "other": other or "el mercado", "player": player, "amount": M(amount)}
+    paras.append(_fmt({"clausulazo": "cierre_clausulazo", "venta": "cierre_venta"}.get(a["type"], "cierre_fichaje"), rng))
     return {"kind": a["type"], "headline": _fmt(a["type"], rng, **kw), "date": a["date"],
             "dek": " · ".join(x for x in (
-                POS_LARGO.get(info.get("pos"), "").capitalize(), info.get("club"),
+                pos.capitalize(), info.get("club"),
                 f"Valor de mercado {M(value)}" if value else None,
                 f"{pts(info['points'])} esta temporada" if info.get("points") is not None else None) if x)
             or f"{who} {VERB[a['type']]} {player} por {M(amount)}", "body": paras, "amount": amount}
@@ -295,8 +227,7 @@ def build_jornada(cur, rng, owners):
     if played:
         m = max(played, key=match_score)
         star = m["players"][0] if m["players"] else None
-        body = [f"{m['local']} y {m['visitor']} firmaron un {m['ls']}-{m['vs']}"
-                + (" en un partido de ida y vuelta." if m["ls"] + m["vs"] >= 4 else ".")]
+        body = [_fmt("partido_goles" if m["ls"] + m["vs"] >= 4 else "partido_normal", rng, **m)]
         if star:
             o = owners.get(star["id"])
             body.append(f"El mejor para el Fantasy fue {star['name']} con {pts(star['points'])}"
@@ -311,8 +242,8 @@ def build_jornada(cur, rng, owners):
     story = None
     if stars:
         s0 = stars[0]
-        dek = (f"{s0['owner']} lo tiene en su equipo y se frota las manos." if s0["owner"]
-               else "Y nadie de la liga lo tiene en su plantilla.")
+        dek = (_fmt("estrella_dek_dueno", rng, owner=s0["owner"]) if s0["owner"]
+               else _fmt("estrella_dek_libre", rng))
         story = {"kind": "estrella", "score": 2e7 + (s0["points"] or 0) * 1e6,
                  "headline": _fmt("estrella", rng, player=s0["name"], points=s0["points"], week=week),
                  "dek": dek}
@@ -351,9 +282,12 @@ def _club_key(name):
     return name
 
 
-def build_gossip(cur, activity, standing, jornada, owners, P, aficion, today, rng):
+def build_gossip(cur, activity, standing, jornada, owners, P, aficion, today, rng, fresh_jornada=True):
     """Prensa rosa: todo sale de datos reales; lo especulativo va marcado como rumor."""
+    F = lambda key, **kw: _fmt(key, rng, **kw)
     items = []
+    if not fresh_jornada:  # en un parón, lo de la jornada vieja ya no es noticia
+        jornada = dict(jornada or {}, _matches=[], results=[], stars=[])
     teams = [t["team"] for t in standing]
     recent = lambda a, d: (_parse(a.get("date")) or datetime.min) >= today - timedelta(days=d)
     jpts = {}
@@ -361,23 +295,25 @@ def build_gossip(cur, activity, standing, jornada, owners, P, aficion, today, rn
         for p in m["players"]:
             jpts[p["id"]] = p
     week = (jornada or {}).get("week")
+    team_id = {t["team"]: t["team_id"] for t in standing}
+    squad_of = lambda team: (cur.get("squads") or {}).get(team_id.get(team)) or []
+    club_of = lambda pid: _club_key((P.get(str(pid)) or {}).get("club"))
+    name_of = lambda pid: (P.get(str(pid)) or {}).get("name")
 
-    # Culebrón: clausulazos/compras entre los mismos dos mánagers
+    # Culebrón / romance: operaciones entre los mismos dos mánagers
     pairs = {}
     for a in activity:
         if a["type"] in ("clausulazo", "compra") and a.get("who") in teams and a.get("other") in teams and recent(a, 45):
-            k = tuple(sorted((a["who"], a["other"])))
-            pairs.setdefault(k, []).append(a)
+            pairs.setdefault(tuple(sorted((a["who"], a["other"]))), []).append(a)
     for (x, y), ops in sorted(pairs.items(), key=lambda kv: -len(kv[1]))[:1]:
         claus = [o for o in ops if o["type"] == "clausulazo"]
         if claus:
             c = claus[0]
-            items.append({"kicker": "Culebrón", "headline": f"Guerra fría entre {x} y {y}",
-                          "text": f"Desde que {c['who']} le levantó a {c['player']} a {c['other']}, en el vestuario "
-                                  f"no se hablan. Fuentes de esta redacción aseguran que la cosa no ha terminado."})
+            items.append({"kicker": "Culebrón", "headline": F("g_culebron_t", x=x, y=y),
+                          "text": F("g_culebron", who=c["who"], other=c["other"], player=c["player"])})
         elif len(ops) >= 2:
-            items.append({"kicker": "Romance de mercado", "headline": f"{x} y {y}, inseparables",
-                          "text": f"Ya van {len(ops)} operaciones entre ellos. ¿Amistad, negocio… o algo más?"})
+            items.append({"kicker": "Romance de mercado", "headline": F("g_romance_t", x=x, y=y),
+                          "text": F("g_romance", n=len(ops))})
 
     # Corazón roto: vendió a un jugador que después revienta la jornada
     for a in activity:
@@ -386,19 +322,31 @@ def build_gossip(cur, activity, standing, jornada, owners, P, aficion, today, rn
             o = owners.get(p["id"]) if p else None
             if p and (p["points"] or 0) >= 8 and o != a["who"]:
                 items.append({"kicker": "Corazón roto",
-                              "headline": f"{a['who']} se tira de los pelos: {a['player']} hace {pts(p['points'])}",
-                              "text": f"Lo vendió por {M(a['amount'])} y en la jornada {week} se salió"
-                                      + (f"… con la camiseta de {o}." if o else ". Y encima sigue libre en el mercado.")})
+                              "headline": F("g_corazon_t", who=a["who"], player=a["player"], points=pts(p["points"])),
+                              "text": F("g_corazon", amount=M(a["amount"]), week=week,
+                                        donde=(f"… con la camiseta de {o}." if o else ". Y encima sigue libre en el mercado."))})
+                break
+
+    # Fichaje fantasma: compró caro hace poco y no puntuó
+    for a in activity:
+        if a["type"] in ("fichaje", "compra", "clausulazo") and a.get("who") in teams and recent(a, 14) \
+                and (a.get("amount") or 0) >= 8_000_000:
+            p = jpts.get(str(a.get("player_id")))
+            if p and (p["points"] or 0) <= 1 and owners.get(p["id"]) == a["who"]:
+                items.append({"kicker": "Fichaje fantasma",
+                              "headline": F("g_fantasma_t", who=a["who"], player=a["player"], amount=M(a["amount"]),
+                                            points=pts(p["points"])),
+                              "text": F("g_fantasma", who=a["who"], amount=M(a["amount"]), week=week,
+                                        points=pts(p["points"]))})
                 break
 
     # Sucesos: alineaciones indebidas
     for a in activity:
         if a["type"] == "alineacion_incorrecta" and a.get("who") in teams and recent(a, 14):
-            items.append({"kicker": "Sucesos", "headline": f"Escándalo: {a['who']} se presenta con la alineación mal hecha",
-                          "text": "Los servicios jurídicos de la liga estudian el caso. La afición, indignada."})
+            items.append({"kicker": "Sucesos", "headline": F("g_sucesos_t", who=a["who"]), "text": F("g_sucesos")})
             break
 
-    # Afición: el equipo del corazón de cada mánager en la jornada real
+    # Afición: el equipo del corazón de cada mánager en la jornada real, y las traiciones
     results = {}
     for r in ((jornada or {}).get("results") or []):
         if r.get("ls") is None or r.get("vs") is None:
@@ -410,27 +358,21 @@ def build_gossip(cur, activity, standing, jornada, owners, P, aficion, today, rn
         if team not in teams:
             continue
         ck = _club_key(club)
-        apodo = APODO_AFICION.get(ck, f"hincha del {ck}")
         res = results.get(ck)
         if res:
             gf, gc, rival = res
             if gf < gc:
-                fan_lines.append({"kicker": "Drama", "headline": f"Luto en casa de {team}",
-                                  "text": f"Su {ck} cayó {gf}-{gc} ante el {rival}. Nos cuentan que no ha querido hablar con nadie."})
+                fan_lines.append({"kicker": "Drama", "headline": F("g_drama_t", team=team),
+                                  "text": F("g_drama", club=ck, gf=gf, gc=gc, rival=rival)})
             elif gf > gc + 1:
-                fan_lines.append({"kicker": "Euforia", "headline": f"{team}, insoportable tras el {gf}-{gc} de su {ck}",
-                                  "text": "Testigos aseguran que lleva desde el partido mandando audios al grupo."})
-        # Traición: tiene jugadores del eterno rival
-        tid = next((t["team_id"] for t in standing if t["team"] == team), None)
-        squad = (cur.get("squads") or {}).get(tid) or []
-        traitors = [P[str(pl["id"])]["name"] for pl in squad
-                    if str(pl["id"]) in P and _club_key(P[str(pl["id"])].get("club")) in RIVALES.get(ck, [])]
+                fan_lines.append({"kicker": "Euforia", "headline": F("g_euforia_t", team=team, gf=gf, gc=gc, club=ck),
+                                  "text": F("g_euforia")})
+        traitors = [name_of(pl["id"]) for pl in squad_of(team) if club_of(pl["id"]) in RIVALES.get(ck, [])]
         if traitors:
-            fan_lines.append({"kicker": "Traición", "headline": f"{team}, {apodo} de boquilla",
-                              "text": f"Presume de {ck}, pero en su plantilla tiene a {', '.join(traitors[:3])}. "
-                                      "La grada pide explicaciones."})
+            fan_lines.append({"kicker": "Traición",
+                              "headline": F("g_traicion_t", team=team, apodo=APODO_AFICION.get(ck, f"hincha del {ck}")),
+                              "text": F("g_traicion", club=ck, players=", ".join(traitors[:3]))})
     rng.shuffle(fan_lines)
-    # Primero lo que pasó en el campo (drama/euforia), luego traiciones; como mucho una por kicker
     fan_lines.sort(key=lambda f: f["kicker"] not in ("Drama", "Euforia"))
     seen = set()
     for f in fan_lines:
@@ -438,15 +380,50 @@ def build_gossip(cur, activity, standing, jornada, owners, P, aficion, today, rn
             items.append(f)
             seen.add(f["kicker"])
 
+    # Coleccionista: 3 o más jugadores del mismo club real
+    collectors = []
+    for team in teams:
+        by_club = {}
+        for pl in squad_of(team):
+            c = club_of(pl["id"])
+            if c:
+                by_club.setdefault(c, []).append(name_of(pl["id"]))
+        if by_club:
+            c, names = max(by_club.items(), key=lambda kv: len(kv[1]))
+            if len(names) >= 3:
+                collectors.append((len(names), team, c, names))
+    if collectors:
+        n, team, c, names = max(collectors)
+        items.append({"kicker": "Coleccionista", "headline": F("g_coleccion_t", team=team, club=c),
+                      "text": F("g_coleccion", n=n, club=c, players=", ".join(names[:4]))})
+
+    # Hucha y rebajas (última semana)
+    sold, bought, cheap = {}, {}, {}
+    for a in activity:
+        if a.get("who") in teams and recent(a, 7) and a.get("amount"):
+            if a["type"] == "venta":
+                sold[a["who"]] = sold.get(a["who"], 0) + a["amount"]
+            elif a["type"] in ("fichaje", "compra", "clausulazo"):
+                bought[a["who"]] = bought.get(a["who"], 0) + 1
+                if a["amount"] < 3_000_000:
+                    cheap[a["who"]] = cheap.get(a["who"], 0) + 1
+    savers = [(v, t) for t, v in sold.items() if t not in bought and v >= 10_000_000]
+    if savers:
+        v, t = max(savers)
+        items.append({"kicker": "Economía", "headline": F("g_hucha_t", team=t), "text": F("g_hucha", amount=M(v))})
+    if cheap:
+        t, n = max(cheap.items(), key=lambda kv: kv[1])
+        if n >= 3:
+            items.append({"kicker": "Rebajas", "headline": F("g_todoa100_t", team=t), "text": F("g_todoa100", n=n)})
+
     # Rumor (sin contrastar): la estrella de la jornada que nadie tiene
     free = [p for p in ((jornada or {}).get("stars") or []) if not p.get("owner")]
     if free and teams:
         p = free[0]
         target = rng.choice(teams)
         items.append({"kicker": "Rumor · sin contrastar",
-                      "headline": f"{p['name']}, en la órbita de {target}",
-                      "text": f"Tras sus {pts(p['points'])} en la jornada {week}, fuentes cercanas al mánager "
-                              f"(que no han querido identificarse) aseguran que {target} ya prepara una puja."})
+                      "headline": F("g_rumor_t", player=p["name"], target=target),
+                      "text": F("g_rumor", player=p["name"], target=target, points=pts(p["points"]), week=week)})
 
     # Desaparecido
     last = {}
@@ -457,10 +434,33 @@ def build_gossip(cur, activity, standing, jornada, owners, P, aficion, today, rn
     idle = sorted(((today - last[t]).days if t in last else 999, t) for t in teams)
     if idle and idle[-1][0] >= 7:
         days, t = idle[-1]
-        items.append({"kicker": "Se busca", "headline": f"¿Alguien ha visto a {t}?",
-                      "text": (f"Lleva {days} días sin tocar el mercado." if days < 999 else "No consta que haya fichado nunca.")
-                              + " Su familia pide colaboración ciudadana."})
-    return items[:6]
+        items.append({"kicker": "Se busca", "headline": F("g_sebusca_t", team=t),
+                      "text": F("g_sebusca", dias=(f"Lleva {days} días sin tocar el mercado." if days < 999
+                                                   else "No consta que haya fichado nunca."))})
+
+    if not fresh_jornada:  # cotilleo de parón: quién no puede estarse quieto
+        moves = {}
+        for a in activity:
+            if a["type"] in TRANSFER_TYPES and a.get("who") in teams and recent(a, 7):
+                moves[a["who"]] = moves.get(a["who"], 0) + 1
+        if moves:
+            t, n = max(moves.items(), key=lambda kv: kv[1])
+            if n >= 2:
+                items.insert(0, {"kicker": "Síndrome del parón", "headline": F("g_paron_t", team=t),
+                                 "text": F("g_paron", n=n)})
+
+    # Reparto: como mucho 2 cotilleos por equipo y 6 en total, con algo de variedad cada día
+    head, tail = items[:2], items[2:]
+    rng.shuffle(tail)
+    count, picked = {}, []
+    for it in head + tail:
+        named = [t for t in teams if t in it["headline"] or t in it["text"]]
+        if any(count.get(t, 0) >= 2 for t in named):
+            continue
+        for t in named:
+            count[t] = count.get(t, 0) + 1
+        picked.append(it)
+    return picked[:6]
 
 
 def thermometer(standing):
@@ -474,47 +474,59 @@ def thermometer(standing):
 
 
 def build_ads(standing, jornada, gossip, top_spender, rng):
-    """Anuncios de marcas inventadas con el merchandising de la liga. Todo ficticio."""
+    """Anuncios de marcas inventadas (banco en frases.py). Todo ficticio."""
     teams = [t["team"] for t in standing]
     if not teams:
         return []
-    leader, last = standing[0]["team"], standing[-1]["team"]
-    price = lambda: f"{rng.choice([9, 12, 14, 19, 24, 29, 39])},99 €"
     j = jornada or {}
-    ads = [
-        {"brand": "EAU DE CLAUSULAZO", "style": "dark",
-         "title": "La fragancia de los que no piden permiso",
-         "text": f"Notas de cartera abierta y madera de banquillo. Inspirada en {leader}.", "price": price()},
-        {"brand": "BUFANDAS EL SUPLENTE", "style": "box",
-         "title": f"Bufanda oficial de {rng.choice(teams)}",
-         "text": "100% poliéster, 0% títulos. Abriga más que su delantera.", "price": price()},
-        {"brand": "SEGUROS FAROLILLO", "style": "classic",
-         "title": "¿Último de la liga? Le cubrimos la vergüenza",
-         "text": f"Pregunte por nuestro Plan {last}: cobertura total contra memes del grupo.", "price": "Llame ya"},
-        {"brand": "ACADEMIA EL ONCE BIEN PUESTO", "style": "box",
-         "title": "Aprenda a alinear en 3 sencillas lecciones",
-         "text": "Método probado. Primera clase gratis para quien salió con la alineación mal hecha.", "price": "Matrícula abierta"},
-    ]
-    if top_spender:
-        ads.append({"brand": "EDICIONES DERROCHE", "style": "classic",
-                    "title": f"Curso online: cómo fundirse {M(top_spender[1])} en una semana",
-                    "text": f"Impartido por {top_spender[0]}. Incluye diploma y deudas.", "price": price()})
-    if j.get("paquete"):
-        ads.append({"brand": "PELUCHES TITULAR", "style": "dark",
-                    "title": f"Peluche oficial de {j['paquete']['name']}",
-                    "text": "Abrazable, lavable y, como el original, no alineable.", "price": price()})
-    if j.get("crack"):
-        ads.append({"brand": "TEXTIL LA GRADA", "style": "box",
-                    "title": f"Camiseta «Yo tengo a {j['crack']['name']}»",
-                    "text": f"Edición limitada para la afición de {j['crack']['owner']}. Tallas de la S a la XXL de ego.",
-                    "price": price()})
-    se_busca = next((g for g in gossip or [] if g["kicker"] == "Se busca"), None)
-    if se_busca:
-        ads.append({"brand": "GPS LOCALIZA-MÍSTER", "style": "classic",
-                    "title": "¿Su mánager no ficha? Lo encontramos",
-                    "text": "Rastreo 24h de mánagers desaparecidos. Discreción garantizada.", "price": price()})
-    rng.shuffle(ads)
-    return ads
+    data = {"leader": standing[0]["team"], "last": standing[-1]["team"], "team": rng.choice(teams),
+            "spender": top_spender[0] if top_spender else "", "spent": M(top_spender[1]) if top_spender else "",
+            "crack": (j.get("crack") or {}).get("name", ""), "crack_owner": (j.get("crack") or {}).get("owner", ""),
+            "paquete": (j.get("paquete") or {}).get("name", "")}
+    have = {"spender": bool(top_spender), "crack": bool(j.get("crack")), "paquete": bool(j.get("paquete"))}
+    out = []
+    for ad in ANUNCIOS:
+        if ad.get("needs") and not have.get(ad["needs"]):
+            continue
+        price = f"{rng.choice([9, 12, 14, 19, 24, 29, 39, 49])},99 €"
+        try:
+            out.append({k: (v.format(price=price, **data) if isinstance(v, str) else v)
+                        for k, v in ad.items() if k != "needs"})
+        except (KeyError, IndexError):
+            continue  # anuncio con una llave que no existe: se ignora
+    rng.shuffle(out)
+    return out[:8]
+
+
+GRANDES = ("Real Madrid", "FC Barcelona", "Atlético de Madrid")
+
+
+def build_paron(cur, jornada, today, aficion):
+    """Detecta semanas sin partidos (parón de selecciones) y prepara la próxima jornada."""
+    played = [d for d in (_parse(r.get("date")) for r in ((jornada or {}).get("results") or [])) if d]
+    last = max(played) if played else None
+    nxt = cur.get("next_jornada") or {}
+    dates = [d for d in (_parse(m.get("date")) for m in nxt.get("matches") or []) if d]
+    first = min(dates) if dates else None
+    if not last or (today - last).days < 5:
+        return None
+    if first and first <= today:
+        return None
+    fans = {_club_key(c) for c in (aficion or {}).values()}
+
+    def interest(m):
+        clubs = {_club_key(m["local"]), _club_key(m["visitor"])}
+        return (len(clubs & fans) * 3 + len(clubs & set(GRANDES)) * 2
+                + (2 if _club_key(m["visitor"]) in RIVALES.get(_club_key(m["local"]), []) else 0))
+
+    matches = sorted(nxt.get("matches") or [], key=lambda m: m.get("date") or "")
+    big = max(matches, key=interest) if matches else None
+    return {
+        "week": nxt.get("week"), "first_date": first.isoformat() if first else None,
+        "days_left": (first.date() - today.date()).days if first else None,
+        "days_since": (today - last).days,
+        "matches": matches, "big": big,
+    }
 
 
 def build_edition(cur, prev, activity, title="El Diario del Míster", days=7, exclude=None,
@@ -531,6 +543,7 @@ def build_edition(cur, prev, activity, title="El Diario del Míster", days=7, ex
                 P[pl["id"]].setdefault("weeks", {}).setdefault(str(jw), pl["points"])
     rng = random.Random(cur["date"])  # mismos titulares si se regenera el mismo día
     _used.clear()
+    _used["_day"] = datetime.fromisoformat(cur["date"]).toordinal()
     today = datetime.fromisoformat(cur["date"])
     since = today - timedelta(days=days)
     recent = [a for a in activity if (_parse(a["date"]) or datetime.min) >= since]
@@ -559,7 +572,9 @@ def build_edition(cur, prev, activity, title="El Diario del Míster", days=7, ex
     if jornada:
         jornada["_matches"] = (cur.get("jornada") or {}).get("matches") or []
     aficion = {(alias or {}).get(k, k): v for k, v in (aficion or {}).items()}
-    gossip = build_gossip(cur, activity, standing, jornada, owners, P, aficion, today, rng)
+    paron = build_paron(cur, jornada, today, aficion)
+    gossip = build_gossip(cur, activity, standing, jornada, owners, P, aficion, today, rng,
+                          fresh_jornada=not paron)
     if jornada:
         jornada.pop("_matches", None)
 
@@ -583,13 +598,28 @@ def build_edition(cur, prev, activity, title="El Diario del Míster", days=7, ex
             stories.append({"kind": k, "score": abs(t["delta"]) * 4e6,
                             "headline": _fmt(k, rng, team=t["team"], n=abs(t["delta"]), pos=t["position"],
                                               puestos="puesto" if abs(t["delta"]) == 1 else "puestos")})
+    if paron and paron.get("big"):
+        b = paron["big"]
+        stories.append({"kind": "previa", "score": 1.5e7,
+                        "headline": f"Cuenta atrás para el {b['local']}-{b['visitor']}, el plato fuerte de la jornada {paron['week']}",
+                        "date": b.get("date")})
     stories.sort(key=lambda s: s["score"], reverse=True)
 
     # --- portada: el reportaje más gordo; si no hay, la estrella de la jornada ---
     if articles:
         lead, features = articles[0], articles[1:]
-        if jornada and jornada["story"]:
+        if jornada and jornada["story"] and not paron:
             stories.insert(0, jornada["story"])
+    elif paron:
+        dias = paron["days_left"]
+        lead = {"kind": "paron",
+                "headline": _fmt("paron_t", rng),
+                "dek": (f"La jornada {paron['week']} arranca en {dias} {'día' if dias == 1 else 'días'}"
+                        if dias is not None else "La liga vuelve muy pronto"),
+                "body": [f"Han pasado {paron['days_since']} días desde el último partido y en la clasificación "
+                         f"no se mueve nada: {leader['team']} sigue arriba con {leader['points']} puntos.",
+                         _fmt("paron_cuerpo", rng)]}
+        features = []
     elif jornada and jornada["story"]:
         lead, features = dict(jornada["story"], body=(jornada["featured"] or {}).get("body", [])), []
     elif stories:
@@ -606,7 +636,7 @@ def build_edition(cur, prev, activity, title="El Diario del Míster", days=7, ex
         "points_week": cur.get("points_week"),
         "lead": lead, "features": features, "briefs": stories[:6], "standing": standing,
         "market": sorted(money, key=lambda a: a["date"] or "", reverse=True)[:12],
-        "jornada": jornada, "gossip": gossip, "thermo": thermometer(standing), "top_spender": max(spend.items(), key=lambda x: x[1]) if spend else None,
+        "jornada": jornada, "gossip": gossip, "paron": paron, "thermo": thermometer(standing), "top_spender": max(spend.items(), key=lambda x: x[1]) if spend else None,
         "editorial": None,
     }
     if os.environ.get("ANTHROPIC_API_KEY"):
@@ -619,19 +649,20 @@ def build_edition(cur, prev, activity, title="El Diario del Míster", days=7, ex
 
 
 def default_editorial(e, rng):
+    F = lambda key, **kw: _fmt(key, rng, **kw)
     st = e["standing"]
     l = st[0]
     gap = l["points"] - st[1]["points"] if len(st) > 1 else 0
-    s = f"{l['team']} manda con {l['points']} puntos y {gap} de ventaja sobre el segundo. "
+    parts = [F("ed_lider", leader=l["team"], points=l["points"], gap=gap)]
     if e["top_spender"]:
-        s += f"En los despachos, {e['top_spender'][0]} es quien más ha tirado de cartera ({M(e['top_spender'][1])}). "
+        parts.append(F("ed_gasto", who=e["top_spender"][0], amount=M(e["top_spender"][1])))
     j = e.get("jornada")
-    if j and j.get("crack"):
+    if j and j.get("crack") and not e.get("paron"):
         c = j["crack"]
-        s += f"En el césped, {c['name']} ({pts(c['points'])}) fue lo mejor para {c['owner']}. "
-    s += f"Mientras, {st[-1]['team']} sigue buscando el camino desde el fondo. "
-    s += rng.choice(["La liga huele a pólvora.", "Se avecinan curvas.", "Aquí no se rinde nadie."])
-    return s
+        parts.append(F("ed_crack", player=c["name"], points=pts(c["points"]), owner=c["owner"]))
+    parts.append(F("ed_farolillo", team=st[-1]["team"]))
+    parts.append(F("ed_cierre"))
+    return " ".join(parts)
 
 
 def _llm(prompt, max_tokens=600):

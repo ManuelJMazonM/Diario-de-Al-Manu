@@ -257,13 +257,23 @@ def collect(league_id=None, tokens="tokens.json", data_dir="data", max_pages=8, 
         raw_j = {"calendar": cal[:1], "stats": st[:1]}
         jornada = {"week": jw, "matches": norm_matches(cal, st, clubs)}
 
+    # Próxima jornada (fechas y partidos) si la actual aún no se ha jugado: sirve para los parones.
+    next_j = None
+    if week_no and week_no != jw:
+        try:
+            cal_next = c.calendar(week_no)
+            next_j = {"week": week_no, "matches": [
+                {k: m[k] for k in ("local", "visitor", "date")} for m in norm_matches(cal_next, [], clubs)]}
+        except Exception as e:
+            print(f"  aviso: no pude leer el calendario de la jornada {week_no}: {e}")
+
     snap = {
         "date": datetime.now(timezone.utc).astimezone().strftime("%Y-%m-%d"),
         "taken_at": datetime.now(timezone.utc).isoformat(),
         "league_id": str(league_id), "league_name": league_name,
         "week": week_no,
         "points_week": pts_week,
-        "standing": standing, "squads": squads, "jornada": jornada,
+        "standing": standing, "squads": squads, "jornada": jornada, "next_jornada": next_j,
     }
     if raw:
         snap["_raw_standing"] = standing_raw
