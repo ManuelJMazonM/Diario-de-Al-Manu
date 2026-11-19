@@ -1,6 +1,6 @@
 {
  "date": "2026-11-19",
- "taken_at": "2026-11-19T06:20:37.900324+00:00",
+ "taken_at": "2026-11-19T15:42:39.722651+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -12,7 +12,7 @@
    "manager": "Al-SanJuanitoFC",
    "points": 548,
    "week_points": 61,
-   "value": 378415855,
+   "value": 380094704,
    "position": 1,
    "prev_position": 1
   },
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 506,
    "week_points": 82,
-   "value": 772279512,
+   "value": 696230863,
    "position": 2,
    "prev_position": 3
   },
@@ -32,7 +32,7 @@
    "manager": "Al-Ilitihad del segu",
    "points": 503,
    "week_points": 45,
-   "value": 338338762,
+   "value": 339110648,
    "position": 3,
    "prev_position": 2
   },
@@ -42,7 +42,7 @@
    "manager": "Al-Malumitas FC",
    "points": 104,
    "week_points": 0,
-   "value": 132058822,
+   "value": 134184895,
    "position": 4,
    "prev_position": 4
   },
@@ -52,7 +52,7 @@
    "manager": "EnriqueVeteYa69",
    "points": 21,
    "week_points": 0,
-   "value": 148025280,
+   "value": 147992571,
    "position": 5,
    "prev_position": 5
   }
@@ -246,22 +246,6 @@
     "clause": 18876660
    },
    {
-    "id": "637",
-    "name": "Moncayola",
-    "pos": "MED",
-    "value": 3563498,
-    "points": 35,
-    "clause": 4383877
-   },
-   {
-    "id": "652",
-    "name": "Rubén García",
-    "pos": "MED",
-    "value": 16029380,
-    "points": 55,
-    "clause": 16029380
-   },
-   {
     "id": "1674",
     "name": "Arda Güler",
     "pos": "MED",
@@ -276,14 +260,6 @@
     "value": 40475864,
     "points": 59,
     "clause": 40475864
-   },
-   {
-    "id": "2444",
-    "name": "Sucic",
-    "pos": "MED",
-    "value": 45643579,
-    "points": 66,
-    "clause": 45643579
    },
    {
     "id": "2556",
@@ -316,14 +292,6 @@
     "value": 165735594,
     "points": 146,
     "clause": 165735594
-   },
-   {
-    "id": "2973",
-    "name": "Bil Nsongo",
-    "pos": "DEL",
-    "value": 14915020,
-    "points": 59,
-    "clause": 14915020
    },
    {
     "id": "3152",

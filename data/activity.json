@@ -1,5 +1,45 @@
 [
  {
+  "id": "121091761",
+  "type": "venta",
+  "date": "2026-11-19T16:36:48+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Moncayola",
+  "player_id": "637",
+  "amount": 3706687
+ },
+ {
+  "id": "121091703",
+  "type": "venta",
+  "date": "2026-11-19T16:36:41+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Rubén García",
+  "player_id": "652",
+  "amount": 17272370
+ },
+ {
+  "id": "121091444",
+  "type": "venta",
+  "date": "2026-11-19T16:36:19+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Bil Nsongo",
+  "player_id": "2973",
+  "amount": 15874543
+ },
+ {
+  "id": "120929683",
+  "type": "venta",
+  "date": "2026-11-19T10:56:57+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Sucic",
+  "player_id": "2444",
+  "amount": 48293336
+ },
+ {
   "id": "119276687",
   "type": "fichaje",
   "date": "2026-11-15T16:00:43+01:00",
