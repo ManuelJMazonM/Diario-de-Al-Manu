@@ -1,6 +1,6 @@
 {
  "date": "2026-11-20",
- "taken_at": "2026-11-20T06:20:40.415676+00:00",
+ "taken_at": "2026-11-20T15:25:31.468612+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -12,7 +12,7 @@
    "manager": "Al-SanJuanitoFC",
    "points": 548,
    "week_points": 61,
-   "value": 380094704,
+   "value": 381464315,
    "position": 1,
    "prev_position": 1
   },
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 506,
    "week_points": 82,
-   "value": 696230863,
+   "value": 653967169,
    "position": 2,
    "prev_position": 3
   },
@@ -32,7 +32,7 @@
    "manager": "Al-Ilitihad del segu",
    "points": 503,
    "week_points": 45,
-   "value": 339110648,
+   "value": 339798830,
    "position": 3,
    "prev_position": 2
   },
@@ -42,7 +42,7 @@
    "manager": "Al-Malumitas FC",
    "points": 104,
    "week_points": 0,
-   "value": 134184895,
+   "value": 135985074,
    "position": 4,
    "prev_position": 4
   },
@@ -52,7 +52,7 @@
    "manager": "EnriqueVeteYa69",
    "points": 21,
    "week_points": 0,
-   "value": 147992571,
+   "value": 148224967,
    "position": 5,
    "prev_position": 5
   }
@@ -246,6 +246,14 @@
     "clause": 19250636
    },
    {
+    "id": "680",
+    "name": "Moi Gómez",
+    "pos": "MED",
+    "value": 6617757,
+    "points": 54,
+    "clause": 6617757
+   },
+   {
     "id": "1674",
     "name": "Arda Güler",
     "pos": "MED",
@@ -268,14 +276,6 @@
     "value": 6357777,
     "points": 35,
     "clause": 6357777
-   },
-   {
-    "id": "3077",
-    "name": "Edu Expósito",
-    "pos": "MED",
-    "value": 51040192,
-    "points": 74,
-    "clause": 51040192
    },
    {
     "id": "3101",
