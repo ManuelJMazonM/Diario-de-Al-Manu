@@ -1,0 +1,973 @@
+{
+ "date": "2026-11-21",
+ "taken_at": "2026-11-21T06:20:44.806348+00:00",
+ "league_id": "017729275",
+ "league_name": "SUPER LIGA RIVES 26-27",
+ "week": 13,
+ "points_week": 13,
+ "standing": [
+  {
+   "team_id": "37020164",
+   "team": "Al-SanJuanitoFC",
+   "manager": "Al-SanJuanitoFC",
+   "points": 549,
+   "week_points": 1,
+   "value": 355913292,
+   "position": 1,
+   "prev_position": 1
+  },
+  {
+   "team_id": "37006883",
+   "team": "Al-Moradí CF",
+   "manager": "Al-Moradí CF",
+   "points": 514,
+   "week_points": 8,
+   "value": 653967169,
+   "position": 2,
+   "prev_position": 2
+  },
+  {
+   "team_id": "37020040",
+   "team": "Al-Ilitihad del segu",
+   "manager": "Al-Ilitihad del segu",
+   "points": 503,
+   "week_points": 0,
+   "value": 339798830,
+   "position": 3,
+   "prev_position": 3
+  },
+  {
+   "team_id": "37024497",
+   "team": "Al-Malumitas FC",
+   "manager": "Al-Malumitas FC",
+   "points": 104,
+   "week_points": 0,
+   "value": 135985074,
+   "position": 4,
+   "prev_position": 4
+  },
+  {
+   "team_id": "39060670",
+   "team": "EnriqueVeteYa69",
+   "manager": "EnriqueVeteYa69",
+   "points": 21,
+   "week_points": 0,
+   "value": 148224967,
+   "position": 5,
+   "prev_position": 5
+  }
+ ],
+ "squads": {
+  "37020164": [
+   {
+    "id": "2755",
+    "name": "Ryan",
+    "pos": "POR",
+    "value": 17716915,
+    "points": 81,
+    "clause": 26647235
+   },
+   {
+    "id": "3155",
+    "name": "Grimaldo",
+    "pos": "DEF",
+    "value": 85486114,
+    "points": 95,
+    "clause": 85486114
+   },
+   {
+    "id": "3082",
+    "name": "Lejeune",
+    "pos": "DEF",
+    "value": 15165584,
+    "points": 34,
+    "clause": 15165584
+   },
+   {
+    "id": "3174",
+    "name": "Mandi",
+    "pos": "DEF",
+    "value": 4930905,
+    "points": 40,
+    "clause": 4930905
+   },
+   {
+    "id": "2742",
+    "name": "Nacho Perez",
+    "pos": "DEF",
+    "value": 1430166,
+    "points": 41,
+    "clause": 1500000
+   },
+   {
+    "id": "2714",
+    "name": "Javi Rueda",
+    "pos": "DEF",
+    "value": 4416459,
+    "points": 40,
+    "clause": 5368294
+   },
+   {
+    "id": "3184",
+    "name": "H. Rincón",
+    "pos": "DEF",
+    "value": 1849668,
+    "points": 31,
+    "clause": 1849668
+   },
+   {
+    "id": "2464",
+    "name": "Pepelu",
+    "pos": "MED",
+    "value": 56250631,
+    "points": 68,
+    "clause": 56250631
+   },
+   {
+    "id": "3044",
+    "name": "Dotor",
+    "pos": "MED",
+    "value": 3912603,
+    "points": 45,
+    "clause": 5389187
+   },
+   {
+    "id": "2995",
+    "name": "Mario Soriano",
+    "pos": "MED",
+    "value": 60548242,
+    "points": 82,
+    "clause": 60548242
+   },
+   {
+    "id": "2932",
+    "name": "Ángel Pérez",
+    "pos": "MED",
+    "value": 29788034,
+    "points": 63,
+    "clause": 43483814
+   },
+   {
+    "id": "2868",
+    "name": "Carlos Macià",
+    "pos": "MED",
+    "value": 890552,
+    "points": 29,
+    "clause": 1000000
+   },
+   {
+    "id": "2358",
+    "name": "F. De Jong",
+    "pos": "MED",
+    "value": 16761313,
+    "points": 10,
+    "clause": 16761313
+   },
+   {
+    "id": "3129",
+    "name": "Carlos Espí",
+    "pos": "DEL",
+    "value": 5979936,
+    "points": 23,
+    "clause": 16491296
+   },
+   {
+    "id": "3249",
+    "name": "Adama Traoré",
+    "pos": "DEL",
+    "value": 5368273,
+    "points": 33,
+    "clause": 5832427
+   },
+   {
+    "id": "927",
+    "name": "Berenguer",
+    "pos": "DEL",
+    "value": 47471851,
+    "points": 80,
+    "clause": 47471851
+   }
+  ],
+  "37006883": [
+   {
+    "id": "204",
+    "name": "Aitor Fdez",
+    "pos": "POR",
+    "value": 1049185,
+    "points": 27,
+    "clause": 1049185
+   },
+   {
+    "id": "988",
+    "name": "Sivera",
+    "pos": "POR",
+    "value": 28966955,
+    "points": 89,
+    "clause": 47037289
+   },
+   {
+    "id": "2525",
+    "name": "Salinas",
+    "pos": "DEF",
+    "value": 715310,
+    "points": 23,
+    "clause": 1000000
+   },
+   {
+    "id": "3026",
+    "name": "Pablo Ramón",
+    "pos": "DEF",
+    "value": 2071844,
+    "points": 40,
+    "clause": 2071844
+   },
+   {
+    "id": "3068",
+    "name": "Cabrera",
+    "pos": "DEF",
+    "value": 19563545,
+    "points": 63,
+    "clause": 19563545
+   },
+   {
+    "id": "680",
+    "name": "Moi Gómez",
+    "pos": "MED",
+    "value": 6782069,
+    "points": 54,
+    "clause": 6782069
+   },
+   {
+    "id": "1674",
+    "name": "Arda Güler",
+    "pos": "MED",
+    "value": 151266165,
+    "points": 125,
+    "clause": 151266165
+   },
+   {
+    "id": "2418",
+    "name": "Marc Roca",
+    "pos": "MED",
+    "value": 41329383,
+    "points": 59,
+    "clause": 41329383
+   },
+   {
+    "id": "2556",
+    "name": "Buchanan",
+    "pos": "MED",
+    "value": 6462004,
+    "points": 35,
+    "clause": 6462004
+   },
+   {
+    "id": "3101",
+    "name": "Bellingham",
+    "pos": "MED",
+    "value": 154759026,
+    "points": 118,
+    "clause": 154759026
+   },
+   {
+    "id": "2522",
+    "name": "Raphinha",
+    "pos": "DEL",
+    "value": 165504852,
+    "points": 146,
+    "clause": 165504852
+   },
+   {
+    "id": "3152",
+    "name": "Y. Zabiri",
+    "pos": "DEL",
+    "value": 61592521,
+    "points": 78,
+    "clause": 61592521
+   },
+   {
+    "id": "3262",
+    "name": "Félix Correia",
+    "pos": "DEL",
+    "value": 14785474,
+    "points": 58,
+    "clause": 14785474
+   }
+  ],
+  "37020040": [
+   {
+    "id": "3040",
+    "name": "A. Herrero",
+    "pos": "POR",
+    "value": 13587419,
+    "points": 56,
+    "clause": 13587419
+   },
+   {
+    "id": "2930",
+    "name": "Nuñez",
+    "pos": "DEF",
+    "value": 2775074,
+    "points": 27,
+    "clause": 7500000
+   },
+   {
+    "id": "2596",
+    "name": "V. Chust",
+    "pos": "DEF",
+    "value": 7613117,
+    "points": 49,
+    "clause": 9127350
+   },
+   {
+    "id": "3284",
+    "name": "Carvajal",
+    "pos": "DEF",
+    "value": 7849015,
+    "points": 4,
+    "clause": 7849015
+   },
+   {
+    "id": "2938",
+    "name": "Koski",
+    "pos": "DEF",
+    "value": 36359654,
+    "points": 64,
+    "clause": 36359654
+   },
+   {
+    "id": "3041",
+    "name": "Rafita",
+    "pos": "DEF",
+    "value": 5037980,
+    "points": 43,
+    "clause": 5666674
+   },
+   {
+    "id": "1337",
+    "name": "Tenaglia",
+    "pos": "DEF",
+    "value": 18184927,
+    "points": 52,
+    "clause": 29318523
+   },
+   {
+    "id": "2314",
+    "name": "Vivian",
+    "pos": "DEF",
+    "value": 7184788,
+    "points": 27,
+    "clause": 7184788
+   },
+   {
+    "id": "3100",
+    "name": "Pedri",
+    "pos": "MED",
+    "value": 79158466,
+    "points": 68,
+    "clause": 94609732
+   },
+   {
+    "id": "3099",
+    "name": "Fornals",
+    "pos": "MED",
+    "value": 59710081,
+    "points": 67,
+    "clause": 59710081
+   },
+   {
+    "id": "3036",
+    "name": "Dani Lorenzo",
+    "pos": "MED",
+    "value": 7501980,
+    "points": 42,
+    "clause": 9499986
+   },
+   {
+    "id": "3108",
+    "name": "Aubameyang",
+    "pos": "DEL",
+    "value": 75230841,
+    "points": 67,
+    "clause": 126250095
+   },
+   {
+    "id": "2303",
+    "name": "I. Romero",
+    "pos": "DEL",
+    "value": 6529773,
+    "points": 49,
+    "clause": 6529773
+   },
+   {
+    "id": "2962",
+    "name": "Luismi Cruz",
+    "pos": "DEL",
+    "value": 9562868,
+    "points": 57,
+    "clause": 13329565
+   },
+   {
+    "id": "2712",
+    "name": "Pablo García",
+    "pos": "DEL",
+    "value": 3514034,
+    "points": 33,
+    "clause": 3514034
+   }
+  ],
+  "37024497": [
+   {
+    "id": "2321",
+    "name": "J. Musso",
+    "pos": "POR",
+    "value": 786677,
+    "points": 0,
+    "clause": 12185628
+   },
+   {
+    "id": "2325",
+    "name": "Molina",
+    "pos": "DEF",
+    "value": 5057075,
+    "points": 0,
+    "clause": 8927945
+   },
+   {
+    "id": "2356",
+    "name": "R. Araujo",
+    "pos": "DEF",
+    "value": 4635257,
+    "points": 0,
+    "clause": 12349753
+   },
+   {
+    "id": "2479",
+    "name": "Kike Salas",
+    "pos": "DEF",
+    "value": 34911997,
+    "points": 60,
+    "clause": 34911997
+   },
+   {
+    "id": "2936",
+    "name": "Egiluz",
+    "pos": "DEF",
+    "value": 660804,
+    "points": 0,
+    "clause": 1000000
+   },
+   {
+    "id": "1029",
+    "name": "Álvaro García",
+    "pos": "MED",
+    "value": 7715692,
+    "points": 37,
+    "clause": 23204656
+   },
+   {
+    "id": "2338",
+    "name": "Aimar",
+    "pos": "MED",
+    "value": 2003080,
+    "points": 12,
+    "clause": 29398281
+   },
+   {
+    "id": "2553",
+    "name": "Almada",
+    "pos": "MED",
+    "value": 5800439,
+    "points": 0,
+    "clause": 14194478
+   },
+   {
+    "id": "3035",
+    "name": "Izan M.",
+    "pos": "MED",
+    "value": 1004830,
+    "points": 17,
+    "clause": 13630301
+   },
+   {
+    "id": "3083",
+    "name": "Nico Williams",
+    "pos": "DEL",
+    "value": 76075410,
+    "points": 74,
+    "clause": 76075410
+   }
+  ],
+  "39060670": [
+   {
+    "id": "3018",
+    "name": "Eriksson",
+    "pos": "POR",
+    "value": 720201,
+    "points": 0,
+    "clause": 4064790
+   },
+   {
+    "id": "2429",
+    "name": "Fran García",
+    "pos": "DEF",
+    "value": 20752356,
+    "points": 40,
+    "clause": 20752356
+   },
+   {
+    "id": "2533",
+    "name": "Á. Carreras",
+    "pos": "DEF",
+    "value": 3647943,
+    "points": 29,
+    "clause": 18117700
+   },
+   {
+    "id": "3107",
+    "name": "Konaté",
+    "pos": "DEF",
+    "value": 50241228,
+    "points": 50,
+    "clause": 50241228
+   },
+   {
+    "id": "581",
+    "name": "Rioja",
+    "pos": "MED",
+    "value": 3064759,
+    "points": 33,
+    "clause": 16602023
+   },
+   {
+    "id": "3133",
+    "name": "Mangala",
+    "pos": "MED",
+    "value": 4025851,
+    "points": 36,
+    "clause": 17601283
+   },
+   {
+    "id": "3140",
+    "name": "Juan Cruz",
+    "pos": "MED",
+    "value": 1397819,
+    "points": 13,
+    "clause": 23024938
+   },
+   {
+    "id": "3199",
+    "name": "F. Bernal",
+    "pos": "MED",
+    "value": 3863418,
+    "points": 24,
+    "clause": 18068656
+   },
+   {
+    "id": "3183",
+    "name": "Dubasin",
+    "pos": "DEL",
+    "value": 2062661,
+    "points": 32,
+    "clause": 21876583
+   },
+   {
+    "id": "3210",
+    "name": "Gordon",
+    "pos": "DEL",
+    "value": 58548829,
+    "points": 62,
+    "clause": 69398702
+   }
+  ]
+ },
+ "jornada": {
+  "week": 13,
+  "matches": [
+   {
+    "id": "121",
+    "date": "2026-11-21T18:30:00+01:00",
+    "local": "Sevilla FC",
+    "visitor": "Real Betis",
+    "ls": null,
+    "vs": null,
+    "state": 1,
+    "players": []
+   },
+   {
+    "id": "122",
+    "date": "2026-11-21T21:00:00+01:00",
+    "local": "Real Madrid",
+    "visitor": "Celta",
+    "ls": null,
+    "vs": null,
+    "state": 1,
+    "players": []
+   },
+   {
+    "id": "123",
+    "date": "2026-11-21T16:15:00+01:00",
+    "local": "Rayo Vallecano",
+    "visitor": "Valencia CF",
+    "ls": null,
+    "vs": null,
+    "state": 1,
+    "players": []
+   },
+   {
+    "id": "124",
+    "date": "2026-11-22T16:15:00+01:00",
+    "local": "R. Racing Club",
+    "visitor": "Real Sociedad",
+    "ls": null,
+    "vs": null,
+    "state": 1,
+    "players": []
+   },
+   {
+    "id": "125",
+    "date": "2026-11-22T18:30:00+01:00",
+    "local": "C.A. Osasuna",
+    "visitor": "Málaga CF",
+    "ls": null,
+    "vs": null,
+    "state": 1,
+    "players": []
+   },
+   {
+    "id": "126",
+    "date": "2026-11-23T21:00:00+01:00",
+    "local": "Levante UD",
+    "visitor": "Elche CF",
+    "ls": null,
+    "vs": null,
+    "state": 1,
+    "players": []
+   },
+   {
+    "id": "127",
+    "date": "2026-11-22T21:00:00+01:00",
+    "local": "Getafe CF",
+    "visitor": "Atlético de Madrid",
+    "ls": null,
+    "vs": null,
+    "state": 1,
+    "players": []
+   },
+   {
+    "id": "128",
+    "date": "2026-11-22T14:00:00+01:00",
+    "local": "FC Barcelona",
+    "visitor": "Villarreal CF",
+    "ls": null,
+    "vs": null,
+    "state": 1,
+    "players": []
+   },
+   {
+    "id": "129",
+    "date": "2026-11-20T21:00:00+01:00",
+    "local": "Athletic Club",
+    "visitor": "RCD Espanyol",
+    "ls": 0,
+    "vs": 1,
+    "state": 7,
+    "players": [
+     {
+      "id": "2565",
+      "name": "A. Fortuño",
+      "points": 14,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2520",
+      "name": "Roberto",
+      "points": 11,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3083",
+      "name": "Nico Williams",
+      "points": 10,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "1930",
+      "name": "El Hilali",
+      "points": 10,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2785",
+      "name": "Riedel",
+      "points": 10,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2623",
+      "name": "Dolan",
+      "points": 8,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3068",
+      "name": "Cabrera",
+      "points": 8,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3098",
+      "name": "Q. Hartman",
+      "points": 7,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3162",
+      "name": "Hinojo",
+      "points": 7,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "68",
+      "name": "Unai Simón",
+      "points": 6,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "1938",
+      "name": "Pol Lozano",
+      "points": 6,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3305",
+      "name": "A. Santiago",
+      "points": 6,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "74",
+      "name": "Yuri",
+      "points": 5,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2318",
+      "name": "O. Sancet",
+      "points": 5,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3023",
+      "name": "Peio Canales",
+      "points": 5,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3294",
+      "name": "Eder Sarabia",
+      "points": 5,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "1070",
+      "name": "De Galarreta",
+      "points": 4,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3169",
+      "name": "Bauza",
+      "points": 4,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "77",
+      "name": "Yeray",
+      "points": 3,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "1787",
+      "name": "Prados",
+      "points": 3,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3184",
+      "name": "H. Rincón",
+      "points": 3,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2645",
+      "name": "Rego",
+      "points": 2,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3065",
+      "name": "Laporte",
+      "points": 2,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3185",
+      "name": "Gerenabarrena",
+      "points": 2,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2400",
+      "name": "Pere Milla",
+      "points": 2,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2930",
+      "name": "Nuñez",
+      "points": 2,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3127",
+      "name": "Moscardo",
+      "points": 2,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "91",
+      "name": "Iñaki Williams",
+      "points": 1,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "927",
+      "name": "Berenguer",
+      "points": 1,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2549",
+      "name": "Navarro",
+      "points": 1,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3295",
+      "name": "Vizcay",
+      "points": 1,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2516",
+      "name": "Puado",
+      "points": 1,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3161",
+      "name": "Javi Hernández",
+      "points": 1,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2040",
+      "name": "Jauregizar",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2315",
+      "name": "Paredes",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2335",
+      "name": "Areso",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2501",
+      "name": "Nico Serrano",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "2644",
+      "name": "Padilla",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3094",
+      "name": "Edin Terzic",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3122",
+      "name": "Djalo",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "3213",
+      "name": "Johaneko",
+      "points": 0,
+      "club": "Athletic Club"
+     },
+     {
+      "id": "1950",
+      "name": "Jofre",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2316",
+      "name": "Gorosabel",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "2507",
+      "name": "Dmitrovic",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3131",
+      "name": "Marcos",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3177",
+      "name": "Vanja Drkusic",
+      "points": 0,
+      "club": "RCD Espanyol"
+     },
+     {
+      "id": "3237",
+      "name": "Bryan",
+      "points": 0,
+      "club": "RCD Espanyol"
+     }
+    ]
+   },
+   {
+    "id": "130",
+    "date": "2026-11-21T14:00:00+01:00",
+    "local": "Deportivo Alavés",
+    "visitor": "RC Deportivo",
+    "ls": null,
+    "vs": null,
+    "state": 1,
+    "players": []
+   }
+  ]
+ },
+ "next_jornada": null
+}

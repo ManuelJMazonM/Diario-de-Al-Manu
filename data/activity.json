@@ -1,5 +1,25 @@
 [
  {
+  "id": "121622944",
+  "type": "venta",
+  "date": "2026-11-20T19:09:08+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "E. Militão",
+  "player_id": "2426",
+  "amount": 5671947
+ },
+ {
+  "id": "121622868",
+  "type": "venta",
+  "date": "2026-11-20T19:09:04+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Barrenetxea",
+  "player_id": "701",
+  "amount": 18968876
+ },
+ {
   "id": "121543112",
   "type": "venta",
   "date": "2026-11-20T16:23:07+01:00",
