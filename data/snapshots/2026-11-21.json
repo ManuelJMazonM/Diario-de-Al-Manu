@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "taken_at": "2026-11-21T06:20:44.806348+00:00",
+ "taken_at": "2026-11-21T14:37:10.300178+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -10,9 +10,9 @@
    "team_id": "37020164",
    "team": "Al-SanJuanitoFC",
    "manager": "Al-SanJuanitoFC",
-   "points": 549,
-   "week_points": 1,
-   "value": 355913292,
+   "points": 554,
+   "week_points": 6,
+   "value": 357967246,
    "position": 1,
    "prev_position": 1
   },
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 514,
    "week_points": 8,
-   "value": 653967169,
+   "value": 654848333,
    "position": 2,
    "prev_position": 2
   },
@@ -30,9 +30,9 @@
    "team_id": "37020040",
    "team": "Al-Ilitihad del segu",
    "manager": "Al-Ilitihad del segu",
-   "points": 503,
-   "week_points": 0,
-   "value": 339798830,
+   "points": 501,
+   "week_points": -2,
+   "value": 339800017,
    "position": 3,
    "prev_position": 3
   },
@@ -42,7 +42,7 @@
    "manager": "Al-Malumitas FC",
    "points": 104,
    "week_points": 0,
-   "value": 135985074,
+   "value": 137590976,
    "position": 4,
    "prev_position": 4
   },
@@ -52,7 +52,7 @@
    "manager": "EnriqueVeteYa69",
    "points": 21,
    "week_points": 0,
-   "value": 148224967,
+   "value": 148325065,
    "position": 5,
    "prev_position": 5
   }
@@ -136,7 +136,7 @@
     "name": "Mario Soriano",
     "pos": "MED",
     "value": 60548242,
-    "points": 82,
+    "points": 80,
     "clause": 60548242
    },
    {
@@ -144,7 +144,7 @@
     "name": "Ángel Pérez",
     "pos": "MED",
     "value": 29788034,
-    "points": 63,
+    "points": 71,
     "clause": 43483814
    },
    {
@@ -176,7 +176,7 @@
     "name": "Adama Traoré",
     "pos": "DEL",
     "value": 5368273,
-    "points": 33,
+    "points": 32,
     "clause": 5832427
    },
    {
@@ -332,7 +332,7 @@
     "name": "Koski",
     "pos": "DEF",
     "value": 36359654,
-    "points": 64,
+    "points": 65,
     "clause": 36359654
    },
    {
@@ -348,7 +348,7 @@
     "name": "Tenaglia",
     "pos": "DEF",
     "value": 18184927,
-    "points": 52,
+    "points": 49,
     "clause": 29318523
    },
    {
@@ -388,7 +388,7 @@
     "name": "Aubameyang",
     "pos": "DEL",
     "value": 75230841,
-    "points": 67,
+    "points": 66,
     "clause": 126250095
    },
    {
@@ -962,10 +962,299 @@
     "date": "2026-11-21T14:00:00+01:00",
     "local": "Deportivo Alavés",
     "visitor": "RC Deportivo",
-    "ls": null,
-    "vs": null,
-    "state": 1,
-    "players": []
+    "ls": 2,
+    "vs": 1,
+    "state": 4,
+    "players": [
+     {
+      "id": "2932",
+      "name": "Ángel Pérez",
+      "points": 8,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2951",
+      "name": "Sánchez Flores",
+      "points": 5,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3069",
+      "name": "Blanco",
+      "points": 5,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3109",
+      "name": "Leo Román",
+      "points": 5,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2768",
+      "name": "Lucas Boyé",
+      "points": 3,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2552",
+      "name": "Jonny Otto",
+      "points": 1,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2569",
+      "name": "Ibañez",
+      "points": 1,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2577",
+      "name": "A. Rebbach",
+      "points": 1,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2938",
+      "name": "Koski",
+      "points": 1,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "270",
+      "name": "Guevara",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "988",
+      "name": "Sivera",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2342",
+      "name": "Protesoni",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2474",
+      "name": "Denis Suárez",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2564",
+      "name": "Aleñá",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2568",
+      "name": "Youssef",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2600",
+      "name": "Mariano",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2885",
+      "name": "Xanet Olaiz",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2887",
+      "name": "Mañas",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3153",
+      "name": "Miguel Rodríguez",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3156",
+      "name": "Valentini",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3159",
+      "name": "Novoa",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3160",
+      "name": "A. Rodriguez",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3257",
+      "name": "Diallo",
+      "points": 0,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2324",
+      "name": "Giménez",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2962",
+      "name": "Luismi Cruz",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2973",
+      "name": "Bil Nsongo",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2974",
+      "name": "Noé",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2975",
+      "name": "A. Ferllo",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2976",
+      "name": "A. Alti",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2977",
+      "name": "Riki",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2986",
+      "name": "Antonio Hidalgo",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2988",
+      "name": "Germán",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2991",
+      "name": "D. Villares",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2994",
+      "name": "Mella",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3119",
+      "name": "Amatucci",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3142",
+      "name": "Angeliño",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3148",
+      "name": "Asp Jensen",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3078",
+      "name": "T. Martínez",
+      "points": -1,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2362",
+      "name": "M. Casadó",
+      "points": -1,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2963",
+      "name": "Quagliata",
+      "points": -1,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2965",
+      "name": "M. Loureiro",
+      "points": -1,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2985",
+      "name": "Noubi",
+      "points": -1,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2990",
+      "name": "Ximo Navarro",
+      "points": -1,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3076",
+      "name": "Yeremay",
+      "points": -1,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3108",
+      "name": "Aubameyang",
+      "points": -1,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3249",
+      "name": "Adama Traoré",
+      "points": -1,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2995",
+      "name": "Mario Soriano",
+      "points": -2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "1337",
+      "name": "Tenaglia",
+      "points": -3,
+      "club": "Deportivo Alavés"
+     }
+    ]
    }
   ]
  },
