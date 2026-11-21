@@ -1,6 +1,6 @@
 {
  "date": "2026-11-21",
- "taken_at": "2026-11-21T14:37:10.300178+00:00",
+ "taken_at": "2026-11-21T16:57:26.014984+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -10,9 +10,9 @@
    "team_id": "37020164",
    "team": "Al-SanJuanitoFC",
    "manager": "Al-SanJuanitoFC",
-   "points": 554,
-   "week_points": 6,
-   "value": 357967246,
+   "points": 565,
+   "week_points": 17,
+   "value": 352598973,
    "position": 1,
    "prev_position": 1
   },
@@ -20,8 +20,8 @@
    "team_id": "37006883",
    "team": "Al-Moradí CF",
    "manager": "Al-Moradí CF",
-   "points": 514,
-   "week_points": 8,
+   "points": 519,
+   "week_points": 13,
    "value": 654848333,
    "position": 2,
    "prev_position": 2
@@ -30,8 +30,8 @@
    "team_id": "37020040",
    "team": "Al-Ilitihad del segu",
    "manager": "Al-Ilitihad del segu",
-   "points": 501,
-   "week_points": -2,
+   "points": 513,
+   "week_points": 10,
    "value": 339800017,
    "position": 3,
    "prev_position": 3
@@ -120,7 +120,7 @@
     "name": "Pepelu",
     "pos": "MED",
     "value": 56250631,
-    "points": 68,
+    "points": 69,
     "clause": 56250631
    },
    {
@@ -136,7 +136,7 @@
     "name": "Mario Soriano",
     "pos": "MED",
     "value": 60548242,
-    "points": 80,
+    "points": 83,
     "clause": 60548242
    },
    {
@@ -144,7 +144,7 @@
     "name": "Ángel Pérez",
     "pos": "MED",
     "value": 29788034,
-    "points": 71,
+    "points": 77,
     "clause": 43483814
    },
    {
@@ -172,14 +172,6 @@
     "clause": 16491296
    },
    {
-    "id": "3249",
-    "name": "Adama Traoré",
-    "pos": "DEL",
-    "value": 5368273,
-    "points": 32,
-    "clause": 5832427
-   },
-   {
     "id": "927",
     "name": "Berenguer",
     "pos": "DEL",
@@ -202,7 +194,7 @@
     "name": "Sivera",
     "pos": "POR",
     "value": 28966955,
-    "points": 89,
+    "points": 94,
     "clause": 47037289
    },
    {
@@ -332,7 +324,7 @@
     "name": "Koski",
     "pos": "DEF",
     "value": 36359654,
-    "points": 65,
+    "points": 69,
     "clause": 36359654
    },
    {
@@ -348,7 +340,7 @@
     "name": "Tenaglia",
     "pos": "DEF",
     "value": 18184927,
-    "points": 49,
+    "points": 54,
     "clause": 29318523
    },
    {
@@ -388,7 +380,7 @@
     "name": "Aubameyang",
     "pos": "DEL",
     "value": 75230841,
-    "points": 66,
+    "points": 68,
     "clause": 126250095
    },
    {
@@ -404,7 +396,7 @@
     "name": "Luismi Cruz",
     "pos": "DEL",
     "value": 9562868,
-    "points": 57,
+    "points": 60,
     "clause": 13329565
    },
    {
@@ -536,7 +528,7 @@
     "name": "Rioja",
     "pos": "MED",
     "value": 3064759,
-    "points": 33,
+    "points": 34,
     "clause": 16602023
    },
    {
@@ -609,10 +601,299 @@
     "date": "2026-11-21T16:15:00+01:00",
     "local": "Rayo Vallecano",
     "visitor": "Valencia CF",
-    "ls": null,
-    "vs": null,
-    "state": 1,
-    "players": []
+    "ls": 0,
+    "vs": 1,
+    "state": 4,
+    "players": [
+     {
+      "id": "2403",
+      "name": "Copete",
+      "points": 6,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3283",
+      "name": "Javier Aguirre",
+      "points": 5,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "1991",
+      "name": "Tárrega",
+      "points": 4,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "886",
+      "name": "De Frutos",
+      "points": 3,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2457",
+      "name": "Dimitrievski",
+      "points": 3,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3075",
+      "name": "Javi Guerra",
+      "points": 3,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3260",
+      "name": "Mujaid Sadick",
+      "points": 2,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2384",
+      "name": "Unai Lopez",
+      "points": 1,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "581",
+      "name": "Rioja",
+      "points": 1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2464",
+      "name": "Pepelu",
+      "points": 1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2560",
+      "name": "Raba",
+      "points": 1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3128",
+      "name": "Guido Rodríguez",
+      "points": 1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3206",
+      "name": "Maffeo",
+      "points": 1,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "1029",
+      "name": "Álvaro García",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "1056",
+      "name": "Pedrosa",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "1121",
+      "name": "Balliu",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2378",
+      "name": "D. Cárdenas",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2385",
+      "name": "Pedro Díaz",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2386",
+      "name": "Nteka",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2465",
+      "name": "Fran Pérez",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2678",
+      "name": "J. Vertrouwd",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2798",
+      "name": "Alemâo",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2813",
+      "name": "Rayane",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3082",
+      "name": "Lejeune",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3097",
+      "name": "Beñat",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3146",
+      "name": "Kumbulla",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3157",
+      "name": "Pelayo",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3198",
+      "name": "Tsitaishvili",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3244",
+      "name": "G. Bouaré",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3267",
+      "name": "Emil Audero",
+      "points": 0,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "1191",
+      "name": "Hugo Duro",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2458",
+      "name": "Diakhaby",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2546",
+      "name": "Foulquier",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2612",
+      "name": "Ugrinic",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2617",
+      "name": "Sadiq",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2693",
+      "name": "Otorbi",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2748",
+      "name": "Aimar Blázquez",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3120",
+      "name": "De Haas",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3121",
+      "name": "Dieng",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3217",
+      "name": "Sato",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3232",
+      "name": "Van Oevelen",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3236",
+      "name": "Arnau",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3239",
+      "name": "Mayol",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "3250",
+      "name": "Harvey Elliott",
+      "points": 0,
+      "club": "Valencia CF"
+     },
+     {
+      "id": "2382",
+      "name": "Isi",
+      "points": -1,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2383",
+      "name": "Pathé I. Ciss",
+      "points": -1,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "2387",
+      "name": "Camello",
+      "points": -1,
+      "club": "Rayo Vallecano"
+     },
+     {
+      "id": "3081",
+      "name": "Ratiu",
+      "points": -1,
+      "club": "Rayo Vallecano"
+     }
+    ]
    },
    {
     "id": "124",
@@ -962,14 +1243,56 @@
     "date": "2026-11-21T14:00:00+01:00",
     "local": "Deportivo Alavés",
     "visitor": "RC Deportivo",
-    "ls": 2,
+    "ls": 3,
     "vs": 1,
-    "state": 4,
+    "state": 7,
     "players": [
      {
       "id": "2932",
       "name": "Ángel Pérez",
-      "points": 8,
+      "points": 14,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2768",
+      "name": "Lucas Boyé",
+      "points": 12,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3069",
+      "name": "Blanco",
+      "points": 11,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2474",
+      "name": "Denis Suárez",
+      "points": 10,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3109",
+      "name": "Leo Román",
+      "points": 9,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2552",
+      "name": "Jonny Otto",
+      "points": 6,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "988",
+      "name": "Sivera",
+      "points": 5,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2938",
+      "name": "Koski",
+      "points": 5,
       "club": "Deportivo Alavés"
      },
      {
@@ -979,56 +1302,122 @@
       "club": "Deportivo Alavés"
      },
      {
-      "id": "3069",
-      "name": "Blanco",
-      "points": 5,
+      "id": "2577",
+      "name": "A. Rebbach",
+      "points": 4,
       "club": "Deportivo Alavés"
      },
      {
-      "id": "3109",
-      "name": "Leo Román",
-      "points": 5,
+      "id": "2963",
+      "name": "Quagliata",
+      "points": 4,
       "club": "RC Deportivo"
      },
      {
-      "id": "2768",
-      "name": "Lucas Boyé",
+      "id": "2568",
+      "name": "Youssef",
       "points": 3,
-      "club": "Deportivo Alavés"
-     },
-     {
-      "id": "2552",
-      "name": "Jonny Otto",
-      "points": 1,
       "club": "Deportivo Alavés"
      },
      {
       "id": "2569",
       "name": "Ibañez",
-      "points": 1,
+      "points": 3,
       "club": "Deportivo Alavés"
      },
      {
-      "id": "2577",
-      "name": "A. Rebbach",
-      "points": 1,
+      "id": "2962",
+      "name": "Luismi Cruz",
+      "points": 3,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2965",
+      "name": "M. Loureiro",
+      "points": 3,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "1337",
+      "name": "Tenaglia",
+      "points": 2,
       "club": "Deportivo Alavés"
      },
      {
-      "id": "2938",
-      "name": "Koski",
-      "points": 1,
+      "id": "2600",
+      "name": "Mariano",
+      "points": 2,
       "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2885",
+      "name": "Xanet Olaiz",
+      "points": 2,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3078",
+      "name": "T. Martínez",
+      "points": 2,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "3159",
+      "name": "Novoa",
+      "points": 2,
+      "club": "Deportivo Alavés"
+     },
+     {
+      "id": "2362",
+      "name": "M. Casadó",
+      "points": 2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2973",
+      "name": "Bil Nsongo",
+      "points": 2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2977",
+      "name": "Riki",
+      "points": 2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2985",
+      "name": "Noubi",
+      "points": 2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3076",
+      "name": "Yeremay",
+      "points": 2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3148",
+      "name": "Asp Jensen",
+      "points": 2,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2995",
+      "name": "Mario Soriano",
+      "points": 1,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "3108",
+      "name": "Aubameyang",
+      "points": 1,
+      "club": "RC Deportivo"
      },
      {
       "id": "270",
       "name": "Guevara",
-      "points": 0,
-      "club": "Deportivo Alavés"
-     },
-     {
-      "id": "988",
-      "name": "Sivera",
       "points": 0,
       "club": "Deportivo Alavés"
      },
@@ -1039,32 +1428,8 @@
       "club": "Deportivo Alavés"
      },
      {
-      "id": "2474",
-      "name": "Denis Suárez",
-      "points": 0,
-      "club": "Deportivo Alavés"
-     },
-     {
       "id": "2564",
       "name": "Aleñá",
-      "points": 0,
-      "club": "Deportivo Alavés"
-     },
-     {
-      "id": "2568",
-      "name": "Youssef",
-      "points": 0,
-      "club": "Deportivo Alavés"
-     },
-     {
-      "id": "2600",
-      "name": "Mariano",
-      "points": 0,
-      "club": "Deportivo Alavés"
-     },
-     {
-      "id": "2885",
-      "name": "Xanet Olaiz",
       "points": 0,
       "club": "Deportivo Alavés"
      },
@@ -1087,12 +1452,6 @@
       "club": "Deportivo Alavés"
      },
      {
-      "id": "3159",
-      "name": "Novoa",
-      "points": 0,
-      "club": "Deportivo Alavés"
-     },
-     {
       "id": "3160",
       "name": "A. Rodriguez",
       "points": 0,
@@ -1107,18 +1466,6 @@
      {
       "id": "2324",
       "name": "Giménez",
-      "points": 0,
-      "club": "RC Deportivo"
-     },
-     {
-      "id": "2962",
-      "name": "Luismi Cruz",
-      "points": 0,
-      "club": "RC Deportivo"
-     },
-     {
-      "id": "2973",
-      "name": "Bil Nsongo",
       "points": 0,
       "club": "RC Deportivo"
      },
@@ -1141,12 +1488,6 @@
       "club": "RC Deportivo"
      },
      {
-      "id": "2977",
-      "name": "Riki",
-      "points": 0,
-      "club": "RC Deportivo"
-     },
-     {
       "id": "2986",
       "name": "Antonio Hidalgo",
       "points": 0,
@@ -1155,6 +1496,12 @@
      {
       "id": "2988",
       "name": "Germán",
+      "points": 0,
+      "club": "RC Deportivo"
+     },
+     {
+      "id": "2990",
+      "name": "Ximo Navarro",
       "points": 0,
       "club": "RC Deportivo"
      },
@@ -1183,76 +1530,10 @@
       "club": "RC Deportivo"
      },
      {
-      "id": "3148",
-      "name": "Asp Jensen",
-      "points": 0,
-      "club": "RC Deportivo"
-     },
-     {
-      "id": "3078",
-      "name": "T. Martínez",
-      "points": -1,
-      "club": "Deportivo Alavés"
-     },
-     {
-      "id": "2362",
-      "name": "M. Casadó",
-      "points": -1,
-      "club": "RC Deportivo"
-     },
-     {
-      "id": "2963",
-      "name": "Quagliata",
-      "points": -1,
-      "club": "RC Deportivo"
-     },
-     {
-      "id": "2965",
-      "name": "M. Loureiro",
-      "points": -1,
-      "club": "RC Deportivo"
-     },
-     {
-      "id": "2985",
-      "name": "Noubi",
-      "points": -1,
-      "club": "RC Deportivo"
-     },
-     {
-      "id": "2990",
-      "name": "Ximo Navarro",
-      "points": -1,
-      "club": "RC Deportivo"
-     },
-     {
-      "id": "3076",
-      "name": "Yeremay",
-      "points": -1,
-      "club": "RC Deportivo"
-     },
-     {
-      "id": "3108",
-      "name": "Aubameyang",
-      "points": -1,
-      "club": "RC Deportivo"
-     },
-     {
       "id": "3249",
       "name": "Adama Traoré",
-      "points": -1,
+      "points": 0,
       "club": "RC Deportivo"
-     },
-     {
-      "id": "2995",
-      "name": "Mario Soriano",
-      "points": -2,
-      "club": "RC Deportivo"
-     },
-     {
-      "id": "1337",
-      "name": "Tenaglia",
-      "points": -3,
-      "club": "Deportivo Alavés"
      }
     ]
    }

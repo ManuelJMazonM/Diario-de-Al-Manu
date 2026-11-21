@@ -1,5 +1,15 @@
 [
  {
+  "id": "121924507",
+  "type": "venta",
+  "date": "2026-11-21T17:00:14+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Adama Traoré",
+  "player_id": "3249",
+  "amount": 4838172
+ },
+ {
   "id": "121622944",
   "type": "venta",
   "date": "2026-11-20T19:09:08+01:00",
