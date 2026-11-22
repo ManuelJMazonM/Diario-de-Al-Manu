@@ -1,6 +1,6 @@
 {
  "date": "2026-11-22",
- "taken_at": "2026-11-22T06:20:44.878109+00:00",
+ "taken_at": "2026-11-22T14:31:24.731918+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -10,9 +10,9 @@
    "team_id": "37020164",
    "team": "Al-SanJuanitoFC",
    "manager": "Al-SanJuanitoFC",
-   "points": 576,
-   "week_points": 28,
-   "value": 352598973,
+   "points": 577,
+   "week_points": 29,
+   "value": 354024185,
    "position": 1,
    "prev_position": 1
   },
@@ -20,9 +20,9 @@
    "team_id": "37006883",
    "team": "Al-Moradí CF",
    "manager": "Al-Moradí CF",
-   "points": 549,
-   "week_points": 43,
-   "value": 654848333,
+   "points": 550,
+   "week_points": 44,
+   "value": 657217067,
    "position": 2,
    "prev_position": 2
   },
@@ -30,9 +30,9 @@
    "team_id": "37020040",
    "team": "Al-Ilitihad del segu",
    "manager": "Al-Ilitihad del segu",
-   "points": 515,
-   "week_points": 12,
-   "value": 339800017,
+   "points": 520,
+   "week_points": 17,
+   "value": 339802672,
    "position": 3,
    "prev_position": 3
   },
@@ -42,7 +42,7 @@
    "manager": "Al-Malumitas FC",
    "points": 104,
    "week_points": 0,
-   "value": 137590976,
+   "value": 140123681,
    "position": 4,
    "prev_position": 4
   },
@@ -52,7 +52,7 @@
    "manager": "EnriqueVeteYa69",
    "points": 21,
    "week_points": 0,
-   "value": 148325065,
+   "value": 148390664,
    "position": 5,
    "prev_position": 5
   }
@@ -160,7 +160,7 @@
     "name": "F. De Jong",
     "pos": "MED",
     "value": 17149537,
-    "points": 10,
+    "points": 11,
     "clause": 17149537
    },
    {
@@ -250,7 +250,7 @@
     "name": "Buchanan",
     "pos": "MED",
     "value": 6521111,
-    "points": 35,
+    "points": 40,
     "clause": 6521111
    },
    {
@@ -266,7 +266,7 @@
     "name": "Raphinha",
     "pos": "DEL",
     "value": 165613884,
-    "points": 146,
+    "points": 147,
     "clause": 165613884
    },
    {
@@ -356,7 +356,7 @@
     "name": "Pedri",
     "pos": "MED",
     "value": 80510119,
-    "points": 68,
+    "points": 73,
     "clause": 94609732
    },
    {
@@ -1506,10 +1506,287 @@
     "date": "2026-11-22T14:00:00+01:00",
     "local": "FC Barcelona",
     "visitor": "Villarreal CF",
-    "ls": null,
-    "vs": null,
-    "state": 1,
-    "players": []
+    "ls": 2,
+    "vs": 2,
+    "state": 4,
+    "players": [
+     {
+      "id": "1715",
+      "name": "Fermín",
+      "points": 5,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3100",
+      "name": "Pedri",
+      "points": 5,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3104",
+      "name": "Lamine Yamal",
+      "points": 5,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2757",
+      "name": "Gerard Martín",
+      "points": 4,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2556",
+      "name": "Buchanan",
+      "points": 4,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2761",
+      "name": "Oluwaseyi",
+      "points": 3,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "1976",
+      "name": "Hansi Flick",
+      "points": 2,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "1849",
+      "name": "Iñigo Perez",
+      "points": 2,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "3086",
+      "name": "Moleiro",
+      "points": 2,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2358",
+      "name": "F. De Jong",
+      "points": 1,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2522",
+      "name": "Raphinha",
+      "points": 1,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "1218",
+      "name": "Álex Balde",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "1221",
+      "name": "Gavi",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "1775",
+      "name": "Cubarsí",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2355",
+      "name": "Kounde",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2783",
+      "name": "Szczesny",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2906",
+      "name": "Cancelo",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3092",
+      "name": "Olmo",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3209",
+      "name": "Adeyemi",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3210",
+      "name": "Gordon",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3224",
+      "name": "Brian Fariñas",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3251",
+      "name": "Livakovic",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3258",
+      "name": "Gabriel Jesus",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "3291",
+      "name": "Alex Campos",
+      "points": 0,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "1614",
+      "name": "Cardona",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "1959",
+      "name": "Mouriño",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2467",
+      "name": "Júnior R.",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2469",
+      "name": "Costa",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2504",
+      "name": "Ayoze",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2696",
+      "name": "Ruben",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2771",
+      "name": "Mikautadze",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2868",
+      "name": "Carlos Macià",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "3087",
+      "name": "Pepe",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "3173",
+      "name": "Cheikh Thiam",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "3220",
+      "name": "Nizar El Jmili",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "3279",
+      "name": "Bonafé",
+      "points": 0,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2784",
+      "name": "Marc Bernal",
+      "points": -1,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "1031",
+      "name": "Comesaña",
+      "points": -1,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2473",
+      "name": "Gueye",
+      "points": -1,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "3130",
+      "name": "Gulácsi",
+      "points": -1,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2354",
+      "name": "Eric",
+      "points": -2,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2634",
+      "name": "Joan García",
+      "points": -2,
+      "club": "FC Barcelona"
+     },
+     {
+      "id": "2698",
+      "name": "Pau Navarro",
+      "points": -2,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2728",
+      "name": "Renato Veiga",
+      "points": -2,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2614",
+      "name": "C. Romero",
+      "points": -3,
+      "club": "Villarreal CF"
+     },
+     {
+      "id": "2934",
+      "name": "Freeman",
+      "points": -4,
+      "club": "Villarreal CF"
+     }
+    ]
    },
    {
     "id": "129",
