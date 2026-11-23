@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "taken_at": "2026-11-23T18:02:50.177165+00:00",
+ "taken_at": "2026-11-23T21:40:55.103369+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -10,8 +10,8 @@
    "team_id": "37020164",
    "team": "Al-SanJuanitoFC",
    "manager": "Al-SanJuanitoFC",
-   "points": 600,
-   "week_points": 52,
+   "points": 599,
+   "week_points": 51,
    "value": 372370677,
    "position": 1,
    "prev_position": 1
@@ -30,8 +30,8 @@
    "team_id": "37020040",
    "team": "Al-Ilitihad del segu",
    "manager": "Al-Ilitihad del segu",
-   "points": 537,
-   "week_points": 34,
+   "points": 539,
+   "week_points": 36,
    "value": 339329878,
    "position": 3,
    "prev_position": 3
@@ -64,7 +64,7 @@
     "name": "Ryan",
     "pos": "POR",
     "value": 17488659,
-    "points": 81,
+    "points": 82,
     "clause": 26647235
    },
    {
@@ -72,7 +72,7 @@
     "name": "Nacho Perez",
     "pos": "DEF",
     "value": 1443866,
-    "points": 41,
+    "points": 42,
     "clause": 1500000
    },
    {
@@ -112,7 +112,7 @@
     "name": "Mandi",
     "pos": "DEF",
     "value": 4958996,
-    "points": 40,
+    "points": 38,
     "clause": 4958996
    },
    {
@@ -332,7 +332,7 @@
     "name": "V. Chust",
     "pos": "DEF",
     "value": 7614736,
-    "points": 49,
+    "points": 50,
     "clause": 9127350
    },
    {
@@ -412,7 +412,7 @@
     "name": "I. Romero",
     "pos": "DEL",
     "value": 6329036,
-    "points": 49,
+    "points": 50,
     "clause": 6329036
    },
    {
@@ -2076,10 +2076,299 @@
     "date": "2026-11-23T21:00:00+01:00",
     "local": "Levante UD",
     "visitor": "Elche CF",
-    "ls": null,
-    "vs": null,
-    "state": 1,
-    "players": []
+    "ls": 0,
+    "vs": 1,
+    "state": 4,
+    "players": [
+     {
+      "id": "3263",
+      "name": "Revivo",
+      "points": 7,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3096",
+      "name": "Martín Anselmi",
+      "points": 5,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3074",
+      "name": "Germán V.",
+      "points": 3,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2300",
+      "name": "Dela",
+      "points": 2,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2703",
+      "name": "Redondo",
+      "points": 2,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2302",
+      "name": "R. Brugué",
+      "points": 1,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2303",
+      "name": "I. Romero",
+      "points": 1,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2742",
+      "name": "Nacho Perez",
+      "points": 1,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2755",
+      "name": "Ryan",
+      "points": 1,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3228",
+      "name": "Requena",
+      "points": 1,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2596",
+      "name": "V. Chust",
+      "points": 1,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2601",
+      "name": "Martim Neto",
+      "points": 1,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2958",
+      "name": "Morcillo",
+      "points": 1,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3147",
+      "name": "Fer Niño",
+      "points": 1,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3182",
+      "name": "Lemar",
+      "points": 1,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2395",
+      "name": "Hugo Sotelo",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2445",
+      "name": "Olasagasti",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2624",
+      "name": "Manu Sánchez",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2666",
+      "name": "P. Campos",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2670",
+      "name": "Víctor G.",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2671",
+      "name": "Jeremy Toljan",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2673",
+      "name": "Paco Cortes",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2700",
+      "name": "Etta Eyong",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2877",
+      "name": "Luís Castro",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3111",
+      "name": "Cabello",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3164",
+      "name": "Bardeli",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3165",
+      "name": "Marc Santos",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3227",
+      "name": "Ifeanyi Ndukwe",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3229",
+      "name": "Yanis Musuayi",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3256",
+      "name": "Ratkov",
+      "points": 0,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2294",
+      "name": "R.P. Bigas",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2587",
+      "name": "Josan",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2715",
+      "name": "A. Iturbe",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2780",
+      "name": "Grady Diangana",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2922",
+      "name": "Osorio",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2933",
+      "name": "Cepeda",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2939",
+      "name": "G. Villar",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2941",
+      "name": "T. Morente",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2949",
+      "name": "B. Sangare",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3151",
+      "name": "Buonanotte",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3188",
+      "name": "E. Ponce",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3189",
+      "name": "Barzic",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3191",
+      "name": "Á. Padilla",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3268",
+      "name": "Lomonaco",
+      "points": 0,
+      "club": "Elche CF"
+     },
+     {
+      "id": "2628",
+      "name": "O. Rey",
+      "points": -1,
+      "club": "Levante UD"
+     },
+     {
+      "id": "2613",
+      "name": "M. Dituro",
+      "points": -1,
+      "club": "Elche CF"
+     },
+     {
+      "id": "3174",
+      "name": "Mandi",
+      "points": -2,
+      "club": "Levante UD"
+     },
+     {
+      "id": "3230",
+      "name": "Thiago",
+      "points": -2,
+      "club": "Levante UD"
+     }
+    ]
    },
    {
     "id": "127",
