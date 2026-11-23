@@ -1,6 +1,6 @@
 {
  "date": "2026-11-23",
- "taken_at": "2026-11-23T06:20:40.741455+00:00",
+ "taken_at": "2026-11-23T18:02:50.177165+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 13,
@@ -12,7 +12,7 @@
    "manager": "Al-SanJuanitoFC",
    "points": 600,
    "week_points": 52,
-   "value": 359392835,
+   "value": 372370677,
    "position": 1,
    "prev_position": 1
   },
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 585,
    "week_points": 79,
-   "value": 692307443,
+   "value": 698237211,
    "position": 2,
    "prev_position": 2
   },
@@ -32,7 +32,7 @@
    "manager": "Al-Ilitihad del segu",
    "points": 537,
    "week_points": 34,
-   "value": 339802672,
+   "value": 339329878,
    "position": 3,
    "prev_position": 3
   },
@@ -42,7 +42,7 @@
    "manager": "Al-Malumitas FC",
    "points": 104,
    "week_points": 0,
-   "value": 140123681,
+   "value": 143637132,
    "position": 4,
    "prev_position": 4
   },
@@ -52,7 +52,7 @@
    "manager": "EnriqueVeteYa69",
    "points": 21,
    "week_points": 0,
-   "value": 148390664,
+   "value": 147958562,
    "position": 5,
    "prev_position": 5
   }
@@ -76,14 +76,6 @@
     "clause": 1500000
    },
    {
-    "id": "2714",
-    "name": "Javi Rueda",
-    "pos": "DEF",
-    "value": 4302185,
-    "points": 41,
-    "clause": 5368294
-   },
-   {
     "id": "2604",
     "name": "Carreira",
     "pos": "DEF",
@@ -92,28 +84,12 @@
     "clause": 5371965
    },
    {
-    "id": "3184",
-    "name": "H. Rincón",
+    "id": "2714",
+    "name": "Javi Rueda",
     "pos": "DEF",
-    "value": 1886486,
-    "points": 31,
-    "clause": 1886486
-   },
-   {
-    "id": "3174",
-    "name": "Mandi",
-    "pos": "DEF",
-    "value": 4958996,
-    "points": 40,
-    "clause": 4958996
-   },
-   {
-    "id": "3155",
-    "name": "Grimaldo",
-    "pos": "DEF",
-    "value": 85211316,
-    "points": 110,
-    "clause": 85211316
+    "value": 4302185,
+    "points": 41,
+    "clause": 5368294
    },
    {
     "id": "3082",
@@ -124,28 +100,28 @@
     "clause": 15129575
    },
    {
-    "id": "2868",
-    "name": "Carlos Macià",
-    "pos": "MED",
-    "value": 894206,
-    "points": 30,
-    "clause": 1000000
+    "id": "3155",
+    "name": "Grimaldo",
+    "pos": "DEF",
+    "value": 85211316,
+    "points": 110,
+    "clause": 85211316
    },
    {
-    "id": "3044",
-    "name": "Dotor",
-    "pos": "MED",
-    "value": 3861152,
-    "points": 49,
-    "clause": 5389187
+    "id": "3174",
+    "name": "Mandi",
+    "pos": "DEF",
+    "value": 4958996,
+    "points": 40,
+    "clause": 4958996
    },
    {
-    "id": "2932",
-    "name": "Ángel Pérez",
-    "pos": "MED",
-    "value": 31148516,
-    "points": 77,
-    "clause": 43483814
+    "id": "3184",
+    "name": "H. Rincón",
+    "pos": "DEF",
+    "value": 1886486,
+    "points": 31,
+    "clause": 1886486
    },
    {
     "id": "2995",
@@ -156,12 +132,44 @@
     "clause": 59631292
    },
    {
+    "id": "2868",
+    "name": "Carlos Macià",
+    "pos": "MED",
+    "value": 894206,
+    "points": 30,
+    "clause": 1000000
+   },
+   {
+    "id": "2932",
+    "name": "Ángel Pérez",
+    "pos": "MED",
+    "value": 31148516,
+    "points": 77,
+    "clause": 43483814
+   },
+   {
     "id": "2464",
     "name": "Pepelu",
     "pos": "MED",
     "value": 58419898,
     "points": 75,
     "clause": 58419898
+   },
+   {
+    "id": "3044",
+    "name": "Dotor",
+    "pos": "MED",
+    "value": 3861152,
+    "points": 49,
+    "clause": 5389187
+   },
+   {
+    "id": "3069",
+    "name": "Blanco",
+    "pos": "MED",
+    "value": 10759892,
+    "points": 59,
+    "clause": 10759892
    },
    {
     "id": "2358",
@@ -172,20 +180,20 @@
     "clause": 17604136
    },
    {
-    "id": "927",
-    "name": "Berenguer",
-    "pos": "DEL",
-    "value": 48473056,
-    "points": 80,
-    "clause": 48473056
-   },
-   {
     "id": "3129",
     "name": "Carlos Espí",
     "pos": "DEL",
     "value": 5822141,
     "points": 29,
     "clause": 16491296
+   },
+   {
+    "id": "927",
+    "name": "Berenguer",
+    "pos": "DEL",
+    "value": 48473056,
+    "points": 80,
+    "clause": 48473056
    }
   ],
   "37006883": [
