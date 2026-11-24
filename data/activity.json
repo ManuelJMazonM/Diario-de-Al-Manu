@@ -1,5 +1,55 @@
 [
  {
+  "id": "124232238",
+  "type": "alineacion_incorrecta",
+  "date": "2026-11-24T04:26:39+01:00",
+  "who": "EnriqueVeteYa69",
+  "other": null,
+  "player": null,
+  "player_id": null,
+  "amount": null
+ },
+ {
+  "id": "124232181",
+  "type": "alineacion_incorrecta",
+  "date": "2026-11-24T04:26:39+01:00",
+  "who": "Al-Malumitas FC",
+  "other": null,
+  "player": null,
+  "player_id": null,
+  "amount": null
+ },
+ {
+  "id": "124232115",
+  "type": "premio_jornada",
+  "date": "2026-11-24T04:26:39+01:00",
+  "who": "Al-Ilitihad del segu",
+  "other": null,
+  "player": null,
+  "player_id": null,
+  "amount": 4500000
+ },
+ {
+  "id": "124232043",
+  "type": "premio_jornada",
+  "date": "2026-11-24T04:26:39+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": null,
+  "player_id": null,
+  "amount": 7900000
+ },
+ {
+  "id": "124231977",
+  "type": "premio_jornada",
+  "date": "2026-11-24T04:26:39+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": null,
+  "player_id": null,
+  "amount": 5700000
+ },
+ {
   "id": "122853166",
   "type": "fichaje",
   "date": "2026-11-23T16:00:57+01:00",
