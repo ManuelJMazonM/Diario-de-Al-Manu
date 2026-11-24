@@ -1,5 +1,15 @@
 [
  {
+  "id": "125993887",
+  "type": "fichaje",
+  "date": "2026-11-24T16:00:52+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Rubén García",
+  "player_id": "652",
+  "amount": 16808653
+ },
+ {
   "id": "124232238",
   "type": "alineacion_incorrecta",
   "date": "2026-11-24T04:26:39+01:00",

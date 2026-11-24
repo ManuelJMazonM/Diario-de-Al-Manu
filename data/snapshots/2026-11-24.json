@@ -1,6 +1,6 @@
 {
  "date": "2026-11-24",
- "taken_at": "2026-11-24T06:20:43.080101+00:00",
+ "taken_at": "2026-11-24T17:40:11.619812+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 14,
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 585,
    "week_points": 79,
-   "value": 704851268,
+   "value": 721912730,
    "position": 2,
    "prev_position": 2
   },
@@ -198,20 +198,20 @@
   ],
   "37006883": [
    {
-    "id": "204",
-    "name": "Aitor Fdez",
-    "pos": "POR",
-    "value": 1018818,
-    "points": 27,
-    "clause": 1018818
-   },
-   {
     "id": "988",
     "name": "Sivera",
     "pos": "POR",
     "value": 27829526,
     "points": 94,
     "clause": 47037289
+   },
+   {
+    "id": "204",
+    "name": "Aitor Fdez",
+    "pos": "POR",
+    "value": 1018818,
+    "points": 27,
+    "clause": 1018818
    },
    {
     "id": "2525",
@@ -238,30 +238,6 @@
     "clause": 21469070
    },
    {
-    "id": "680",
-    "name": "Moi Gómez",
-    "pos": "MED",
-    "value": 7297827,
-    "points": 64,
-    "clause": 7297827
-   },
-   {
-    "id": "1674",
-    "name": "Arda Güler",
-    "pos": "MED",
-    "value": 151589671,
-    "points": 131,
-    "clause": 151589671
-   },
-   {
-    "id": "2418",
-    "name": "Marc Roca",
-    "pos": "MED",
-    "value": 43683347,
-    "points": 65,
-    "clause": 43683347
-   },
-   {
     "id": "2556",
     "name": "Buchanan",
     "pos": "MED",
@@ -278,20 +254,36 @@
     "clause": 158238316
    },
    {
-    "id": "2522",
-    "name": "Raphinha",
-    "pos": "DEL",
-    "value": 165196811,
-    "points": 148,
-    "clause": 165196811
+    "id": "2418",
+    "name": "Marc Roca",
+    "pos": "MED",
+    "value": 43683347,
+    "points": 65,
+    "clause": 43683347
    },
    {
-    "id": "2770",
-    "name": "Antony",
-    "pos": "DEL",
-    "value": 37633998,
-    "points": 71,
-    "clause": 37633998
+    "id": "1674",
+    "name": "Arda Güler",
+    "pos": "MED",
+    "value": 151589671,
+    "points": 131,
+    "clause": 151589671
+   },
+   {
+    "id": "652",
+    "name": "Rubén García",
+    "pos": "MED",
+    "value": 17061462,
+    "points": 62,
+    "clause": 17061462
+   },
+   {
+    "id": "680",
+    "name": "Moi Gómez",
+    "pos": "MED",
+    "value": 7297827,
+    "points": 64,
+    "clause": 7297827
    },
    {
     "id": "3152",
@@ -308,6 +300,22 @@
     "value": 16013551,
     "points": 63,
     "clause": 16013551
+   },
+   {
+    "id": "2522",
+    "name": "Raphinha",
+    "pos": "DEL",
+    "value": 165196811,
+    "points": 148,
+    "clause": 165196811
+   },
+   {
+    "id": "2770",
+    "name": "Antony",
+    "pos": "DEL",
+    "value": 37633998,
+    "points": 71,
+    "clause": 37633998
    }
   ],
   "37020040": [
