@@ -1,5 +1,15 @@
 [
  {
+  "id": "126542541",
+  "type": "fichaje",
+  "date": "2026-11-25T16:00:17+01:00",
+  "who": "Al-Moradí CF",
+  "other": null,
+  "player": "Marcos Llorente",
+  "player_id": "67",
+  "amount": 53880437
+ },
+ {
   "id": "125993887",
   "type": "fichaje",
   "date": "2026-11-24T16:00:52+01:00",

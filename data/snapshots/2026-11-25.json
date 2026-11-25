@@ -1,6 +1,6 @@
 {
  "date": "2026-11-25",
- "taken_at": "2026-11-25T06:20:45.552264+00:00",
+ "taken_at": "2026-11-25T17:10:50.486150+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 14,
@@ -12,7 +12,7 @@
    "manager": "Al-SanJuanitoFC",
    "points": 605,
    "week_points": 57,
-   "value": 375869040,
+   "value": 380662201,
    "position": 1,
    "prev_position": 1
   },
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 585,
    "week_points": 79,
-   "value": 721912730,
+   "value": 783336764,
    "position": 2,
    "prev_position": 2
   },
@@ -32,7 +32,7 @@
    "manager": "Al-Ilitihad del segu",
    "points": 548,
    "week_points": 45,
-   "value": 338561110,
+   "value": 337248138,
    "position": 3,
    "prev_position": 3
   },
@@ -42,7 +42,7 @@
    "manager": "Al-Malumitas FC",
    "points": 104,
    "week_points": 0,
-   "value": 147456806,
+   "value": 150724130,
    "position": 4,
    "prev_position": 4
   },
@@ -52,7 +52,7 @@
    "manager": "EnriqueVeteYa69",
    "points": 21,
    "week_points": 0,
-   "value": 147241357,
+   "value": 146375560,
    "position": 5,
    "prev_position": 5
   }
@@ -222,6 +222,14 @@
     "clause": 1000000
    },
    {
+    "id": "67",
+    "name": "Marcos Llorente",
+    "pos": "DEF",
+    "value": 54943979,
+    "points": 78,
+    "clause": 54943979
+   },
+   {
     "id": "3026",
     "name": "Pablo Ramón",
     "pos": "DEF",
@@ -238,20 +246,20 @@
     "clause": 22130213
    },
    {
-    "id": "2556",
-    "name": "Buchanan",
-    "pos": "MED",
-    "value": 7298439,
-    "points": 43,
-    "clause": 7298439
-   },
-   {
     "id": "3101",
     "name": "Bellingham",
     "pos": "MED",
     "value": 159599701,
     "points": 131,
     "clause": 159599701
+   },
+   {
+    "id": "2556",
+    "name": "Buchanan",
+    "pos": "MED",
+    "value": 7298439,
+    "points": 43,
+    "clause": 7298439
    },
    {
     "id": "2418",
