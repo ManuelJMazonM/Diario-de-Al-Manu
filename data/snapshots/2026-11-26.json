@@ -1,6 +1,6 @@
 {
  "date": "2026-11-26",
- "taken_at": "2026-11-26T06:20:44.874172+00:00",
+ "taken_at": "2026-11-26T16:51:28.641062+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 14,
@@ -12,7 +12,7 @@
    "manager": "Al-SanJuanitoFC",
    "points": 605,
    "week_points": 57,
-   "value": 380662201,
+   "value": 385304812,
    "position": 1,
    "prev_position": 1
   },
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 585,
    "week_points": 79,
-   "value": 783336764,
+   "value": 791064469,
    "position": 2,
    "prev_position": 2
   },
@@ -32,7 +32,7 @@
    "manager": "Al-Ilitihad del segu",
    "points": 548,
    "week_points": 45,
-   "value": 337248138,
+   "value": 335610138,
    "position": 3,
    "prev_position": 3
   },
@@ -42,7 +42,7 @@
    "manager": "Al-Malumitas FC",
    "points": 104,
    "week_points": 0,
-   "value": 150724130,
+   "value": 153520753,
    "position": 4,
    "prev_position": 4
   },
@@ -52,7 +52,7 @@
    "manager": "EnriqueVeteYa69",
    "points": 21,
    "week_points": 0,
-   "value": 146375560,
+   "value": 145664671,
    "position": 5,
    "prev_position": 5
   }
@@ -771,7 +771,7 @@
      },
      {
       "id": "2580",
-      "name": "Manuel Pellegrini",
+      "name": "Pellegrini",
       "points": 2,
       "club": "Real Betis"
      },
