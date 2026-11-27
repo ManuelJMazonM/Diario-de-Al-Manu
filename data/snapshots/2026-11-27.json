@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "taken_at": "2026-11-27T06:20:44.060507+00:00",
+ "taken_at": "2026-11-27T16:37:51.237762+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 14,
@@ -12,7 +12,7 @@
    "manager": "Al-SanJuanitoFC",
    "points": 605,
    "week_points": 57,
-   "value": 385304812,
+   "value": 391983809,
    "position": 1,
    "prev_position": 1
   },
@@ -22,7 +22,7 @@
    "manager": "Al-Moradí CF",
    "points": 585,
    "week_points": 79,
-   "value": 791064469,
+   "value": 797501855,
    "position": 2,
    "prev_position": 2
   },
@@ -32,7 +32,7 @@
    "manager": "Al-Ilitihad del segu",
    "points": 548,
    "week_points": 45,
-   "value": 335610138,
+   "value": 334017234,
    "position": 3,
    "prev_position": 3
   },
@@ -42,7 +42,7 @@
    "manager": "Al-Malumitas FC",
    "points": 104,
    "week_points": 0,
-   "value": 153520753,
+   "value": 155678303,
    "position": 4,
    "prev_position": 4
   },
@@ -52,7 +52,7 @@
    "manager": "EnriqueVeteYa69",
    "points": 21,
    "week_points": 0,
-   "value": 145664671,
+   "value": 145324871,
    "position": 5,
    "prev_position": 5
   }
@@ -66,14 +66,6 @@
     "value": 16753632,
     "points": 85,
     "clause": 26647235
-   },
-   {
-    "id": "2742",
-    "name": "Nacho Perez",
-    "pos": "DEF",
-    "value": 1495435,
-    "points": 44,
-    "clause": 1500000
    },
    {
     "id": "2604",
@@ -90,6 +82,22 @@
     "value": 4047892,
     "points": 41,
     "clause": 5368294
+   },
+   {
+    "id": "2742",
+    "name": "Nacho Perez",
+    "pos": "DEF",
+    "value": 1495435,
+    "points": 44,
+    "clause": 1500000
+   },
+   {
+    "id": "2785",
+    "name": "Riedel",
+    "pos": "DEF",
+    "value": 2803768,
+    "points": 41,
+    "clause": 2866248
    },
    {
     "id": "3082",
@@ -124,22 +132,6 @@
     "clause": 1991136
    },
    {
-    "id": "2995",
-    "name": "Mario Soriano",
-    "pos": "MED",
-    "value": 55258250,
-    "points": 83,
-    "clause": 55258250
-   },
-   {
-    "id": "2868",
-    "name": "Carlos Macià",
-    "pos": "MED",
-    "value": 866836,
-    "points": 30,
-    "clause": 1000000
-   },
-   {
     "id": "2932",
     "name": "Ángel Pérez",
     "pos": "MED",
@@ -156,6 +148,14 @@
     "clause": 64556746
    },
    {
+    "id": "2995",
+    "name": "Mario Soriano",
+    "pos": "MED",
+    "value": 55258250,
+    "points": 83,
+    "clause": 55258250
+   },
+   {
     "id": "3044",
     "name": "Dotor",
     "pos": "MED",
@@ -170,6 +170,14 @@
     "value": 11261361,
     "points": 59,
     "clause": 11261361
+   },
+   {
+    "id": "2868",
+    "name": "Carlos Macià",
+    "pos": "MED",
+    "value": 866836,
+    "points": 30,
+    "clause": 1000000
    },
    {
     "id": "2358",

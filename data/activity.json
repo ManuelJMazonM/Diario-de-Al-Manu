@@ -1,5 +1,15 @@
 [
  {
+  "id": "127618481",
+  "type": "fichaje",
+  "date": "2026-11-27T16:00:47+01:00",
+  "who": "Al-SanJuanitoFC",
+  "other": null,
+  "player": "Riedel",
+  "player_id": "2785",
+  "amount": 2866248
+ },
+ {
   "id": "126542541",
   "type": "fichaje",
   "date": "2026-11-25T16:00:17+01:00",
