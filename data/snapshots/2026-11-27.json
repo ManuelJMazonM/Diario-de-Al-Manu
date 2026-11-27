@@ -1,6 +1,6 @@
 {
  "date": "2026-11-27",
- "taken_at": "2026-11-27T16:37:51.237762+00:00",
+ "taken_at": "2026-11-27T19:11:36.657059+00:00",
  "league_id": "017729275",
  "league_name": "SUPER LIGA RIVES 26-27",
  "week": 14,
@@ -63,7 +63,7 @@
     "id": "2755",
     "name": "Ryan",
     "pos": "POR",
-    "value": 16753632,
+    "value": 16754030,
     "points": 85,
     "clause": 26647235
    },
@@ -71,7 +71,7 @@
     "id": "2604",
     "name": "Carreira",
     "pos": "DEF",
-    "value": 5211902,
+    "value": 5212076,
     "points": 45,
     "clause": 5371965
    },
@@ -79,7 +79,7 @@
     "id": "2714",
     "name": "Javi Rueda",
     "pos": "DEF",
-    "value": 4047892,
+    "value": 4048005,
     "points": 41,
     "clause": 5368294
    },
@@ -87,7 +87,7 @@
     "id": "2742",
     "name": "Nacho Perez",
     "pos": "DEF",
-    "value": 1495435,
+    "value": 1495506,
     "points": 44,
     "clause": 1500000
    },
@@ -95,7 +95,7 @@
     "id": "2785",
     "name": "Riedel",
     "pos": "DEF",
-    "value": 2803768,
+    "value": 2803818,
     "points": 41,
     "clause": 2866248
    },
@@ -103,39 +103,39 @@
     "id": "3082",
     "name": "Lejeune",
     "pos": "DEF",
-    "value": 14893102,
+    "value": 14893588,
     "points": 39,
-    "clause": 14893102
+    "clause": 14893588
    },
    {
     "id": "3155",
     "name": "Grimaldo",
     "pos": "DEF",
-    "value": 93026995,
+    "value": 93032397,
     "points": 110,
-    "clause": 93026995
+    "clause": 93032397
    },
    {
     "id": "3174",
     "name": "Mandi",
     "pos": "DEF",
-    "value": 4946184,
+    "value": 4946372,
     "points": 41,
-    "clause": 4946184
+    "clause": 4946372
    },
    {
     "id": "3184",
     "name": "H. Rincón",
     "pos": "DEF",
-    "value": 1991136,
+    "value": 1991282,
     "points": 31,
-    "clause": 1991136
+    "clause": 1991282
    },
    {
     "id": "2932",
     "name": "Ángel Pérez",
     "pos": "MED",
-    "value": 34309508,
+    "value": 34311401,
     "points": 77,
     "clause": 43483814
    },
@@ -143,23 +143,23 @@
     "id": "2464",
     "name": "Pepelu",
     "pos": "MED",
-    "value": 64556746,
+    "value": 64559858,
     "points": 75,
-    "clause": 64556746
+    "clause": 64559858
    },
    {
     "id": "2995",
     "name": "Mario Soriano",
     "pos": "MED",
-    "value": 55258250,
+    "value": 55259373,
     "points": 83,
-    "clause": 55258250
+    "clause": 55259373
    },
    {
     "id": "3044",
     "name": "Dotor",
     "pos": "MED",
-    "value": 3777058,
+    "value": 3777180,
     "points": 49,
     "clause": 5389187
    },
@@ -167,15 +167,15 @@
     "id": "3069",
     "name": "Blanco",
     "pos": "MED",
-    "value": 11261361,
+    "value": 11261772,
     "points": 59,
-    "clause": 11261361
+    "clause": 11261772
    },
    {
     "id": "2868",
     "name": "Carlos Macià",
     "pos": "MED",
-    "value": 866836,
+    "value": 866863,
     "points": 30,
     "clause": 1000000
    },
@@ -183,15 +183,15 @@
     "id": "2358",
     "name": "F. De Jong",
     "pos": "MED",
-    "value": 19869457,
+    "value": 19871421,
     "points": 15,
-    "clause": 19869457
+    "clause": 19871421
    },
    {
     "id": "3129",
     "name": "Carlos Espí",
     "pos": "DEL",
-    "value": 5559161,
+    "value": 5559300,
     "points": 29,
     "clause": 16491296
    },
@@ -199,9 +199,9 @@
     "id": "927",
     "name": "Berenguer",
     "pos": "DEL",
-    "value": 51355386,
+    "value": 51358307,
     "points": 80,
-    "clause": 51355386
+    "clause": 51358307
    }
   ],
   "37006883": [
@@ -209,7 +209,7 @@
     "id": "988",
     "name": "Sivera",
     "pos": "POR",
-    "value": 26494351,
+    "value": 26494936,
     "points": 94,
     "clause": 47037289
    },
@@ -217,7 +217,7 @@
     "id": "204",
     "name": "Aitor Fdez",
     "pos": "POR",
-    "value": 982550,
+    "value": 982578,
     "points": 27,
     "clause": 1000000
    },
@@ -225,7 +225,7 @@
     "id": "2525",
     "name": "Salinas",
     "pos": "DEF",
-    "value": 721207,
+    "value": 721234,
     "points": 28,
     "clause": 1000000
    },
@@ -233,95 +233,95 @@
     "id": "67",
     "name": "Marcos Llorente",
     "pos": "DEF",
-    "value": 56691264,
+    "value": 56694151,
     "points": 78,
-    "clause": 56691264
+    "clause": 56694151
    },
    {
     "id": "3026",
     "name": "Pablo Ramón",
     "pos": "DEF",
-    "value": 2186950,
+    "value": 2187053,
     "points": 43,
-    "clause": 2186950
+    "clause": 2187053
    },
    {
     "id": "3068",
     "name": "Cabrera",
     "pos": "DEF",
-    "value": 23206633,
+    "value": 23208041,
     "points": 63,
-    "clause": 23206633
+    "clause": 23208041
    },
    {
     "id": "3101",
     "name": "Bellingham",
     "pos": "MED",
-    "value": 162781716,
+    "value": 162788262,
     "points": 131,
-    "clause": 162781716
+    "clause": 162788262
    },
    {
     "id": "2556",
     "name": "Buchanan",
     "pos": "MED",
-    "value": 7890456,
+    "value": 7890990,
     "points": 43,
-    "clause": 7890456
+    "clause": 7890990
    },
    {
     "id": "2418",
     "name": "Marc Roca",
     "pos": "MED",
-    "value": 45728824,
+    "value": 45730586,
     "points": 65,
-    "clause": 45728824
+    "clause": 45730586
    },
    {
     "id": "1674",
     "name": "Arda Güler",
     "pos": "MED",
-    "value": 151232883,
+    "value": 151238257,
     "points": 131,
-    "clause": 151232883
+    "clause": 151238257
    },
    {
     "id": "652",
     "name": "Rubén García",
     "pos": "MED",
-    "value": 17895778,
+    "value": 17897478,
     "points": 62,
-    "clause": 17895778
+    "clause": 17897478
    },
    {
     "id": "680",
     "name": "Moi Gómez",
     "pos": "MED",
-    "value": 7994067,
+    "value": 7994537,
     "points": 64,
-    "clause": 7994067
+    "clause": 7994537
    },
    {
     "id": "3152",
     "name": "Y. Zabiri",
     "pos": "DEL",
-    "value": 71460499,
+    "value": 71464623,
     "points": 94,
-    "clause": 71460499
+    "clause": 71464623
    },
    {
     "id": "3262",
     "name": "Félix Correia",
     "pos": "DEL",
-    "value": 17026250,
+    "value": 17027116,
     "points": 63,
-    "clause": 17026250
+    "clause": 17027116
    },
    {
     "id": "2522",
     "name": "Raphinha",
     "pos": "DEL",
-    "value": 163796749,
+    "value": 163802107,
     "points": 148,
     "clause": 164722249
    },
@@ -329,9 +329,9 @@
     "id": "2770",
     "name": "Antony",
     "pos": "DEL",
-    "value": 41411678,
+    "value": 41415433,
     "points": 71,
-    "clause": 41411678
+    "clause": 41415433
    }
   ],
   "37020040": [
@@ -339,15 +339,15 @@
     "id": "3040",
     "name": "A. Herrero",
     "pos": "POR",
-    "value": 12325060,
+    "value": 12325324,
     "points": 59,
-    "clause": 12325060
+    "clause": 12325324
    },
    {
     "id": "2930",
     "name": "Nuñez",
     "pos": "DEF",
-    "value": 2416933,
+    "value": 2416975,
     "points": 27,
     "clause": 7500000
    },
@@ -355,7 +355,7 @@
     "id": "2596",
     "name": "V. Chust",
     "pos": "DEF",
-    "value": 7748299,
+    "value": 7748631,
     "points": 55,
     "clause": 9127350
    },
@@ -363,23 +363,23 @@
     "id": "3284",
     "name": "Carvajal",
     "pos": "DEF",
-    "value": 6874678,
+    "value": 6874779,
     "points": 4,
-    "clause": 6874678
+    "clause": 6874779
    },
    {
     "id": "2938",
     "name": "Koski",
     "pos": "DEF",
-    "value": 34320200,
+    "value": 34320965,
     "points": 69,
-    "clause": 34320200
+    "clause": 34320965
    },
    {
     "id": "3041",
     "name": "Rafita",
     "pos": "DEF",
-    "value": 4343028,
+    "value": 4343092,
     "points": 43,
     "clause": 5666674
    },
@@ -387,7 +387,7 @@
     "id": "1337",
     "name": "Tenaglia",
     "pos": "DEF",
-    "value": 16661541,
+    "value": 16661944,
     "points": 54,
     "clause": 29318523
    },
@@ -395,15 +395,15 @@
     "id": "2314",
     "name": "Vivian",
     "pos": "DEF",
-    "value": 6256086,
+    "value": 6256188,
     "points": 27,
-    "clause": 6256086
+    "clause": 6256188
    },
    {
     "id": "3100",
     "name": "Pedri",
     "pos": "MED",
-    "value": 91378858,
+    "value": 91383653,
     "points": 79,
     "clause": 94609732
    },
@@ -411,15 +411,15 @@
     "id": "3099",
     "name": "Fornals",
     "pos": "MED",
-    "value": 58347186,
+    "value": 58349039,
     "points": 69,
-    "clause": 58347186
+    "clause": 58349039
    },
    {
     "id": "3036",
     "name": "Dani Lorenzo",
     "pos": "MED",
-    "value": 6756547,
+    "value": 6756705,
     "points": 45,
     "clause": 9499986
    },
@@ -427,7 +427,7 @@
     "id": "3108",
     "name": "Aubameyang",
     "pos": "DEL",
-    "value": 68471292,
+    "value": 68472736,
     "points": 68,
     "clause": 126250095
    },
@@ -435,7 +435,7 @@
     "id": "2303",
     "name": "I. Romero",
     "pos": "DEL",
-    "value": 6082667,
+    "value": 6082861,
     "points": 54,
     "clause": 6200000
    },
@@ -443,7 +443,7 @@
     "id": "2962",
     "name": "Luismi Cruz",
     "pos": "DEL",
-    "value": 8874941,
+    "value": 8875184,
     "points": 60,
     "clause": 13329565
    },
@@ -451,9 +451,9 @@
     "id": "2712",
     "name": "Pablo García",
     "pos": "DEL",
-    "value": 3159918,
+    "value": 3159992,
     "points": 38,
-    "clause": 3159918
+    "clause": 3159992
    }
   ],
   "37024497": [
@@ -461,7 +461,7 @@
     "id": "2321",
     "name": "J. Musso",
     "pos": "POR",
-    "value": 777070,
+    "value": 777098,
     "points": 0,
     "clause": 12185628
    },
@@ -485,15 +485,15 @@
     "id": "2479",
     "name": "Kike Salas",
     "pos": "DEF",
-    "value": 42706157,
+    "value": 42708776,
     "points": 73,
-    "clause": 42706157
+    "clause": 42708776
    },
    {
     "id": "2936",
     "name": "Egiluz",
     "pos": "DEF",
-    "value": 678541,
+    "value": 678569,
     "points": 0,
     "clause": 1000000
    },
@@ -501,7 +501,7 @@
     "id": "1029",
     "name": "Álvaro García",
     "pos": "MED",
-    "value": 7072922,
+    "value": 7073073,
     "points": 39,
     "clause": 23204656
    },
@@ -509,7 +509,7 @@
     "id": "2338",
     "name": "Aimar",
     "pos": "MED",
-    "value": 2199344,
+    "value": 2199479,
     "points": 18,
     "clause": 29398281
    },
@@ -525,7 +525,7 @@
     "id": "3035",
     "name": "Izan M.",
     "pos": "MED",
-    "value": 947832,
+    "value": 947860,
     "points": 17,
     "clause": 13630301
    },
@@ -533,9 +533,9 @@
     "id": "3083",
     "name": "Nico Williams",
     "pos": "DEL",
-    "value": 86863951,
+    "value": 86868079,
     "points": 74,
-    "clause": 86863951
+    "clause": 86868079
    }
   ],
   "39060670": [
@@ -543,7 +543,7 @@
     "id": "3018",
     "name": "Eriksson",
     "pos": "POR",
-    "value": 725034,
+    "value": 725062,
     "points": 0,
     "clause": 4064790
    },
@@ -551,15 +551,15 @@
     "id": "2429",
     "name": "Fran García",
     "pos": "DEF",
-    "value": 20338672,
+    "value": 20339342,
     "points": 43,
-    "clause": 20338672
+    "clause": 20339342
    },
    {
     "id": "2533",
     "name": "Á. Carreras",
     "pos": "DEF",
-    "value": 3299104,
+    "value": 3299183,
     "points": 31,
     "clause": 18117700
    },
@@ -567,15 +567,15 @@
     "id": "3107",
     "name": "Konaté",
     "pos": "DEF",
-    "value": 52394307,
+    "value": 52396296,
     "points": 55,
-    "clause": 52394307
+    "clause": 52396296
    },
    {
     "id": "581",
     "name": "Rioja",
     "pos": "MED",
-    "value": 3473284,
+    "value": 3473489,
     "points": 41,
     "clause": 16602023
    },
@@ -583,7 +583,7 @@
     "id": "3133",
     "name": "Mangala",
     "pos": "MED",
-    "value": 3672469,
+    "value": 3672574,
     "points": 36,
     "clause": 17601283
    },
@@ -591,7 +591,7 @@
     "id": "3140",
     "name": "Juan Cruz",
     "pos": "MED",
-    "value": 1255448,
+    "value": 1255475,
     "points": 15,
     "clause": 23024938
    },
@@ -599,7 +599,7 @@
     "id": "3199",
     "name": "F. Bernal",
     "pos": "MED",
-    "value": 3374349,
+    "value": 3374408,
     "points": 24,
     "clause": 18068656
    },
@@ -607,7 +607,7 @@
     "id": "3183",
     "name": "Dubasin",
     "pos": "DEL",
-    "value": 1816455,
+    "value": 1816490,
     "points": 32,
     "clause": 21876583
    },
@@ -615,7 +615,7 @@
     "id": "3210",
     "name": "Gordon",
     "pos": "DEL",
-    "value": 54975749,
+    "value": 54977540,
     "points": 65,
     "clause": 69398702
    }
